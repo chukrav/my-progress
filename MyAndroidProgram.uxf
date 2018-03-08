@@ -39,9 +39,10 @@ bg=orange</panel_attributes>
     </coordinates>
     <panel_attributes>_2.Android Basics: User Input_
 --
-Beginner - 4w
-3/7 - completed to start: 11.03.18 - 20.03
-bg=green</panel_attributes>
+Beginner - 4w el=4h
+3/7 - completed to start: 7.03.18 -&gt; 20.03
+bg=green
+fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -551,8 +552,8 @@ bg=green</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>66</x>
-      <y>253</y>
+      <x>55</x>
+      <y>528</y>
       <w>44</w>
       <h>44</h>
     </coordinates>
@@ -563,8 +564,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>33</x>
-      <y>462</y>
+      <x>99</x>
+      <y>341</y>
       <w>44</w>
       <h>44</h>
     </coordinates>
@@ -614,8 +615,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>22</x>
-      <y>517</y>
+      <x>33</x>
+      <y>231</y>
       <w>77</w>
       <h>77</h>
     </coordinates>
