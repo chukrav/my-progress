@@ -1,0 +1,12 @@
+(https://github.com/aosp-mirror/platform_frameworks_base/blob/master/core/res/res/layout/simple_list_item_1.xml)
+
+aosp-mirror/platform_frameworks_base 
+mirrored from https://android.googlesource.com/platform/frameworks/base.git
+simple_list_item_1.xml
+
+ L02.17: Switch to Using a ListView and Adapter Quiz
+ ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, words);
+ ListView listView = (ListView) findViewById(R.id.list);
+ listView.setAdapter(itemsAdapter);
+
+
