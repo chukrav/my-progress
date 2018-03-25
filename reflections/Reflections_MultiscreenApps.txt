@@ -8,5 +8,10 @@ simple_list_item_1.xml
  ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, words);
  ListView listView = (ListView) findViewById(R.id.list);
  listView.setAdapter(itemsAdapter);
-
+ 
+ 13:28 25 March 2018
+ I am on: d4106ac (HEAD -> my-adapter) Add image. Fixed bag!
+Made checkout to: 6e850fb - origin/lesson-three
+used git log --oneline --graph --decorate --all - good thing!
+	Gives all tree of all branches, including remotes!
 
