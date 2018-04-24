@@ -9,9 +9,44 @@ simple_list_item_1.xml
  ListView listView = (ListView) findViewById(R.id.list);
  listView.setAdapter(itemsAdapter);
  
+ XML Namespaces:
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools - for best design preview we use 
+	tools:text="lutti" tools - is our new namespace now!
+	
+------ Lesson 2.26 "Need a Custom ArrayAdapter" ------------
+class WordAdapter extends ArrayAdapter<Word>
+Word{ String defaultWord;
+	  String miwokWord;
+	  geters(); }	
+	  
+@Override
+public View getView(int position, View convertView, ViewGroup parent){
+	convertView - listItem -> 
+	<LinearLayout> 
+		<TextView/>
+		<TextView/>
+	</LinearLayout>
+	parent - do not touch!
+	LayoutInflater.from(getContext()).inflate ...
+	Word currentItem = getItem(position);
+	defaultTextView.setText ...
+	miwokTextView.setText( ...
+}
+	  
+WordAdapter itemsAdapter = new WordAdapter(context, words);
+ListView listView -> listView.setAdapter(itemsAdapter)
+In /ud839_CustomAdapter_Example/ we have image in addition!	  
+
+Lesson 4 background color from int resource
+	View textContainer = listItemView.findViewById(R.id.text_container);
+    int color = ContextCompat.getColor(getContext(), mColorResourceId);
+    textContainer.setBackgroundColor(color);
+ 
  13:28 25 March 2018
  I am on: d4106ac (HEAD -> my-adapter) Add image. Fixed bag!
 Made checkout to: 6e850fb - origin/lesson-three
 used git log --oneline --graph --decorate --all - good thing!
 	Gives all tree of all branches, including remotes!
+
 
