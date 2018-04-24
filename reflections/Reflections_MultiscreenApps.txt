@@ -49,4 +49,7 @@ Made checkout to: 6e850fb - origin/lesson-three
 used git log --oneline --graph --decorate --all - good thing!
 	Gives all tree of all branches, including remotes!
 
+Then use a keyboard shortcut to automatically 
+“Generate a method (Getters, Setters, Constructors, toString, etc..)”.
+On Windows, the keyboard shortcut is ALT + Insert.	
 
