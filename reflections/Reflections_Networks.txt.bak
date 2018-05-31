@@ -1,0 +1,90 @@
+Lesson01:
+Earthquake application. 
+Internet permission;
+Intent.ACTION_VIEW, 
+<uses-permission android:name="android.permission.INTERNET" />
+
+Lesson02:
+L02.07:
+Using HTTP Methods for RESTful Services:
+http://www.restapitutorial.com/lessons/httpmethods.html
+
+Tken copy-link URL didn't work? Only after past to browser and copied from one did worked! Weard thing!
+USGS_REQUEST_URL =
+     "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2014-01-01&endtime=2014-12-01&minmagnitude=7";
+
+Working with URLs:
+https://docs.oracle.com/javase/tutorial/networking/urls/
+
+Android System Architecture - Layers Abstraction:
+App;
+Framework;
+Android Oper. System;
+Hardware.
+https://en.wikipedia.org/wiki/Android_(operating_system)#/media/File:Android-System-Architecture.svg
+https://source.android.com/devices/
+
+HttpUrlConnection setRequestMethod
+https://developer.android.com/reference/java/net/HttpURLConnection.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#setRequestMethod(java.lang.String)
+
+JSON status field :  "status": 200 
+
+Java Fundamentals Tutorial: Exceptions
+https://www.protechtraining.com/bookshelf/java_fundamentals_tutorial/exceptions?ncr=1
+Specifying the Exceptions Thrown by a Method
+https://docs.oracle.com/javase/tutorial/essential/exceptions/declaring.html
+Does every exception have an required try-catch?
+https://stackoverflow.com/questions/29851253/does-every-exception-have-an-required-try-catch
+
+Lesson 2: Internet, JSON, exceptions.
+
+L01.24
+Shape drawable:
+https://developer.android.com/guide/topics/resources/drawable-resource?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#Shape
+Codepath tutorial:
+https://guides.codepath.com/android/Drawables
+
+Lesson 3:
+
+L03.05:
+Processes and Threads article.
+https://developer.android.com/guide/components/processes-and-threads.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
+ 
+There's another developer guide on the topic of keeping your app responsive.
+https://developer.android.com/training/articles/perf-anr.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
+
+
+L03.06:
+Android Performance Patterns video on threading by Google Developer Advocate Colt McAnlis.
+https://www.youtube.com/watch?v=qk5F6Bxqhr4&index=1&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE
+
+The concept of AsyncTasks is often challenging for new developers. If you're having trouble, take some 
+time to read <this article>, or to watch these videos on <Java Generics> and <Inner Classes>.
+1. https://www.youtube.com/watch?v=qk5F6Bxqhr4&index=1&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE
+2. http://programmerguru.com/android-tutorial/what-is-asynctask-in-android/
+3. https://www.youtube.com/watch?v=DZWlO1jCVas
+
+L03.07 AsyncTask Callback Methods !!!
+AsyncTask Documentation :
+https://developer.android.com/reference/android/os/AsyncTask.html
+
+L03.10: Inner Classes
+
+L03.12: TODO: Put some checks of input in 'ud843_DidYouFeelIt'
+
+Lesson05: Project
+The goal is to create a News feed app which gives a user regularly-updated
+ news from the internet related to a particular topic, person, or location.
+ The presentation of the information as well as the topic is up to you.
+ 
+ To learn about the Guardian API, take a look at this page:
+ http://open-platform.theguardian.com/documentation/
+ Also, try modifying this example queryes:
+ http://content.guardianapis.com/search?q=debates&api-key=test
+ http://content.guardianapis.com/search?q=debate&tag=politics/politics&from-date=2014-01-01&api-key=test
+ 
+
+
+ 
+	
+	

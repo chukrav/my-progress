@@ -68,7 +68,7 @@
 		... the HEAD~3 is an ancestry reference to a commit that will act as the new base
 		for the commits that are being rebased.
 		
-Combining the commits: https://gist.github.com/patik/b8a9dc5cd356f9f6f980
+	Combining the commits: https://gist.github.com/patik/b8a9dc5cd356f9f6f980
 	https://www.notion.so/Keeping-Commit-Histories-Clean-0f717c4e802c4a0ebd852cf9337ce5d2
 		To squash the last 3 commits into one:
 
@@ -78,7 +78,7 @@ Combining the commits: https://gist.github.com/patik/b8a9dc5cd356f9f6f980
 		Force Pushing
 		$ git push -f
 		
-Pushing the squashed commit:
+	Pushing the squashed commit:
 		If the commits have been pushed to the remote:
 
 		git push origin +name-of-branch
@@ -224,7 +224,7 @@ Downloading necessary files
 	alias npp="d:/Utils/Editors/npp.6.8.7/notepad++.exe"	
 	$ git config --global credential.helper cache  - store user password
 	
-		git reset --hard HEAD  <-- discard last changes.
+	git reset --hard HEAD  <-- discard last changes.
 	
 	Download another branch from Github:
 $ git checkout -b lesson-four origin/lesson-four
@@ -242,6 +242,7 @@ If I want to fetch the remote branches, I simply run:
 git pull
 
 This will fetch all of the remote branches and merge the current branch. 
+
 
 
 	

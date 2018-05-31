@@ -68,22 +68,8 @@
 		... the HEAD~3 is an ancestry reference to a commit that will act as the new base
 		for the commits that are being rebased.
 		
-Combining the commits: https://gist.github.com/patik/b8a9dc5cd356f9f6f980
-	https://www.notion.so/Keeping-Commit-Histories-Clean-0f717c4e802c4a0ebd852cf9337ce5d2
-		To squash the last 3 commits into one:
-
-		git reset --soft HEAD~3
-		git commit -m "New message for the combined commit" - it worked once!!! :)
-		
 		Force Pushing
 		$ git push -f
-		
-Pushing the squashed commit:
-		If the commits have been pushed to the remote:
-
-		git push origin +name-of-branch
-
-		The plus sign forces the remote branch to accept your rewritten history, otherwise you will end up with divergent branches
 		
 		-- Rebase Commands --
 
@@ -224,24 +210,6 @@ Downloading necessary files
 	alias npp="d:/Utils/Editors/npp.6.8.7/notepad++.exe"	
 	$ git config --global credential.helper cache  - store user password
 	
-		git reset --hard HEAD  <-- discard last changes.
 	
-	Download another branch from Github:
-$ git checkout -b lesson-four origin/lesson-four
-Switched to a new branch 'lesson-four'
-Branch 'lesson-four' set up to track remote branch 'lesson-four' from 'origin'.
- $ git branch
-* lesson-four
-  lesson-two
- $ git pull origin lesson-four
-From https://github.com/chukrav/ud845-Pets
- * branch            lesson-four -> FETCH_HEAD
-Already up to date.   :)))
-
-If I want to fetch the remote branches, I simply run:
-git pull
-
-This will fetch all of the remote branches and merge the current branch. 
-
 
 	
