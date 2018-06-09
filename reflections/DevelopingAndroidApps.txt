@@ -54,3 +54,85 @@ L03.10: Items and ViewHolders
 Screen compatibility overview (sp - dp, ...):
 https://developer.android.com/guide/practices/screens_support
 
+L03.23 Exercise: Click Handling 
+SH S03.02-Exercise-RecyclerViewClickHandling
+----------------
+MainActivity extends AppCompatActivity
+        implements ForecastAdapter.ForecastAdapterOnClickHandler{
+		
+		LinearLayoutManager layoutManager;
+		mRecyclerView.setLayoutManager(layoutManager);
+		mForecastAdapter = new ForecastAdapter(this);
+		mRecyclerView.setAdapter(mForecastAdapter);
+		
+		void loadWeatherData(){
+			location
+			new FetchWeatherTask().execute(location);
+		}
+		
+		@Override
+    public void onListItemClick(String weatherForDay) {}
+	
+	public class FetchWeatherTask extends AsyncTask<String, Void, String[]>{}
+	
+	onCreateOptionsMenu(Menu menu) {
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.forecast, menu);
+	}
+	
+	onOptionsItemSelected(MenuItem item) {
+		int id = item.getItemId();
+		if (id == R.id.action_refresh) {}
+	}
+		
+}
+======
+public class ForecastAdapter 
+			extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapterViewHolder> {
+	
+	final private ForecastAdapterOnClickHandler mClickHandler;	
+	public interface ForecastAdapterOnClickHandler {
+        void onListItemClick(String weatherForDay);
+    }
+	
+	// TODO (4) Add a ForecastAdapterOnClickHandler as a parameter to the constructor
+	//and store it in mClickHandler
+    public ForecastAdapter(ForecastAdapterOnClickHandler handler) {
+        mClickHandler = handler;
+    }
+	
+	public class ForecastAdapterViewHolder extends RecyclerView.ViewHolder
+			implements View.OnClickListener {
+        public final TextView mWeatherTextView;
+		public ForecastAdapterViewHolder(View view) {
+            ...
+			view.setOnClickListener(this);
+        }
+		
+		@Override
+        public void onClick(View view) {
+            int clickedPosition = getAdapterPosition();
+			... 
+		}
+	@Override
+    public ForecastAdapterViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
+				....
+	}
+	@Override
+    public void onBindViewHolder(ForecastAdapterViewHolder forecastAdapterViewHolder, int position){}
+	
+	public void setWeatherData(String[] weatherData) {
+        mWeatherData = weatherData;
+        notifyDataSetChanged();
+    }
+	
+		
+	}
+	
+	
+			
+			
+			
+}
+
+
