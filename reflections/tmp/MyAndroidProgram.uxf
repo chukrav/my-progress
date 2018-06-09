@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>418</x>
+      <y>99</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_1. Developing Android Apps_
+--
+Intermediate - 60h(12w) 15 Lessons
+to start: 23.05.18 - 22.06
+bg=yellow
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1023</x>
+      <y>132</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_2. Advanced Android App Development_
+--
+Advanced - 6w
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>187</x>
+      <y>220</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_2.Android Basics: User Input_
+--
+Beginner - 4w el=13h (Project!)
+completed to start: 7.03.18 - 11.03
+bg=green
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>187</x>
+      <y>308</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_3. Android Basics: Multiscreen Apps_
+--
+Beginner - 8w
+start 11.03 -&gt; 20.04 el~50.5h Compl. 29.04
+bg=green
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>187</x>
+      <y>396</y>
+      <w>330</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>_4. Android Basics: Networking_
+--
+Beginner - 5w Completed
+start 30.04-10.05 (10.04-30.04)
+1,2,3 - 2h, 4 - 20m, 5 - 1h, 6 - 20m (7h40m)
+fg=red
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>176</x>
+      <y>495</y>
+      <w>330</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>_5. Android Basics: Data Storage_
+--
+Beginner - 8w(4w)
+to start: 10.05.18 - 1.06
+1,2,3,4 - 2h,5 - 20m (8h20m)
+bg=green
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1386</x>
+      <y>231</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_Java Programming Basics_
+--
+Beginner</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1023</x>
+      <y>231</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_Object Oriented Programming in Java_
+--
+Intermediate - 4w
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>583</x>
+      <y>440</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_Firebase in a Weekend: Android_
+--
+Intermediate - 2d (0.3w)
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>583</x>
+      <y>528</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_Firebase Analytics: Android_
+--
+Intermediate - 2d (0.3w)
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>759</x>
+      <y>924</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_Passwordless Login Solutions for Android_
+--
+Intermediate???</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>176</x>
+      <y>858</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_GitHub &amp; Collaboration_
+--
+Beginner - 3w
+start 04.03.18-&gt;11.03.18 el=9h
+bg=green
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>583</x>
+      <y>638</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_Google Location Services on Android_
+--
+Intermediate - 2w
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>583</x>
+      <y>726</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_Add Google Maps to your Android App_
+--
+Intermediate - 2w
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1386</x>
+      <y>561</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_Monetize Your Android App with Ads_
+--
+Intermediate - 2w
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>583</x>
+      <y>341</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_4. Material Design for Android Developers_
+--
+Intermediate - 4w
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1386</x>
+      <y>473</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_Android Performance_
+--
+Intermediate - 4w
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1023</x>
+      <y>319</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_ 3. Gradle for Android and Java_
+--
+Advanced - 6w
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1012</x>
+      <y>583</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_ Android TV and Google Cast Development_
+--
+Advanced - 1w
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1012</x>
+      <y>671</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_  Android Auto Development_
+--
+Advanced - 1w
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>176</x>
+      <y>682</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_UX Design for Mobile Developers_
+--
+Beginner - 6w
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1012</x>
+      <y>759</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_  Kotlin for Android Developers_
+--
+Advanced - 1w
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>176</x>
+      <y>770</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_How to use Git and GitHub_
+--
+Beginner - 1w
+start-finish: 19.02.18-4.03.18 el=19h
+bg=green
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>176</x>
+      <y>594</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_1. Android Basics: User Interface_
+--
+Beginner - completed
+bg=green
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>165</x>
+      <y>77</y>
+      <w>154</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>1
+1.06 - 15.07
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>110</y>
+      <w>132</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>198</x>
+      <y>121</y>
+      <w>143</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;90.0;15.0;17.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>561</x>
+      <y>220</y>
+      <w>132</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>2
+14.04 - 14.05
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>275</y>
+      <w>165</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>649</x>
+      <y>165</y>
+      <w>66</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>836</x>
+      <y>231</y>
+      <w>121</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>3
+14.05 - 14.08
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>891</x>
+      <y>176</y>
+      <w>154</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;53.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>935</x>
+      <y>242</y>
+      <w>110</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;40.0;13.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1056</x>
+      <y>440</y>
+      <w>121</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>4
+14.08 - 14.11
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1078</x>
+      <y>506</y>
+      <w>88</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;70.0;10.0;13.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1155</x>
+      <y>484</y>
+      <w>253</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>210.0;30.0;10.0;13.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>792</x>
+      <y>11</y>
+      <w>231</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=.
+Project - start
+fg=red
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>682</x>
+      <y>99</y>
+      <w>253</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>210.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>286</x>
+      <y>44</y>
+      <w>528</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.&gt;
+&lt;&lt;may be sooner&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;40.0;460.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>484</x>
+      <y>1133</y>
+      <w>341</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>Note..
+3w = 5.25h
+0.5 + 1 + 2 + 1 + 1 + 3 = 8.5 - 4w
+=&gt; 1w = 2h
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>121</x>
+      <y>858</y>
+      <w>44</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>1
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>132</x>
+      <y>396</y>
+      <w>44</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>2
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>132</x>
+      <y>264</y>
+      <w>44</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>2
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>99</x>
+      <y>528</y>
+      <w>44</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>3
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>979</y>
+      <w>330</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_Writing READMEs_
+--
+Beginner - Approx. 3 days
+start ???
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>913</y>
+      <w>66</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>374</x>
+      <y>0</y>
+      <w>77</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>H
+--
+11.03
+fontsize=20
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>11</x>
+      <y>759</y>
+      <w>110</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Recap
+--
+18.03
+GitHub 3h
+fontsize=14
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>803</y>
+      <w>88</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>0</x>
+      <y>77</y>
+      <w>44</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>:(
+fontsize=24
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

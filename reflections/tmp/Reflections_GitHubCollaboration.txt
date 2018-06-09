@@ -1,0 +1,248 @@
+
+    1.how to set up remote repositories
+    2.how to push changes to a remote repository and get changes from it
+    3.how to fork a repository
+    4.the initial steps to take when you start working on a new feature or change to the project
+    5.how to create a pull request
+    6.and the importance of communicating clearly and frequently with the other stakeholders in the project
+	
+	Create a Pull Request:
+    you must fork the source repository
+    clone your fork down to your machine
+    make some commits (ideally on a topic branch!)
+    push the commits back to your fork
+    create a new pull request and choose the branch that has your new commits
+
+	$git remote -v 
+	origin upstream https://github.com/udacity/course-collaboration-travel-plans.git (fetch)
+	origin upstream https://github.com/udacity/course-collaboration-travel-plans.git (push)
+	Remember that the word origin is just the default name that's used when you git clone a remote
+	repository for the first time. 
+	
+	This will give us a connection to the source repository:
+	$git remote add upstream https://github.com/udacity/course-collaboration-travel-plans.git
+	
+	Retrieving Upstream Changes:
+	$ git fetch upstream master
+	
+	I'm using the following git log command to make sure I display all commits from all branches
+	(including remote and tracking branches!):
+	$ git log --oneline --graph --decorate --all
+	
+	To push these new changes from the Lam's repository:
+	# to make sure I'm on the correct branch for merging
+    $ git checkout master
+    
+    # merge in Lam's changes
+    $ git merge upstream/master
+    
+    # send Lam's changes to *my* remote
+    $ git push origin master
+	
+	To get commits from a source repository into your forked repository on GitHub you need to:
+
+    get the cloneable URL of the source repository
+    create a new remote with the git remote add command
+        use the shortname upstream to point to the source repository
+        provide the URL of the source repository
+    fetch the new upstream remote
+    merge the upstream's branch into a local branch
+    push the newly updated local branch to your origin repo
+	
+	----- Manage an active PR ----------
+	Recap:
+    As simple as at may seem, working on an active pull request is mostly about communication!
+    
+    If the project's maintainer is requesting changes to the pull request, then:
+    
+        make any necessary commits on the same branch in your local repository that your pull request is based on
+        push the branch to the your fork of the source repository
+    
+    The commits will then show up on the pull request page.
+	
+	------ Squash Commits ---------
+	To squash commits together, we're going to use the extremely powerful 
+		$ git rebase -command. 
+		
+		$ git rebase -i HEAD~3
+		... the HEAD~3 is an ancestry reference to a commit that will act as the new base
+		for the commits that are being rebased.
+		
+	Combining the commits: https://gist.github.com/patik/b8a9dc5cd356f9f6f980
+	https://www.notion.so/Keeping-Commit-Histories-Clean-0f717c4e802c4a0ebd852cf9337ce5d2
+		To squash the last 3 commits into one:
+
+		git reset --soft HEAD~3
+		git commit -m "New message for the combined commit" - it worked once!!! :)
+		
+		Force Pushing
+		$ git push -f
+		
+	Pushing the squashed commit:
+		If the commits have been pushed to the remote:
+
+		git push origin +name-of-branch
+
+		The plus sign forces the remote branch to accept your rewritten history, otherwise you will end up with divergent branches
+		
+		-- Rebase Commands --
+
+	Let's take another look at the different commands that you can do with git rebase:
+
+    use p or pick – to keep the commit as is
+    use r or reword – to keep the commit's content but alter the commit message
+    use e or edit – to keep the commit's content but stop before committing so that you can:
+        add new content or files
+        remove content or files
+        alter the content that was going to be committed
+    use s or squash – to combine this commit's changes into the previous commit (the commit above it in the list)
+    use f or fixup – to combine this commit's change into the previous one but drop the commit message
+    use x or exec – to run a shell command
+    use d or drop – to delete the commit
+
+	------ Reviewing Existing Work -----------
+	Filtering Collaborator's Commits
+	A quick way that we can see how many commits each contributor has added to the repository is to use the 
+		$ git shortlog 	-command. displays an alphabetical list of names and the commit messages that go
+			along with them.
+			
+	flags: -s to show just the number of commits (rather than each commit's message) and -n to sort them numerically 
+		$ git shortlog -s -n
+		
+	Filter By Author
+	$ git log --author=Surma
+	$ git log --author="Paul Lewis"
+	
+	Filter Commits By Search
+	$ git show 5966b66
+	
+	How about we filter down to just the commits that reference the word "bug". We can do that with either 
+	of the following commands:
+
+	$ git log --grep=bug
+	$ git log --grep bug
+
+	Recap:
+	
+    group commits by author with git shortlog
+      $ git shortlog    
+	  
+	 filter commits with the --author flag
+      $ git log --author="Richard Kalehoff"
+	
+	filter commits using the --grep flag
+      $ git log --grep="border radius issue in Safari"
+
+	  CONTRIBUTING.md File
+	The name of the `CONTRIBUTING.md file is typically written in all caps so that it's easily seen. 
+	As you could probably tell by its name, this file lists out the information you should follow to 
+	contribute to the project. You should look for this file before you start doing development work 
+	of any kind. 
+
+	----- Push Changes To A Remote --------
+	$ git push <remote-shortname> <branch>
+	$ git push origin master
+	
+	$ git log --oneline --graph --decorate --all
+	
+	$ git pull origin master
+	
+	----- Pull vs Fetch -----------
+	$ git fetch origin master
+	
+	When git fetch is run, the following things happen:
+    the commit(s) on the remote branch are copied to the local repository
+    the local tracking branch (e.g. origin/master) is moved to point to the most recent commit
+	The important thing to note is that the local branch does not change at all!!!!
+	
+	One main point when you want to use git fetch rather than $ git pull - is if your remote branch and your
+	local branch both have changes that neither of the other ones has. In this case, you want to fetch
+	the remote changes to get them in your local branch and then perform a merge manually. Then you can push
+	that new merge commit back to the remote. 
+	
+	------- Setting Up Your Workspace on Windows -------
+Downloading necessary files
+
+    Save this file in your home directory with the name git-completion.bash. (https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash)
+    Save this file in your home directory with the name git-prompt.sh. (https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh)
+    Download bash_profile_course from the Downloadables section.
+    If you already have a file in your home directory named .bash_profile, copy the content
+	from bash_profile_course and paste it at the bottom of .bash_profile.
+	Otherwise, move bash_profile_course to your home directory and rename it to .bash_profile.
+	(If you're curious to learn more about how bash prompts work, see this page.) (http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html)
+	
+	
+	--- Making Git configurations ---
+	The first one will need to be modified if you are using a text editor other than Sublime, 
+	or if Sublime is installed in another location for you. See this page for the correct command (https://help.github.com/articles/associating-text-editors-with-git/)
+	for a couple of other popular text editors. For any other editor, you'll need to enter the command
+	you use to launch that editor from Git Bash.
+	
+	  git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+      git config --global push.default upstream
+      git config --global merge.conflictstyle diff3
+	  
+	Make sure you can start your editor from Git Bash
+		If you use Sublime, you can do this by adding the following line to your .bash_profile:
+		
+		alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
+
+	Restart Git Bash: You'll need to close and re-open Git Bash before all your changes take effect.  
+	
+	--- Staging Area ---
+	$ git reset 
+	If you accidentally add a file to the staging area, you can remove it using git reset.
+	
+	git init
+    git add
+    git status
+    staging area
+    working directory
+	
+	$ git commit -m "Commit message" 
+	
+	Udacity Git Commit Message Style Guide (http://udacity.github.io/git-styleguide/)
+	$ git checkout master 
+		-before you commit a bag fix. This is because your HEAD is still 'detached' ... 
+
+	Merge conflict (Newline characters between Windows and Unix systems)
+	$ git config --global core.autocrlf true
+	
+	Comparing a commit to its parent
+	$ git show commit_id
+	
+	$ git log --graph
+	
+	$ git checkout easy-mode
+	$ git merge master easy-mode -> conflict
+	
+	make changes, add ., commit -> to merge message, O'k!
+	
+	$ git pull origin master -sinchronize master to origin 
+	
+	$ git config --global core.editor "'d:/Utils/Editors/npp.6.8.7/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+	alias npp="d:/Utils/Editors/npp.6.8.7/notepad++.exe"	
+	$ git config --global credential.helper cache  - store user password
+	
+	git reset --hard HEAD  <-- discard last changes.
+	
+	Download another branch from Github:
+$ git checkout -b lesson-four origin/lesson-four
+Switched to a new branch 'lesson-four'
+Branch 'lesson-four' set up to track remote branch 'lesson-four' from 'origin'.
+ $ git branch
+* lesson-four
+  lesson-two
+ $ git pull origin lesson-four
+From https://github.com/chukrav/ud845-Pets
+ * branch            lesson-four -> FETCH_HEAD
+Already up to date.   :)))
+
+If I want to fetch the remote branches, I simply run:
+git pull
+
+This will fetch all of the remote branches and merge the current branch. 
+
+
+
+	
