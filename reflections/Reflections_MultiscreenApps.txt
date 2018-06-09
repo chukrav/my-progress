@@ -53,3 +53,34 @@ Then use a keyboard shortcut to automatically
 “Generate a method (Getters, Setters, Constructors, toString, etc..)”.
 On Windows, the keyboard shortcut is ALT + Insert.	
 
+Icons Resources:
+https://material.io/icons/#ic_play_arrow
+
+https://guides.codepath.com/android/ripple-animation - ripple-animation (click animation)
+android:background="?android:attr/selectableItemBackground”, so the View will be transparent
+by default, so you can see the contents of the list item. 
+
+Patterns of design:
+http://androidniceties.tumblr.com/
+https://pttrns.com/android-patterns?srtby=popularity_desc
+
+This tutorial implementing the “Up” button.
+https://developer.android.com/training/implementing-navigation/ancestral?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
+
+Android Training: Up navigation
+https://developer.android.com/training/implementing-navigation/ancestral
+
+Android Developers Patterns:
+https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-lJo_RGGXL2Psr8vVCTWjM
+
+Fragments: how to change text inside of fragment.
+View view = inflater.inflate(R.layout.fragment_friday, container, false);
+TextView day_text = (TextView)view.findViewById(R.id.text_day);
+       day_text.setText(myString);
+
+Fragment developer guide:
+https://developer.android.com/guide/components/fragments?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
+Tutorials: Google Play Style Tabs using TabLayout
+https://guides.codepath.com/android/google-play-style-tabs-using-tablayout#sliding-tabs-layout
+
+
