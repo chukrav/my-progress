@@ -136,6 +136,9 @@ L05.16 Leveraging Loaders:
 	2. Fill in Loader callbacks;
 	3. Init Loader with LoaderManager.
 	
-	
+
+L06.29: Edit Text Preference Constraints
+	OnSharedPreferenceChangeListener - after saving of shared preferences.
+	OnPreferenceChangeListener -  - before saving of shared preferences. ...!!!
 
 
