@@ -140,5 +140,15 @@ L05.16 Leveraging Loaders:
 L06.29: Edit Text Preference Constraints
 	OnSharedPreferenceChangeListener - after saving of shared preferences.
 	OnPreferenceChangeListener -  - before saving of shared preferences. ...!!!
+	
+	extends PreferenceFragmentCompat make be able to work with Shared preferences,
+	opens:
+		SharedPreferences sharedPreferences = getPreferenceScreen().getSharedPreferences();
+        PreferenceScreen prefScreen = getPreferenceScreen();
+		
+	Implementation of OnSharedPreferenceChangeListener on MainActivity gives: -ore without it works!? 
+	remains to be checked!
+	SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+    sharedPreferences.registerOnSharedPreferenceChangeListener(this);
 
 
