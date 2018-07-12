@@ -151,4 +151,22 @@ L06.29: Edit Text Preference Constraints
 	SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
     sharedPreferences.registerOnSharedPreferenceChangeListener(this);
 
+	Lesson 7:
+	
+	L07.05
+	from the SQLiteDatabase lesson:
+		Contract Class
+		Projection, selection, selection args, sort order
+		Cursor Class
+
+	General Steps for Using a ContentProvider
+	You will take the following steps:
+
+    Get permission to use the ContentProvider.
+    Get the ContentResolver
+    Pick one of four basic actions on the data: query, insert, update, delete
+    Identify the data you are reading or manipulating to create a URI
+    In the case of reading from the ContentProvider, display the information in the UI
+
+
 
