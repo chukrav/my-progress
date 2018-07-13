@@ -167,6 +167,23 @@ L06.29: Edit Text Preference Constraints
     Pick one of four basic actions on the data: query, insert, update, delete
     Identify the data you are reading or manipulating to create a URI
     In the case of reading from the ContentProvider, display the information in the UI
+	
+Lesson 09b:
+
+Adding Components to your Project --- VERY IMPORTANT!!!!
+https://developer.android.com/topic/libraries/architecture/adding-components
+
+L09.26:
+At the moment, we have our database logic in our Activities and our ViewModels.
+We could improve our architecture by extracting all that logic to a common place,
+or Repository. This way, all database-related operations can be handled from a single location,
+while being accessible from anywhere in our app. This is an example of using
+the Single Responsibility Principle.	
+
+googlecodelabs/android-build-an-app-architecture-components:
+https://github.com/googlecodelabs/android-build-an-app-architecture-components
+
+
 
 
 
