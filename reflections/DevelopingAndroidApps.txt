@@ -140,5 +140,10 @@ L05.16 Leveraging Loaders:
 L06.29: Edit Text Preference Constraints
 	OnSharedPreferenceChangeListener - after saving of shared preferences.
 	OnPreferenceChangeListener -  - before saving of shared preferences. ...!!!
+	
+To put selected code in a separate function:
+	You can access it via Refactor/Extract/Method menu or using a keyboard shortcut:
+	CTRL+ALT+M (Linux, Windows)
+	
 
 
