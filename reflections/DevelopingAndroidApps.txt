@@ -141,9 +141,56 @@ L06.29: Edit Text Preference Constraints
 	OnSharedPreferenceChangeListener - after saving of shared preferences.
 	OnPreferenceChangeListener -  - before saving of shared preferences. ...!!!
 	
+
 To put selected code in a separate function:
 	You can access it via Refactor/Extract/Method menu or using a keyboard shortcut:
 	CTRL+ALT+M (Linux, Windows)
 	
+
+	extends PreferenceFragmentCompat make be able to work with Shared preferences,
+	opens:
+		SharedPreferences sharedPreferences = getPreferenceScreen().getSharedPreferences();
+        PreferenceScreen prefScreen = getPreferenceScreen();
+		
+	Implementation of OnSharedPreferenceChangeListener on MainActivity gives: -ore without it works!? 
+	remains to be checked!
+	SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+    sharedPreferences.registerOnSharedPreferenceChangeListener(this);
+
+	Lesson 7:
+	
+	L07.05
+	from the SQLiteDatabase lesson:
+		Contract Class
+		Projection, selection, selection args, sort order
+		Cursor Class
+
+	General Steps for Using a ContentProvider
+	You will take the following steps:
+
+    Get permission to use the ContentProvider.
+    Get the ContentResolver
+    Pick one of four basic actions on the data: query, insert, update, delete
+    Identify the data you are reading or manipulating to create a URI
+    In the case of reading from the ContentProvider, display the information in the UI
+	
+Lesson 09b:
+
+Adding Components to your Project --- VERY IMPORTANT!!!!
+https://developer.android.com/topic/libraries/architecture/adding-components
+
+L09.26:
+At the moment, we have our database logic in our Activities and our ViewModels.
+We could improve our architecture by extracting all that logic to a common place,
+or Repository. This way, all database-related operations can be handled from a single location,
+while being accessible from anywhere in our app. This is an example of using
+the Single Responsibility Principle.	
+
+googlecodelabs/android-build-an-app-architecture-components:
+https://github.com/googlecodelabs/android-build-an-app-architecture-components
+
+
+
+
 
 
