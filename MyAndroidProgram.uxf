@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>418</x>
-      <y>99</y>
+      <y>88</y>
       <w>330</w>
       <h>77</h>
     </coordinates>
@@ -234,7 +234,8 @@ bg=yellow</panel_attributes>
     <panel_attributes>_4. Material Design for Android Developers_
 --
 Intermediate - 4w
-bg=yellow</panel_attributes>
+bg=yellow
+fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -371,10 +372,10 @@ bg=blue</panel_attributes>
       <x>308</x>
       <y>110</y>
       <w>132</w>
-      <h>66</h>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>100.0;40.0;10.0;10.0</additional_attributes>
+    <additional_attributes>100.0;30.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -390,8 +391,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>561</x>
-      <y>220</y>
+      <x>572</x>
+      <y>187</y>
       <w>132</w>
       <h>77</h>
     </coordinates>
@@ -403,24 +404,24 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>660</x>
-      <y>275</y>
-      <w>165</w>
-      <h>88</h>
+      <x>671</x>
+      <y>242</y>
+      <w>154</w>
+      <h>121</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>130.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>120.0;90.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>649</x>
-      <y>165</y>
-      <w>66</w>
-      <h>77</h>
+      <x>660</x>
+      <y>154</y>
+      <w>55</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>40.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>30.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
@@ -509,13 +510,13 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>682</x>
+      <x>693</x>
       <y>99</y>
-      <w>253</w>
-      <h>176</h>
+      <w>242</w>
+      <h>143</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>210.0;10.0;10.0;140.0</additional_attributes>
+    <additional_attributes>200.0;10.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -532,8 +533,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>484</x>
-      <y>1133</y>
+      <x>473</x>
+      <y>1100</y>
       <w>341</w>
       <h>121</h>
     </coordinates>
@@ -621,14 +622,14 @@ bg=green</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>374</x>
-      <y>0</y>
+      <x>539</x>
+      <y>264</y>
       <w>77</w>
       <h>77</h>
     </coordinates>
     <panel_attributes>H
 --
-11.03
+21.08
 fontsize=20
 bg=green</panel_attributes>
     <additional_attributes/>
