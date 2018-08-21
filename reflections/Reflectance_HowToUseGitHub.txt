@@ -60,7 +60,7 @@ Downloading necessary files
 	
 	$ git pull origin master -sinchronize master to origin 
 	
-	$ git config --global core.editor "'d:/Utils/Editors/npp.6.8.7/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+	$ git config --global core.editor "'f:/Utils/Editors/npp.6.8.7/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 	alias npp="d:/Utils/Editors/npp.6.8.7/notepad++.exe"	
 	$ git config --global credential.helper cache  - store user password
 	

@@ -189,6 +189,12 @@ the Single Responsibility Principle.
 googlecodelabs/android-build-an-app-architecture-components:
 https://github.com/googlecodelabs/android-build-an-app-architecture-components
 
+How to use Room Persistence Library with pre-populated database?
+https://stackoverflow.com/questions/44263891/how-to-use-room-persistence-library-with-pre-populated-database
+Helpers:
+https://github.com/chukrav/sqliteAsset
+
+
 
 
 
