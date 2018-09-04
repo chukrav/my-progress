@@ -86,6 +86,9 @@ Downloading necessary files
 	git pull
 
 	provide new password and it will work like before.
+	
+	$ git checkout -b lesson-five origin/lesson-five  add untracced branch from origin
+
 
 
 	
