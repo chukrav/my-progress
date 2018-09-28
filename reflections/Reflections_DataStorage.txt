@@ -123,3 +123,16 @@ https://developer.android.com/guide/topics/ui/menus.html#options-menu
 http://stackoverflow.com/questions/4199753/how-can-i-alter-a-menuitem-on-the-options-menu-on-android 
 
 Stop at L04.13 ---------!!!!!!!!-----------
+
+ship their android application with an existing sqlite database:
+https://stackoverflow.com/questions/9109438/how-to-use-an-existing-database-with-an-android-application/9109728
+https://stackoverflow.com/questions/18818306/how-i-can-make-a-sqlite-database-in-pc-for-use-in-my-app
+https://stackoverflow.com/questions/513084/ship-an-application-with-a-database
+
+public class DataBaseHelper extends SQLiteOpenHelper
+{ ...
+
+A helper library to help using Room with existing pre-populated database. 
+https://github.com/humazed/RoomAsset
+An Android helper class to manage database creation and version management using an application's raw asset files 
+https://github.com/jgilfelt/android-sqlite-asset-helper

@@ -62,6 +62,18 @@ Downloading necessary files
 	alias npp="d:/Utils/Editors/npp.6.8.7/notepad++.exe"	
 	$ git config --global credential.helper cache  - store user password
 	
+	
+	Password was changed: fatal: unable to access 
+	To fix this, you can use
+	git config --global credential.helper osxkeychain
+	You'll then be prompted for your password again.
+
+	For Windows, it's the same command with a different argument:
+	git config --global credential.helper wincred
+
+
+	
+	
 	This will revert all local uncommitted changes (should be executed in repo root):
 	$ git checkout .  (point is impotant! )
 	

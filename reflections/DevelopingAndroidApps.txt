@@ -183,6 +183,83 @@ the Single Responsibility Principle.
 googlecodelabs/android-build-an-app-architecture-components:
 https://github.com/googlecodelabs/android-build-an-app-architecture-components
 
+Create an Expandable Notification:
+https://developer.android.com/training/notify-user/expanded
+Notification.BigPictureStyle:
+https://developer.android.com/reference/android/app/Notification.BigPictureStyle
+
+firebase/firebase-jobdispatcher-android:
+https://github.com/firebase/firebase-jobdispatcher-android
+
+https://github.com/firebase/firebase-jobdispatcher-android for an example of use
+FirebaseJobDispatcher to schedule a job that repeats roughly
+every REMINDER_INTERVAL_SECONDS when the phone is charging.
+
+4 major components:
+	Activity;
+	Service;
+	Content Provider;
+	Broadcast Receiver.
+	
+	Lesson 11
+	MATERIAL-DESIGN-ICONS
+	https://github.com/google/material-design-icons
+	Palette:
+	https://www.materialpalette.com/purple/purple
+	Material Design:
+	https://material.io/design/color/#
+	
+	The type system , Type Scale , fonts
+	https://material.io/design/typography/#type-scale
+	
+	General Steps for Using a ContentProvider you will take the following steps:
+
+		1. Get permission to use the ContentProvider.
+		2. Get the ContentResolver
+		3. Pick one of four basic actions on the data: query, insert, update, delete
+		4. Identify the data you are reading or manipulating to create a URI
+		5. In the case of reading from the ContentProvider, display the information in the UI
+		
+Room:
+
+	Annotation and main components:
+	@Entity - define database tables;
+	@DAO - to provide an API for reading and writing data;
+	@Database - which represents database holder.
+	
+	@Entity is a POJO with anotation @entity
+	@DAO - interface :select,update, delete insert methods;
+	To create make abstract class AppDatabase extends RoomDatabase singleton has getInstance method.
+	Add @Database anotation @Database(entities={POJO.class}, version = 1, exportScheme = false){
+		getInstance(Context context){}
+		
+		public abstract TascDao tascDao();
+	
+	}
+	
+L09b.26:
+At the moment, we have our database logic in our Activities and our ViewModels.
+ We could improve our architecture by extracting all that logic to a common place,
+ or Repository. This way, all database-related operations can be handled from a single
+ location, while being accessible from anywhere in our app. This is an example of using
+ the Single Responsibility Principle:
+ https://en.wikipedia.org/wiki/Single_responsibility_principle
+ Using a Repository also adds more flexibility to our architecture. Instead of touching
+ code in multiple places whenever we want to change the database, we can instead isolate
+ the code change to one place using a Repository.
+Check here: https://developer.android.com/topic/libraries/architecture/guide.html#fetching_data
+ for more information on how to improve an application by adding a Repository.
+ Also, here: https://github.com/googlecodelabs/android-build-an-app-architecture-components/blob/arch-training-steps/app/src/main/java/com/example/android/sunshine/data/SunshineRepository.java
+ you can find a simplified version of Sunshine which uses Android Architecture 
+ Components together with a Repository.
+	
+
+
+	
+	
+
+
+
 
 
 
