@@ -1,3 +1,5 @@
+cd H:/Backup/Udacity/my-progress
+cd /h/Backup/Udacity/D/ud851-Sunshine
 ------- Setting Up Your Workspace on Windows -------
 Downloading necessary files
 
@@ -58,7 +60,7 @@ Downloading necessary files
 	
 	$ git pull origin master -sinchronize master to origin 
 	
-	$ git config --global core.editor "'d:/Utils/Editors/npp.6.8.7/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+	$ git config --global core.editor "'f:/Utils/Editors/npp.6.8.7/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 	alias npp="d:/Utils/Editors/npp.6.8.7/notepad++.exe"	
 	$ git config --global credential.helper cache  - store user password
 	
@@ -79,6 +81,27 @@ Downloading necessary files
 	
 	This will unstage all files you might have staged with git add:
 	$ git reset
+	
+	https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git
+	How to save username and password in git:
+	
+	git config credential.helper store
+		then:
+	git pull
+
+	provide user-name and password and those details will be remembered later. The credentials are stored
+	in the disk, with the disk permissions.
+	if you want to change password later:
+
+	git config credential.helper store 
+	then:
+	git pull
+
+	provide new password and it will work like before.
+	
+	$ git checkout -b lesson-five origin/lesson-five  add untracced branch from origin
+
+
 
 	
 	

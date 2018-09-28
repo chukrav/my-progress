@@ -141,6 +141,12 @@ L06.29: Edit Text Preference Constraints
 	OnSharedPreferenceChangeListener - after saving of shared preferences.
 	OnPreferenceChangeListener -  - before saving of shared preferences. ...!!!
 	
+
+To put selected code in a separate function:
+	You can access it via Refactor/Extract/Method menu or using a keyboard shortcut:
+	CTRL+ALT+M (Linux, Windows)
+	
+
 	extends PreferenceFragmentCompat make be able to work with Shared preferences,
 	opens:
 		SharedPreferences sharedPreferences = getPreferenceScreen().getSharedPreferences();
@@ -252,15 +258,9 @@ Check here: https://developer.android.com/topic/libraries/architecture/guide.htm
  Also, here: https://github.com/googlecodelabs/android-build-an-app-architecture-components/blob/arch-training-steps/app/src/main/java/com/example/android/sunshine/data/SunshineRepository.java
  you can find a simplified version of Sunshine which uses Android Architecture 
  Components together with a Repository.
-	
 
-
-	
-	
-
-
-
-
-
-
-
+ =======
+How to use Room Persistence Library with pre-populated database?
+https://stackoverflow.com/questions/44263891/how-to-use-room-persistence-library-with-pre-populated-database
+Helpers:
+https://github.com/chukrav/sqliteAsset
