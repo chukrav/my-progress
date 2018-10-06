@@ -264,3 +264,43 @@ How to use Room Persistence Library with pre-populated database?
 https://stackoverflow.com/questions/44263891/how-to-use-room-persistence-library-with-pre-populated-database
 Helpers:
 https://github.com/chukrav/sqliteAsset
+
+in abstract class AppDatabase ...
+
+ public static AppDatabase getInstance(Context context) {
+        if (sInstance == null) {
+            synchronized (LOCK) {
+                Log.d(LOG_TAG, "Creating new database instance");
+//                sInstance = Room.databaseBuilder(context.getApplicationContext(),
+//                        AppDatabase.class, AppDatabase.DATABASE_NAME)
+                        // Queries should be done in a separate thread to avoid locking the UI
+                        // We will allow this ONLY TEMPORALLY to see that our DB is working
+//                        .allowMainThreadQueries()
+//                        .build();
+                sInstance = Room.databaseBuilder(context.getApplicationContext(),
+                        AppDatabase.class,
+                        "tasks.db")
+                        .openHelperFactory(new AssetSQLiteOpenHelperFactory())
+                        .allowMainThreadQueries()
+                        .build();
+
+            }
+        }
+        Log.d(LOG_TAG, "Getting the database instance");
+        return sInstance;
+    }
+	
+Put s-directory in last s-directory of src/
+sqlAsset/
+AssetSQLiteOpenHelper.java
+AssetSQLiteOpenHelperFactory.java
+AssetSQLiteUtils.java
+FrameworkSQLiteDatabase.java
+FrameworkSQLiteProgram.java
+FrameworkSQLiteStatement.java
+SQLiteAssetHelper.java
+Utils.java
+VersionComparator.java
+
+
+
