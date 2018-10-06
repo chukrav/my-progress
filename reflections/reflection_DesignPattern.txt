@@ -1,0 +1,4 @@
+Used for Design Pattern start code:
+https://github.com/friedricherbs/SharingApp
+https://github.com/frealgagu/SharingApp
+
