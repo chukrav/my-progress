@@ -2,3 +2,24 @@ Used for Design Pattern start code:
 https://github.com/friedricherbs/SharingApp
 https://github.com/frealgagu/SharingApp
 
+Structural Patterns:
+   Singleton Pattern
+   Factory Method Pattern
+   Façade Pattern
+   Adapter Pattern
+   Composite Pattern
+   Proxy Pattern
+   Decorator Pattern
+Behavioural Design Patterns:
+   Template Method Pattern 
+   Chain of Responsibility Pattern 
+   State Pattern 
+   Command Pattern
+   MVC Pattern  
+
+Anti-Patterns & Code Smells:
+   Comments ,Duplicate Code ,Long Method ,Large Class ,Data Class ,
+   Data Clumps ,Long Parameter List ,Divergent Class ,Shotgun Surgery ,
+   Feature Envy ,Inappropriate Intimacy ,Message Chains ,Primitive Obsession ,
+   Switch Statements ,Speculative Generality ,Refused Reques   
+
