@@ -1,0 +1,54 @@
+transparent clipart wo registration:
+https://www.kisspng.com/free/asteroid.html 
+https://mbtskoudsalg.com/explore/flame-ball-png/
+
+public class SavingsAccount : InvestmentAccount { ...} - inheritance
+ public SavingsAccount(float deposit = 0, float interestRate) :
+		base(deposit) {
+			this.interestRate = interestRate;
+    } - constructor !!!
+
+public override void UpdateBalance() { } ....
+public override string ToString()  {  } ...
+
+ public abstract class InvestmentAccount   { ... }
+ 
+ Geters - Setters: 
+ float Balance
+ {
+     get { return balance; }
+ }
+
+ Abstract notation:
+ public abstract void UpdateBalance();
+ 
+ #region Public methods
+
+ #endregion
+
+ Events: ------------------------------------------
+ 
+ Invoker invoker = Camera.main.GetComponent<Invoker>(); - get attached class from object!
+ EventScriptNoArgs eventNoArgs  = new EventScriptNoArgs(); my classes extends UnityEvent (using UnityEngine.Events;)
+ EventScriptOneArg eventOneArg = new EventScriptOneArg(); 
+ 
+ public class EventScriptNoArgs : UnityEvent {   }
+ 
+ public void AddNoArgumentListener(UnityAction listener)    {
+        eventNoArgs.AddListener(listener);  // Add object to listener (my class, in case)
+ }
+
+ public void AddOneArgumentListener(UnityAction<int> listener) {
+     eventOneArg.AddListener(listener);
+ }
+ 
+ Invoker invoker = Camera.main.GetComponent<Invoker>();
+        invoker.AddNoArgumentListener(noArguments);
+        invoker.AddOneArgumentListener(oneArgument); - noArguments, oneArgument - hendler functions! substituted
+			UnityAction listener (see above) in Invoker class. Exercise8 Solution !!! 
+ 
+
+
+
+	
+
