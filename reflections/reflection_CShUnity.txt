@@ -1,0 +1,27 @@
+11:43 Friday, October 19, 2018
+Start reflection for course 2: "More C# Programming and Unity"
+
+
+Exercise7 Newton and apples!!! ................
+void OnCollisionEnter2D(Collision2D col)
+{
+    Apple apple = col.gameObject.GetComponent<Apple>();
+    health += apple.Health;
+    print("Current health: " + health);
+    Destroy(col.gameObject);
+
+}
+
+Sounds:
+http://www.pacdv.com/sounds/transportation_sounds.html
+
+// Open the text file using a stream reader. ConfigurationDataFileName 
+//	is in StreamingAssetsPath directory
+	StreamReader sr = null;
+    sr = File.OpenText(Path.Combine(Application.streamingAssetsPath,
+        ConfigurationDataFileName));
+	string line = sr.ReadLine();
+	sr.Close();
+		
+Be sure to select the Canvas in the HUD game object and change the UI Scale Mode in the
+Canvas Scaler component to Scale With Screen Size. Add Text for information purpose.		
