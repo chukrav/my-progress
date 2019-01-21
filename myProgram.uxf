@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.2">
-  <zoom_level>11</zoom_level>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>671</x>
-      <y>968</y>
-      <w>231</w>
-      <h>88</h>
+      <x>610</x>
+      <y>880</y>
+      <w>210</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Interview
 bg=blue</panel_attributes>
@@ -16,10 +16,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>935</x>
-      <y>616</y>
-      <w>231</w>
-      <h>88</h>
+      <x>850</x>
+      <y>560</y>
+      <w>210</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Algorithms
 bg=blue</panel_attributes>
@@ -28,10 +28,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>99</x>
-      <y>286</y>
-      <w>231</w>
-      <h>88</h>
+      <x>90</x>
+      <y>260</y>
+      <w>210</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Android
 bg=blue</panel_attributes>
@@ -40,10 +40,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1001</x>
-      <y>264</y>
-      <w>231</w>
-      <h>88</h>
+      <x>910</x>
+      <y>240</y>
+      <w>210</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>iOs
 Swift
@@ -53,10 +53,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>638</x>
-      <y>264</y>
-      <w>231</w>
-      <h>88</h>
+      <x>580</x>
+      <y>240</y>
+      <w>210</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Games
 C#, Unity
@@ -66,10 +66,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>44</x>
-      <y>660</y>
-      <w>231</w>
-      <h>88</h>
+      <x>40</x>
+      <y>600</y>
+      <w>210</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>DB
 bg=blue</panel_attributes>
@@ -78,10 +78,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1474</x>
-      <y>330</y>
-      <w>231</w>
-      <h>88</h>
+      <x>1340</x>
+      <y>300</y>
+      <w>210</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Calculus
 bg=orange</panel_attributes>
@@ -90,10 +90,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1639</x>
-      <y>539</y>
-      <w>231</w>
-      <h>88</h>
+      <x>1490</x>
+      <y>490</y>
+      <w>210</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Mashin Learning
 bg=orange</panel_attributes>
@@ -102,10 +102,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>22</x>
-      <y>825</y>
-      <w>231</w>
-      <h>88</h>
+      <x>20</x>
+      <y>750</y>
+      <w>210</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Front-BackEnd
 --
@@ -116,10 +116,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>1397</x>
+      <x>1270</x>
       <y>0</y>
-      <w>253</w>
-      <h>198</h>
+      <w>230</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>Conditions
 --
@@ -136,10 +136,10 @@ fg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>44</x>
-      <y>451</y>
-      <w>187</w>
-      <h>110</h>
+      <x>40</x>
+      <y>410</y>
+      <w>170</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>_Hours_
 --
@@ -150,10 +150,10 @@ Left: 200h, 3mo</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>495</x>
-      <y>429</y>
-      <w>220</w>
-      <h>187</h>
+      <x>450</x>
+      <y>390</y>
+      <w>200</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>_Hours_
 --
@@ -170,41 +170,43 @@ Finish: 10.11.18
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1507</x>
-      <y>660</y>
-      <w>473</w>
-      <h>506</h>
+      <x>1370</x>
+      <y>600</y>
+      <w>430</w>
+      <h>460</h>
     </coordinates>
     <panel_attributes>_Hours_
 --
-Deep Learning: 40h(4w)
-Int. to Artificial Intel.: 200h(20w)
-Int. Machine Learning: 100h(10w)
-Int. Descriptive Statistics: 80h(8w)
-Machine Learning: 170h(17w)
-Int. Comput Vision: 200h(20w)
-Reinforcement Learning: 160h(16w)
-Artificial Intel:  160h(16w)
+Deep Learning: 40h(4w)*
+Int. to Artificial Intel.: 200h(20w)*
+Int. Machine Learning: 100h(10w)*
+Int. Descriptive Statistics: 80h(8w)*
+Machine Learning: 170h(17w)*
+Int. Comput Vision: 200h(20w)*
+Reinforcement Learning: 160h(16w)*
+Artificial Intel:  160h(16w)*
 M-Learn: Insupervised Learning: 40h(4w)
 Knowlege Based AI:Cognetive Sys.:  70h(7w)
 
 --
 Int Hodor - Big Data:  40h(4w)
 Data Analisis with R:  80h(8w)
-Linear Algebra Refresher:  160h(16w)
+Linear Algebra Refresher:  160h(16w)*
 --
 SUM: 1500h, 17mo
 *Start: 30.09.2018*
-Finish: 31.12.2019</panel_attributes>
+Finish: 31.12.2019
+Find in Udacity in catalog All
+Artificial Intelligence - key word.</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1650</x>
-      <y>616</y>
-      <w>110</w>
-      <h>66</h>
+      <x>1500</x>
+      <y>560</y>
+      <w>100</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>80.0;10.0;10.0;40.0</additional_attributes>
@@ -212,10 +214,10 @@ Finish: 31.12.2019</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>132</x>
-      <y>363</y>
-      <w>77</w>
-      <h>110</h>
+      <x>120</x>
+      <y>330</y>
+      <w>70</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;80.0</additional_attributes>
@@ -223,10 +225,10 @@ Finish: 31.12.2019</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>561</x>
-      <y>330</y>
-      <w>143</w>
-      <h>121</h>
+      <x>510</x>
+      <y>300</y>
+      <w>130</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>110.0;10.0;10.0;90.0</additional_attributes>
@@ -234,10 +236,10 @@ Finish: 31.12.2019</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1067</x>
-      <y>330</y>
-      <w>110</w>
-      <h>121</h>
+      <x>970</x>
+      <y>300</y>
+      <w>100</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>80.0;10.0;10.0;90.0</additional_attributes>
@@ -245,10 +247,10 @@ Finish: 31.12.2019</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>957</x>
-      <y>429</y>
-      <w>220</w>
-      <h>154</h>
+      <x>870</x>
+      <y>390</y>
+      <w>200</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>_Hours_
 --
@@ -262,10 +264,10 @@ Start:
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>539</x>
-      <y>715</y>
-      <w>308</w>
-      <h>165</h>
+      <x>490</x>
+      <y>650</y>
+      <w>280</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>_Hours_
 --
@@ -273,18 +275,19 @@ Course Raja Biswas:
 Unity Android Games - 7 apps
 --
 SUM: 160h
-*Start: 15.08.18*
-Start: 
+*Start: 15.12.18*
+*Finish: 15.02.19* Very hard!!!
+fg=red
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>693</x>
-      <y>341</y>
-      <w>99</w>
-      <h>396</h>
+      <x>630</x>
+      <y>310</y>
+      <w>90</w>
+      <h>360</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;340.0</additional_attributes>
@@ -292,10 +295,10 @@ Start:
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1056</x>
-      <y>693</y>
-      <w>55</w>
-      <h>99</h>
+      <x>960</x>
+      <y>630</y>
+      <w>50</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;30.0;70.0</additional_attributes>
@@ -303,10 +306,10 @@ Start:
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1056</x>
-      <y>770</y>
-      <w>154</w>
-      <h>88</h>
+      <x>960</x>
+      <y>700</y>
+      <w>140</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>_Hours_
 --
@@ -320,10 +323,10 @@ SUM: 120h
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>44</x>
-      <y>979</y>
-      <w>220</w>
-      <h>220</h>
+      <x>40</x>
+      <y>890</y>
+      <w>200</w>
+      <h>200</h>
     </coordinates>
     <panel_attributes>_Hours_
 --
@@ -339,10 +342,10 @@ SUM: 200h, 2.5mo
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>143</x>
-      <y>902</y>
-      <w>55</w>
-      <h>99</h>
+      <x>130</x>
+      <y>820</y>
+      <w>50</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>30.0;10.0;10.0;70.0</additional_attributes>
@@ -351,9 +354,9 @@ SUM: 200h, 2.5mo
     <id>Relation</id>
     <coordinates>
       <x>0</x>
-      <y>913</y>
-      <w>55</w>
-      <h>77</h>
+      <y>830</y>
+      <w>50</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>30.0;10.0;10.0;50.0</additional_attributes>
@@ -361,10 +364,10 @@ SUM: 200h, 2.5mo
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1452</x>
-      <y>484</y>
-      <w>616</w>
-      <h>770</h>
+      <x>1320</x>
+      <y>440</y>
+      <w>560</w>
+      <h>700</h>
     </coordinates>
     <panel_attributes>Time: 1500h,17mo 
 halign=left
@@ -375,10 +378,10 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>429</x>
-      <y>198</y>
-      <w>869</w>
-      <h>726</h>
+      <x>390</x>
+      <y>180</y>
+      <w>790</w>
+      <h>660</h>
     </coordinates>
     <panel_attributes>Time: 670h,9mo 
 halign=left
@@ -389,10 +392,10 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1650</x>
-      <y>396</y>
-      <w>110</w>
-      <h>165</h>
+      <x>1500</x>
+      <y>360</y>
+      <w>100</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;130.0</additional_attributes>
@@ -400,10 +403,10 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>605</x>
-      <y>1221</y>
-      <w>187</w>
-      <h>110</h>
+      <x>550</x>
+      <y>1110</y>
+      <w>170</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>_Hours_
 --
@@ -414,10 +417,10 @@ Start:</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>649</x>
-      <y>1023</y>
-      <w>66</w>
-      <h>220</h>
+      <x>590</x>
+      <y>930</y>
+      <w>60</w>
+      <h>200</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>40.0;10.0;10.0;180.0</additional_attributes>
@@ -425,10 +428,10 @@ Start:</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>836</x>
-      <y>682</y>
-      <w>154</w>
-      <h>308</h>
+      <x>760</x>
+      <y>620</y>
+      <w>140</w>
+      <h>280</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;260.0;120.0;10.0</additional_attributes>
@@ -436,10 +439,10 @@ Start:</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>99</x>
-      <y>1232</y>
-      <w>396</w>
-      <h>121</h>
+      <x>90</x>
+      <y>1120</y>
+      <w>360</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>Data SystemsSpecialisation
 Coursera
@@ -451,10 +454,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>99</x>
-      <y>1430</y>
-      <w>220</w>
-      <h>220</h>
+      <x>90</x>
+      <y>1300</y>
+      <w>200</w>
+      <h>200</h>
     </coordinates>
     <panel_attributes>_Hours_
 --
@@ -470,10 +473,10 @@ SUM: 100h, 1mo
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>176</x>
-      <y>1342</y>
-      <w>77</w>
-      <h>110</h>
+      <x>160</x>
+      <y>1220</y>
+      <w>70</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;80.0</additional_attributes>
@@ -481,10 +484,10 @@ SUM: 100h, 1mo
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>242</x>
-      <y>726</y>
-      <w>165</w>
-      <h>539</h>
+      <x>220</x>
+      <y>660</y>
+      <w>150</w>
+      <h>490</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;130.0;470.0</additional_attributes>
@@ -492,10 +495,10 @@ SUM: 100h, 1mo
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>396</x>
-      <y>1012</y>
-      <w>88</w>
-      <h>88</h>
+      <x>360</x>
+      <y>920</y>
+      <w>80</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>H?
 --
@@ -507,21 +510,21 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>462</x>
-      <y>1012</y>
-      <w>484</w>
-      <h>187</h>
+      <x>420</x>
+      <y>920</y>
+      <w>490</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>420.0;150.0;10.0;10.0</additional_attributes>
+    <additional_attributes>470.0;80.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>429</x>
-      <y>462</y>
-      <w>88</w>
-      <h>572</h>
+      <x>390</x>
+      <y>420</y>
+      <w>80</w>
+      <h>520</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;500.0</additional_attributes>
@@ -529,10 +532,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>924</x>
-      <y>1056</y>
-      <w>297</w>
-      <h>264</h>
+      <x>890</x>
+      <y>890</y>
+      <w>270</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>_Hours_
 --
@@ -550,12 +553,273 @@ Finish: 15.09.18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>891</x>
-      <y>1001</y>
-      <w>143</w>
-      <h>77</h>
+      <x>810</x>
+      <y>880</y>
+      <w>180</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;110.0;50.0</additional_attributes>
+    <additional_attributes>10.0;40.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1450</x>
+      <y>1180</y>
+      <w>390</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>_*Deep Learning Prerequirements*_
+--
+If I do not meet the requirements to enroll,
+what should I do?
+
+We have a number of Nanodegree programs and
+free courses that can help you prepare,
+including:
+
+    Introduction to Data Analysis
+    Introduction to Computer Science
+    Introduction to Python
+    Linear Algebra Refresher
+    Introduction to Programming Nanodegree
+    program with Data Analysis specialization</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1000</x>
+      <y>1180</y>
+      <w>420</w>
+      <h>710</h>
+    </coordinates>
+    <panel_attributes>_*Machine Learning*_
+--
+What are the prerequisites
+for enrollment?
+
+Real-world software development experience.
+Including:
+
+    Strings, numbers, and variables
+    Statements, operators, and expressions
+    Lists, tuples, and dictionaries
+    Conditions, loops
+    Procedures, objects, modules, and libraries
+    Troubleshooting and debugging
+    Research &amp; documentation
+    Problem solving
+    Algorithms and data structures
+
+    ntermediate statistical knowledge, 
+    of the sort gained through any of
+    Udacity’s introductory statistics
+    courses (listed in our FAQ at the
+    bottom of this page). Including:
+
+    Populations, samples
+    Mean, median, mode
+    Standard error
+    Variation, standard deviations
+    Normal distribution
+    Precision and accuracy
+    Hypothesis testing
+    Problem solving
+    Confidence Interval, P-values, T-test, Statistical Significance
+
+Intermediate calculus and linear algebra
+mastery, addressed in the Linear
+Algebra Refresher Course, including:
+
+    Derivatives
+    Integrals
+    Series expansions
+    Matrix operations through eigenvectors and eigenvalues
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1440</x>
+      <y>1600</y>
+      <w>390</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>_*If I do not meet the requirements to enroll,*_
+_*what should I do?*_
+--
+We have a number of Nanodegree programs
+and free courses that can help you prepare,
+including:
+
+    Introduction to Python
+    Linear Algebra Refresher Course
+    Introduction to Inferential Statistics
+    Introduction to Descriptive Statistics
+    Data Analyst Nanodegree program</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1410</x>
+      <y>1470</y>
+      <w>90</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>570</x>
+      <y>1230</y>
+      <w>390</w>
+      <h>680</h>
+    </coordinates>
+    <panel_attributes>_*Computer Vision Prerequirements*_
+--
+You must have completed a course in Deep 
+Learning equivalent to the Deep Learning 
+Nanodegree program prior to entering 
+the program. Additionally, you should have
+the following knowledge: Intermediate 
+Python programming knowledge, including:
+
+    Strings, numbers, and variables
+    Statements, operators, and expressions
+    Lists, tuples, and dictionaries
+    Conditions, loops
+    Generators &amp; comprehensions
+    Procedures, objects, modules, and libraries
+    Troubleshooting and debugging
+    Research &amp; documentation
+    Problem solving
+    Algorithms and data structures
+
+ Basic shell scripting:
+
+    Run programs from a command line
+    Debug error messages and feedback
+    Set environment variables
+    Establish remote connections
+
+ Basic statistical knowledge, including:
+
+    Populations, samples
+    Mean, median, mode
+    Standard error
+    Variation, standard deviations
+    Normal distribution
+
+Intermediate differential calculus and
+linear algebra, including:
+
+    Derivatives &amp; Integrals
+    Series expansions
+    Matrix operations through eigenvectors
+    and eigenvalues</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>150</x>
+      <y>1620</y>
+      <w>390</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>_*If I do not meet the requirements to enroll,*_
+_*what should I do?*_
+--
+We have a number of Nanodegree programs
+and free courses that can help you prepare,
+including:
+
+    
+    Intro to Machine Learning
+    Intro to Data Science
+    Intro to Programming Nanodegree program
+    Data Analyst Nanodegree program
+    Artificial Intelligence Programming with
+       Python Nanodegree program
+    Machine Learning Engineer Nanodegree
+       program
+    Deep Learning Nanodegree program</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>1520</y>
+      <w>180</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1470</x>
+      <y>1140</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.
+1
+fg=red
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1240</x>
+      <y>1140</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.
+2
+fg=red
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>900</x>
+      <y>1180</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.
+3
+fg=red
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1860</x>
+      <y>1180</y>
+      <w>390</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>_*AI programming with Python*_
+--
+Formal prerequisites include basic
+knowledge of algebra and basic programming
+in any language. You will also need to be
+able to communicate fluently and professionally
+in written and spoken English.</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
