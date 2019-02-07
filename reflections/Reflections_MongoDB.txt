@@ -1,0 +1,9 @@
+19:52 Wednesday, February 06, 2019
+
+    7.Then create the application MongoDB database user required for this course:
+
+        username: m001-student
+        password: m001-mongodb-basics
+
+mongo "mongodb://sandbox-shard-00-00-wy1u1.mongodb.net:27017,sandbox-shard-00-01-wy1u1.mongodb.net:27017,sandbox-shard-00-02-wy1u1.mongodb.net:27017/test?replicaSet=Sandbox-shard-0" --ssl --authenticationDatabase admin --username m001-student --password m001-mongodb-basics
+ - for shell conection

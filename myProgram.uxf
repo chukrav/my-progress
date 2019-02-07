@@ -177,25 +177,27 @@ Finish: 10.11.18
     </coordinates>
     <panel_attributes>_Hours_
 --
-Deep Learning: 40h(4w)
-Int. to Artificial Intel.: 200h(20w)
-Int. Machine Learning: 100h(10w)
-Int. Descriptive Statistics: 80h(8w)
-Machine Learning: 170h(17w)
-Int. Comput Vision: 200h(20w)
-Reinforcement Learning: 160h(16w)
-Artificial Intel:  160h(16w)
+Deep Learning: 40h(4w)*
+Int. to Artificial Intel.: 200h(20w)*
+Int. Machine Learning: 100h(10w)*
+Int. Descriptive Statistics: 80h(8w)*
+Machine Learning: 170h(17w)*
+Int. Comput Vision: 200h(20w)*
+Reinforcement Learning: 160h(16w)*
+Artificial Intel:  160h(16w)*
 M-Learn: Insupervised Learning: 40h(4w)
 Knowlege Based AI:Cognetive Sys.:  70h(7w)
 
 --
 Int Hodor - Big Data:  40h(4w)
 Data Analisis with R:  80h(8w)
-Linear Algebra Refresher:  160h(16w)
+Linear Algebra Refresher:  160h(16w)*
 --
 SUM: 1500h, 17mo
 *Start: 30.09.2018*
-Finish: 31.12.2019</panel_attributes>
+Finish: 31.12.2019
+Find in Udacity in catalog All
+Artificial Intelligence - key word.</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -509,11 +511,11 @@ bg=green</panel_attributes>
     <coordinates>
       <x>462</x>
       <y>1012</y>
-      <w>484</w>
-      <h>187</h>
+      <w>539</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>420.0;150.0;10.0;10.0</additional_attributes>
+    <additional_attributes>470.0;80.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -529,8 +531,8 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>924</x>
-      <y>1056</y>
+      <x>979</x>
+      <y>979</y>
       <w>297</w>
       <h>264</h>
     </coordinates>
@@ -551,11 +553,272 @@ Finish: 15.09.18</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>891</x>
-      <y>1001</y>
-      <w>143</w>
-      <h>77</h>
+      <y>968</y>
+      <w>198</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;110.0;50.0</additional_attributes>
+    <additional_attributes>10.0;40.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1595</x>
+      <y>1298</y>
+      <w>429</w>
+      <h>319</h>
+    </coordinates>
+    <panel_attributes>_*Deep Learning Prerequirements*_
+--
+If I do not meet the requirements to enroll,
+what should I do?
+
+We have a number of Nanodegree programs and
+free courses that can help you prepare,
+including:
+
+    Introduction to Data Analysis
+    Introduction to Computer Science
+    Introduction to Python
+    Linear Algebra Refresher
+    Introduction to Programming Nanodegree
+    program with Data Analysis specialization</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1100</x>
+      <y>1298</y>
+      <w>462</w>
+      <h>781</h>
+    </coordinates>
+    <panel_attributes>_*Machine Learning*_
+--
+What are the prerequisites
+for enrollment?
+
+Real-world software development experience.
+Including:
+
+    Strings, numbers, and variables
+    Statements, operators, and expressions
+    Lists, tuples, and dictionaries
+    Conditions, loops
+    Procedures, objects, modules, and libraries
+    Troubleshooting and debugging
+    Research &amp; documentation
+    Problem solving
+    Algorithms and data structures
+
+    ntermediate statistical knowledge, 
+    of the sort gained through any of
+    Udacity’s introductory statistics
+    courses (listed in our FAQ at the
+    bottom of this page). Including:
+
+    Populations, samples
+    Mean, median, mode
+    Standard error
+    Variation, standard deviations
+    Normal distribution
+    Precision and accuracy
+    Hypothesis testing
+    Problem solving
+    Confidence Interval, P-values, T-test, Statistical Significance
+
+Intermediate calculus and linear algebra
+mastery, addressed in the Linear
+Algebra Refresher Course, including:
+
+    Derivatives
+    Integrals
+    Series expansions
+    Matrix operations through eigenvectors and eigenvalues
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1584</x>
+      <y>1760</y>
+      <w>429</w>
+      <h>319</h>
+    </coordinates>
+    <panel_attributes>_*If I do not meet the requirements to enroll,*_
+_*what should I do?*_
+--
+We have a number of Nanodegree programs
+and free courses that can help you prepare,
+including:
+
+    Introduction to Python
+    Linear Algebra Refresher Course
+    Introduction to Inferential Statistics
+    Introduction to Descriptive Statistics
+    Data Analyst Nanodegree program</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1551</x>
+      <y>1617</y>
+      <w>99</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>627</x>
+      <y>1353</y>
+      <w>429</w>
+      <h>748</h>
+    </coordinates>
+    <panel_attributes>_*Computer Vision Prerequirements*_
+--
+You must have completed a course in Deep 
+Learning equivalent to the Deep Learning 
+Nanodegree program prior to entering 
+the program. Additionally, you should have
+the following knowledge: Intermediate 
+Python programming knowledge, including:
+
+    Strings, numbers, and variables
+    Statements, operators, and expressions
+    Lists, tuples, and dictionaries
+    Conditions, loops
+    Generators &amp; comprehensions
+    Procedures, objects, modules, and libraries
+    Troubleshooting and debugging
+    Research &amp; documentation
+    Problem solving
+    Algorithms and data structures
+
+ Basic shell scripting:
+
+    Run programs from a command line
+    Debug error messages and feedback
+    Set environment variables
+    Establish remote connections
+
+ Basic statistical knowledge, including:
+
+    Populations, samples
+    Mean, median, mode
+    Standard error
+    Variation, standard deviations
+    Normal distribution
+
+Intermediate differential calculus and
+linear algebra, including:
+
+    Derivatives &amp; Integrals
+    Series expansions
+    Matrix operations through eigenvectors
+    and eigenvalues</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>1782</y>
+      <w>429</w>
+      <h>319</h>
+    </coordinates>
+    <panel_attributes>_*If I do not meet the requirements to enroll,*_
+_*what should I do?*_
+--
+We have a number of Nanodegree programs
+and free courses that can help you prepare,
+including:
+
+    
+    Intro to Machine Learning
+    Intro to Data Science
+    Intro to Programming Nanodegree program
+    Data Analyst Nanodegree program
+    Artificial Intelligence Programming with
+       Python Nanodegree program
+    Machine Learning Engineer Nanodegree
+       program
+    Deep Learning Nanodegree program</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>451</x>
+      <y>1672</y>
+      <w>198</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1617</x>
+      <y>1254</y>
+      <w>44</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=.
+1
+fg=red
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1364</x>
+      <y>1254</y>
+      <w>44</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=.
+2
+fg=red
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>990</x>
+      <y>1298</y>
+      <w>44</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=.
+3
+fg=red
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2046</x>
+      <y>1298</y>
+      <w>429</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>_*AI programming with Python*_
+--
+Formal prerequisites include basic
+knowledge of algebra and basic programming
+in any language. You will also need to be
+able to communicate fluently and professionally
+in written and spoken English.</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

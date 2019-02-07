@@ -24,4 +24,97 @@ http://www.pacdv.com/sounds/transportation_sounds.html
 	sr.Close();
 		
 Be sure to select the Canvas in the HUD game object and change the UI Scale Mode in the
-Canvas Scaler component to Scale With Screen Size. Add Text for information purpose.		
+Canvas Scaler component to Scale With Screen Size. Add Text for information purpose.
+
+Events-Menus:
+----------------Invoker-Listener-EventManager--------
+Invoker -> DestroyButton includes:
+	DestroyEvent destroyEvent = new DestroyEvent(); 			-create event object.
+	EventManager.AddDestroyEventInvoker(this); 					-add itself as invoker in EventManager (static class)
+	public void AddDestroyEventListener(UnityAction listener) : -add listener to event object!
+		destroyEvent.AddListener(listener); 
+	public void HandleButtonClicked(): 							-throws event! add OnClick to Button in U-manager!
+		destroyEvent.Invoke();
+		
+Listener -> TeddyBear includes:
+	EventManager.AddDestroyEventListener(HandleDestroyEvent);	-add handler to EventManager as (UnityAction listener)
+	void HandleDestroyEvent():									-makes handler (Destroy TeddyBear)
+        Destroy(gameObject);
+		
+EventManager static has:
+	static Invoker (DestroyButton);
+	static Listener (TeddyBear);
+	
+	public static void AddDestroyEventInvoker(DestroyButton invoker): -registration method
+		if listener != null:
+			invoker.AddDestroyEventListener(listener);				  -invoker add listener
+	public static void AddDestroyEventListener(UnityAction listener): -reflection listener
+		if (invoker != null):
+			invoker.AddDestroyEventListener(listener);				  -invoker add listener
+			
+----------------Invoker-Listener-EventManager--------	
+Randomize enum picking: =========
+	using System;
+    private PickupEffect GetRandomEnum() {
+        Array values = Enum.GetValues(typeof(PickupEffect));
+        System.Random random = new System.Random(); // Ambiguous conflict: Set full name.
+        PickupEffect randomEffect =
+            (PickupEffect)values.GetValue(random.Next(values.Length));
+        return randomEffect;
+    }
+	
+	
+Better Random Generator: ???!!!
+	int newSeed = Guid.NewGuid().GetHashCode();
+    Random rnd = new Random(newSeed);
+	rnd.Next(0, 2);			
+
+C# Collections and all staff:
+	http://www.tutorialsteacher.com/csharp/csharp-list	
+	
+Graphs: 
+Search(int start, int finish, Graph<int> graph
+LinkedList<GraphNode<int>> searchList	
+if (start == finish) -Nothing to search;
+if (graph.Find(start) == null || graph.Find(finish) == null) -Nothing to search;
+else
+	Dictionary<GraphNode<int>, PathNodeInfo<int>> pathNodes <- point to previous node;
+	searchList.AddFirst(startNode);
+	while (searchList.Count > 0)...
+		GraphNode<int> currentNode = searchList.First.Value;
+        searchList.RemoveFirst(); ...!!!
+		foreach (GraphNode<int> neighbor in currentNode.Neighbors) ...
+			if (neighbor.Value == finish) ...
+			else if (pathNodes.ContainsKey(neighbor)) do nothing - cyckle!
+				// link neighbor to current node in path
+                pathNodes.Add(neighbor, new PathNodeInfo<int>(currentNode));
+				if (searchType == SearchType.DepthFirst)
+                    searchList.AddFirst(neighbor);  <- !!!!!!!!!
+				else (BreadthFirst) mey give shorter path!!!
+					searchList.AddLast(neighbor);
+					
+Debug.DrawRay(transform.position, Vector3.down, Color.red); - produce red stick downward. 
+		(play, pause ... select the object, with move tool you can see locat. point.
+
+Use BoxColider as trigger (allow move through) if put v in "Is trigger"	!
+Use Invoke("FunctionName", o.5f) - invoke function 	FunctionName after 0.5 second.
+Destroy(transform.parent.gameObject, 2f); 2f = 2s deley before will be destroyed;
+
+Text animating:
+	Window-> Animation -> Animator,
+	Window-> Animation -> Animation (F6);
+	Samples - speed
+
+To create Singeltone from MyClass : MonoBehaviour class
+declare:
+	public static MyClass instance;
+	
+	private void Awake() {
+        if(instance == null) {
+            instance = this;  // Singletone realisation !!!
+        }
+    }
+
+Assets download:
+https://kenney.nl/assets/tappy-plane
+	
