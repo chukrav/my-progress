@@ -7,3 +7,30 @@
 
 mongo "mongodb://sandbox-shard-00-00-wy1u1.mongodb.net:27017,sandbox-shard-00-01-wy1u1.mongodb.net:27017,sandbox-shard-00-02-wy1u1.mongodb.net:27017/test?replicaSet=Sandbox-shard-0" --ssl --authenticationDatabase admin --username m001-student --password m001-mongodb-basics
  - for shell conection
+
+Connect to cloude 
+mongo "mongodb://cluster0-shard-00-00-jxeqq.mongodb.net:27017,cluster0-shard-00-01-jxeqq.mongodb.net:27017,cluster0-shard-00-02-jxeqq.mongodb.net:27017/test?replicaSet=Cluster0-shard-0"
+ --authenticationDatabase admin --ssl --username m001-student --password m001-mongodb-basics
+ 
+ use video   -switch to video db
+ show collections
+ db.movies.find().pretty()
+ 
+ Problem:
+When connecting to an Atlas cluster using the shell, why do we provide 
+the hostnames for all nodes when we launch mongo? 
+ Answer:
+ If primary node goes down, we shall connect another instead.
+ 
+Lab 2.0 Week-2 Create Cluster and so ... 
+7. Create the application MongoDB database user required for this course:
+
+        username: m001-student
+        password: m001-mongodb-basics
+
+You can create new users through Security -> Add New User.
+
+Connecting to Your Sandbox Cluster from Compass
+From MongoDB.Atlas take M001-> P: sandbox-shard-00-00-wy1u1.mongodb.net you can see this URL?!
+in M001 Student.
+Start New ... in Compas !
