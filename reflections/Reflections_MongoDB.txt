@@ -8,13 +8,24 @@
 mongo "mongodb://sandbox-shard-00-00-wy1u1.mongodb.net:27017,sandbox-shard-00-01-wy1u1.mongodb.net:27017,sandbox-shard-00-02-wy1u1.mongodb.net:27017/test?replicaSet=Sandbox-shard-0" --ssl --authenticationDatabase admin --username m001-student --password m001-mongodb-basics
  - for shell conection
 
-Connect to cloude 
-mongo "mongodb://cluster0-shard-00-00-jxeqq.mongodb.net:27017,cluster0-shard-00-01-jxeqq.mongodb.net:27017,cluster0-shard-00-02-jxeqq.mongodb.net:27017/test?replicaSet=Cluster0-shard-0"
- --authenticationDatabase admin --ssl --username m001-student --password m001-mongodb-basics
+Connect to cloude - Big collection
+mongo "mongodb://cluster0-shard-00-00-jxeqq.mongodb.net:27017,cluster0-shard-00-01-jxeqq.mongodb.net:27017,cluster0-shard-00-02-jxeqq.mongodb.net:27017/test?replicaSet=Cluster0-shard-0" --authenticationDatabase admin --ssl --username m001-student --password m001-mongodb-basics
+i this long ....odb.net:27017/test?replicaSet=Cluster0.... Change test to another knowing : 100YWeatherSmall may be ...
+from MangoDB shell  ....
+load("loadMovieDetailsDataset.js")
+------ In loadMovieDetailsDataset.js : 
+db = db.getSiblingDB("video");
+db.movieDetails.drop();
+db.movieDetails.insertMany([
+{"title":"Once Upon a Time in .............},
+......
+{"title": ...... .,"metacritic":80,"type":"movie"}
+]); --------
  
  use video   -switch to video db
  show collections
  db.movies.find().pretty()
+ db.moviesScratch.insertOne({title: "Star Treck", year: 1982, imdb: "tt0084726"})
  
  Problem:
 When connecting to an Atlas cluster using the shell, why do we provide 
@@ -34,3 +45,47 @@ Connecting to Your Sandbox Cluster from Compass
 From MongoDB.Atlas take M001-> P: sandbox-shard-00-00-wy1u1.mongodb.net you can see this URL?!
 in M001 Student.
 Start New ... in Compas !
+
+insertMeny( []   ) or with argument insertMeny( [],{ ordrred: false}   ) not interrupts if insert duplicates!!!
+
+Find:
+db.movies.find({mpaaRating: 'PG-13', year: 2009}).pretty()
+
+Filter: wind - Object
+{'wind.direction.angle': {$gte: 250,$lt: 300}} '' or "" !!!
+
+db.movieDetails.find({"genres.1": "Western"}).count()
+count of movies genres: "Western" on second position exactly.
+Cursors ...
+Projections ...
+
+db.movieDetails.updateOne(
+   {title: "The Martian"},
+   { $set{
+     poster: "https:// ........... "   }
+   })
+   
+db.movieDetails.updateOne(
+   {title: "The Martian"},
+   { $set
+		{awards:{ <-- it's object!!!
+			wins: 18
+			nominations: 11
+			text:"Won 10 Oscars. Another 18 wins & 11 nominations."}
+		}
+   })   
+
+   
+Upserts ... create docs ?!
+Docs of MongoDB:
+https://docs.mongodb.com/manual/reference/method/db.collection.updateOne/index.html?searchProperty=current&query=Upserts
+
+upsert: 	boolean 	Optional. If set to true, creates a new document
+when no document matches the query criteria. The default value is false,
+which does not insert a new document when no match is found.   
+
+
+
+
+
+
