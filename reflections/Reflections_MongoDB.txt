@@ -82,7 +82,45 @@ https://docs.mongodb.com/manual/reference/method/db.collection.updateOne/index.h
 
 upsert: 	boolean 	Optional. If set to true, creates a new document
 when no document matches the query criteria. The default value is false,
-which does not insert a new document when no match is found.   
+which does not insert a new document when no match is found. 
+
+Chapter 2: The MongoDB Query Language + Atlas
+Lab 2.6: Update Operators
+Problem:
+Suppose you wish to update the value of the plot field for one document in our movieDetails collection
+ to correct a typo. Which of the following update operators and modifiers would you need to use to do this?
+Attempts Remaining:2 Attempts left
+$set 		Sets the value of a field in a document. ++++ Right answer!!! :)))
+$position	Modifies the $push operator to specify the position in the array to add elements. 
+$push		Adds an item to an array. 
+$inc		Increments the value of the field by the specified amount. 
+$mul		Multiplies the value of the field by the specified amount.
+$unset		Removes the specified field from a document.
+$rename		Renames a field.
+$slice		Modifies the $push operator to limit the size of updated arrays.
+$addToSet  	Adds elements to an array only if they do not already exist in the set. ???
+
+By default, the update() method updates a single document. Set the Multi Parameter to update all documents
+ that match the query criteria.
+The update() method has the following form:
+
+db.collection.update(
+   <query>,
+   <update>,
+   {
+     upsert: <boolean>,
+     multi: <boolean>,
+     writeConcern: <document>,
+     collation: <document>,
+     arrayFilters: [ <filterdocument1>, ... ]
+   }
+)
+
+---------------
+db.collection.deleteOne()
+db.collection.deleteMany()
+
+
 
 
 
