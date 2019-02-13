@@ -120,6 +120,156 @@ db.collection.update(
 db.collection.deleteOne()
 db.collection.deleteMany()
 
+Final Exam ------------------------------
+Final Exam: Question 1
+
+Problem:
+Connect to our class Atlas cluster from Compass and view the citibike.trips collection. Use the schema view and any filters you feel are necessary to determine the range of values for the usertype field. Which of the following are values found in this collection for the field usertype?
+
+Check all answers that apply:
+
+Attempts Remaining:∞Unlimited Attempts
+null
+"Customer"
+"Anonymous"
+"Subscriber"
+"Pay As You Go"
+
+Final Exam: Question 2
+
+Problem:
+Connect to our class Atlas cluster from Compass and view the 100YWeatherSmall.data collection. Using the Schema view, explore the wind field. The wind field has the value type of document. Which of the following best describes the schema of this embedded document?
+
+Choose the best answer:
+
+Attempts Remaining:∞Unlimited Attempts
+Three fields -- all with the value type "document"
+Three fields -- two with the value type "document", one with the value type "string"
+Two fields -- one field with the value type "string", one with a value type of "document"
+Two fields -- both with the value type "document"
+
+Final Exam: Question 3
+
+Problem:
+Connect to the M001 class Atlas cluster from Compass and view the 100YWeatherSmall.data collection. What is the value type of the "wind.speed.rate" field?
+
+Choose the best answer:
+
+Attempts Remaining:∞Unlimited Attempts
+document
+double
+array
+int32
+string
+
+Final Exam: Question 4
+
+Problem:
+
+Please connect to the M001 class Atlas cluster. You may answer this question using either the mongo shell or Compass.
+
+For this question we will use the citibike database.
+
+How many documents in the citibike.trips collection have the key tripduration set to null? Ignore any documents that do not contain the tripduration key.
+
+Choose the best answer:
+
+Attempts Remaining:∞Unlimited Attempts
+2
+3
+11
+47
+114
+
+Final Exam: Question 5
+
+Problem:
+
+Using the video.movieDetails collection, which of the queries below would produce output documents that resemble the following. Check all that apply.
+
+{ "title" : "P.S. I Love You" }
+{ "title" : "Love Actually" }
+{ "title" : "Shakespeare in Love" }
+
+NOTE: We are not asking you to consider specifically which documents would be output from the queries below, but rather what fields the output documents would contain.
+
+Check all answers that apply:
+
+Attempts Remaining:∞Unlimited Attempts
+db.movieDetails.find({year: 1964}, {title: 1, _id: 0})
+db.movieDetails.find({}, {title})
+db.movieDetails.find({}, {title: 1, _id: 0})
+db.movieDetails.find({}, {title: 1})
+db.movieDetails.find({title: ""}, {title: 1})
+db.movieDetails.find({title: "Muppets from Space"}, {title: 1})
+
+Final Exam: Question 6
+
+Problem:
+
+Please connect to the M001 class Atlas cluster from the mongo shell or Compass and view the video.movies collection. How many movies match the following criteria?
+
+    The cast includes either of the following actors: "Jack Nicholson", "John Huston".
+    The viewerRating is greater than 7.
+    The mpaaRating is "R".
+
+Choose the best answer:
+
+Attempts Remaining:∞Unlimited Attempts
+1
+5
+8
+19
+26
+
+------------- Prep -----
+Comparison:
+db.inventory.find( { qty: { $gt: 20 } } )
+db.inventory.update( { "carrier.fee": { $gt: 2 } }, { $set: { price: 9.99 } } )
+
+Query Selectors:
+https://docs.mongodb.com/manual/reference/operator/query/#query-selectors
+$in: [] always array one or more!
+db.movieDetails.find({writers: {$in: ["Ethan Coen", "Joel Coen"]}}).count() -> 3 one of writers in list ...
+
+Exists and Not Equal To
+Consider the following example:
+db.inventory.find( { qty: { $exists: true, $nin: [ 5, 15 ] } } )
+$exists - matches the documents that contain the field, including documents where the field
+ value is null. If <boolean> is false, the query returns only the documents that do not contain the field.
+
+$type  -> { field: { $type: <BSON type> } } selects the documents where the value of the 
+field is an instance of the specified BSON type(s)
+
+
+Logical Operators:
+The $or operator performs a logical OR operation on an array of two or more <expressions>
+ and selects the documents that satisfy at least one of the <expressions>. 
+db.inventory.find( { $or: [ { quantity: { $lt: 20 } }, { price: 10 } ] } )  
+
+Problem:
+Connect to our class Atlas cluster from the mongo shell or Compass and view the ships.shipwrecks
+ collection. In this collection, watlev describes the water level at the shipwreck site and depth
+ describes how far below sea level the ship rests. How many documents in the ships.shipwrecks 
+ collection match either of the following criteria: watlev equal to "always dry" or depth equal to 0.
+Solution: 
+db.shipwrecks.find({$or: [{watlev: {$eq: "always dry"}}, {depth: {$eq: 0}}]}).pretty()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
