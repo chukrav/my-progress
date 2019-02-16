@@ -217,7 +217,7 @@ db.movieDetails.find({title: "Muppets from Space"}, {title: 1})
 Final Exam: Question 6
 
 Problem:
-
+{$and: [{cast: {$all: ["Jack Nicholson", "John Huston"]}},{viewerRating: {$gte: 7}},{mpaaRating: "R"}]}
 Please connect to the M001 class Atlas cluster from the mongo shell or Compass and view the video.movies collection. How many movies match the following criteria?
 
     The cast includes either of the following actors: "Jack Nicholson", "John Huston".
@@ -266,6 +266,33 @@ Connect to our class Atlas cluster from the mongo shell or Compass and view the 
 Solution: 
 db.shipwrecks.find({$or: [{watlev: {$eq: "always dry"}}, {depth: {$eq: 0}}]}).pretty()
 
+$all
+db.data.find({sections: {$all: ["AG1", "MD1","OA1"]}}) - find all contains one of [].
+db.collection.find( { field: { $size: 2 } } );
+
+{ <field>: { $elemMatch: { <query1>, <query2>, ... } } }
+db.scores.find(   { results: { $elemMatch: { $gte: 80, $lt: 85 } } })
+
+Given the following documents in the survey collection:
+
+{ _id: 1, results: [ { product: "abc", score: 10 }, { product: "xyz", score: 5 } ] }
+{ _id: 2, results: [ { product: "abc", score: 8 }, { product: "xyz", score: 7 } ] }
+{ _id: 3, results: [ { product: "abc", score: 7 }, { product: "xyz", score: 8 } ] }
+
+db.survey.find({ results: { $elemMatch: { product: "xyz", score: { $gte: 8 } } } })
+db.survey.find({}, ... <- empty filter: select all!
+
+How many documents contain at least one score in the results array that is
+ greater than or equal to 70 and less than 80?
+
+
+mongo "mongodb://mflix-shard-00-00-ryh22.mongodb.net:27017,mflix-shard-00-01-ryh22.mongodb.net:27017,mflix-shard-00-02-ryh22.mongodb.net:27017/test?replicaSet=mflix-shard-0" --ssl --authenticationDatabase admin --username m220student --password m220password
+mongorestore --drop --gzip --uri "mongodb://mflix-shard-00-00-ryh22.mongodb.net:27017,mflix-shard-00-01-ryh22.mongodb.net:27017,mflix-shard-00-02-ryh22.mongodb.net:27017/test?replicaSet=mflix-shard-0" --ssl --authenticationDatabase admin --username m220student --password m220password" data
+# import data into Atlas
+mongorestore --drop --gzip --uri "mongodb+srv://mflix-ryh22.mongodb.net/test" --username m220student data
+  
+Mongo Connection short string:
+mongo "mongodb+srv://mflix-ryh22.mongodb.net/test" --username m220student --password m220password
 
 
 
@@ -277,12 +304,6 @@ db.shipwrecks.find({$or: [{watlev: {$eq: "always dry"}}, {depth: {$eq: 0}}]}).pr
 
 
 
-
-
-
-
-
->>>>>>> b8c4037a3b1334a855747c98253d49e1468ab94f
 
 
 
