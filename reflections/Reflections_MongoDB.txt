@@ -287,14 +287,32 @@ How many documents contain at least one score in the results array that is
 
 
 mongo "mongodb://mflix-shard-00-00-ryh22.mongodb.net:27017,mflix-shard-00-01-ryh22.mongodb.net:27017,mflix-shard-00-02-ryh22.mongodb.net:27017/test?replicaSet=mflix-shard-0" --ssl --authenticationDatabase admin --username m220student --password m220password
-mongorestore --drop --gzip --uri "mongodb://mflix-shard-00-00-ryh22.mongodb.net:27017,mflix-shard-00-01-ryh22.mongodb.net:27017,mflix-shard-00-02-ryh22.mongodb.net:27017/test?replicaSet=mflix-shard-0" --ssl --authenticationDatabase admin --username m220student --password m220password" data
+
 # import data into Atlas
-mongorestore --drop --gzip --uri "mongodb+srv://mflix-ryh22.mongodb.net/test" --username m220student data
+mongorestore --drop --gzip --uri "mongodb+srv://m220student:m220password@mflix-ryh22.mongodb.net/test" data
   
 Mongo Connection short string:
 mongo "mongodb+srv://mflix-ryh22.mongodb.net/test" --username m220student --password m220password
 
+It's highly suggested you also change the SECRET_KEY to some very long, very random:
+]2A%Aur_*fu9Tbv@ 
+D&CMggqKx%{{bD)=Z*q-zpef}?5V/$6_
 
+dotenv_win corrected as:
+-------------------------------------
+# Ticket: Connection
+# Rename this file to .ini after filling in your MFLIX_DB_URI and your SECRET_KEY
+# Do not surround the URI with quotes
+SECRET_KEY=D&CMggqKx%{{bD)=Z*q-zpef}?5V/$6_
+MFLIX_DB_URI=mongodb+srv://m220student:m220password@mflix-ryh22.mongodb.net/test
+MFLIX_NS=mflix
+PORT=5000
+--------------------------------------
+saved as .ini, .env -!!!???
+
+Ticket: Projection ----------------------------
+{countries: {$in: ["USA", "France"]}}
+db.movies.find({countries: {$in: ["USA", "France"]}},{title: 1, _id: 1})
 
 
 
