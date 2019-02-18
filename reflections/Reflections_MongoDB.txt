@@ -311,8 +311,11 @@ PORT=5000
 saved as .ini, .env -!!!???
 
 Ticket: Projection ----------------------------
-{countries: {$in: ["USA", "France"]}}
-db.movies.find({countries: {$in: ["USA", "France"]}},{title: 1, _id: 1})
+{countries: {$in: ["Russia", "Japan", "Mexico"]}}   --2788
+db.movies.find({countries: {$in: ["Russia", "Japan", "Mexico"]}},{title: 1, _id: 1})
+
+Callbacks, Promises and Async/Await: good writeup on asynchronous programming.
+https://medium.com/front-end-hacking/callbacks-promises-and-async-await-ad4756e01d90
 
 
 
