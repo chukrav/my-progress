@@ -313,9 +313,18 @@ saved as .ini, .env -!!!???
 Ticket: Projection ----------------------------
 {countries: {$in: ["Russia", "Japan", "Mexico"]}}   --2788
 db.movies.find({countries: {$in: ["Russia", "Japan", "Mexico"]}},{title: 1, _id: 1})
+Right Answ:
+cursor = await movies.find({countries: {$in: countries}},
+		{ projection: {_id: 1, title: 1}})   <- projection !!!! Eeeee!
 
-Callbacks, Promises and Async/Await: good writeup on asynchronous programming.
+Callbacks, Promises and Async/Await: good writeup on asynchronous programming. *************
 https://medium.com/front-end-hacking/callbacks-promises-and-async-await-ad4756e01d90
+
+ReactJS tutorial:
+https://reactjs.org/docs/hello-world.html
+A re-introduction to JavaScript (JS tutorial)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+
 
 
 
