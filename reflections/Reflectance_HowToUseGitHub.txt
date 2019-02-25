@@ -101,6 +101,11 @@ Downloading necessary files
 	
 	$ git checkout -b lesson-five origin/lesson-five  add untracced branch from origin
 
+	If you wish to set tracking information for this branch you can do so with:
+    git branch --set-upstream-to=origin/<branch> student
+	used: 
+	git branch --set-upstream-to=origin/student student
+	>Branch 'student' set up to track remote branch 'student' from 'origin'.
 
 
 	
