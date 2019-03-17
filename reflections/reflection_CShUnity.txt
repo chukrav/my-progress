@@ -117,8 +117,13 @@ declare:
 
 Assets download:
 https://kenney.nl/assets/tappy-plane
+https://www.mixamo.com/#/
 
 yield return new WaitForSeconds(0.5f); wait0.5 second ...!
 StartCoroutine("SpawnFruit"); - starts function SpawnFruit.
 InvokeRepeating("SpawnFruit", 1, 6f); every 6 second N words ... ?
+
+3D Runner Game
+Animations of 3D assets, connect diff animations
+
 	
