@@ -358,8 +358,19 @@ const pipeline = [{
        }]
 MongoDB Node.js Driver: tutorials and cetra and cetra ... 
 http://mongodb.github.io/node-mongodb-native/3.1/tutorials/crud/#bulkwrite
-
-
+------ bulkWrite -------------------
+const { modifiedCount } = await mflix
+      .collection("movies")
+      .bulkWrite([	    
+	  {updateMany: {  // Many-!!!!!!!! It's working!!!! "filter" "update" put "" !!!
+        "filter": predicate,
+        "update": {$set: { "lastupdated": new Date(Date.parse('$lastupdated')) },
+        },
+      }},
+	  
+	  ],
+		{ordered:false, w:1}
+	  );
 
 
 
