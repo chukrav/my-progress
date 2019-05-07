@@ -122,3 +122,5 @@ yield return new WaitForSeconds(0.5f); wait0.5 second ...!
 StartCoroutine("SpawnFruit"); - starts function SpawnFruit.
 InvokeRepeating("SpawnFruit", 1, 6f); every 6 second N words ... ?
 	
+Vector3 pos = transform.position;
+pos.x =  Mathf.Clamp(pos.x, -maxX, maxX); Clamps left-right position inside min-maxX
