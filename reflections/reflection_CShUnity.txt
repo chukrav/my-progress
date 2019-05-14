@@ -130,3 +130,64 @@ pos.x =  Mathf.Clamp(pos.x, -maxX, maxX); Clamps left-right position inside min-
 Animations of 3D assets, connect diff animations
 
 koah adams: Ness, Ingima, Qualitest, Unilink, Medulla, Ethosia, Horizon, Hever ...
+
+
+
+Tutorials > 2D Game Creation > Scrolling Repeating Backgrounds:
+https://unity3d.com/learn/tutorials/topics/2d-game-creation/scrolling-repeating-backgrounds
+
+
+Interview Questions: ---------------------------------------------
+
+12 Essential Unity or Unity3D Interview Questions * (answers)
+https://www.toptal.com/unity-unity3d/interview-questions
+
+Unity3D Developer Interview Tips - login to codementor with Google lesha.k..
+https://www.codementor.io/markgrossnickle/unity3d-developer-interview-tips-p8o0ihfku
+
+hackerrank - challenges enter as alexei.j... pw: leshakr1459
+https://www.hackerrank.com/onboarding/challenge
+
+How to prepare for an Interview for Game Developer (Unity 3D)
+https://www.linkedin.com/pulse/how-prepare-interview-game-developer-unity-3d-vineet-kumar
+
+I often get mails from people asking me "How do i start career in gaming" and many Unity Dev
+ ask for "Interview Questions" . In this post i'll be sharing the most basic questions usually
+ asked by me and other Interviewers .So what you thing first criteria should be ?  To be a gamer
+ at least , i think.  Even if you are not a gamer  , try to play games  and you will see the 
+ First thing to remember is that No Interviewer directly jumps to Unity Questions , specially
+ when you have an experience of 0-2 years .
+
+First thing the Interviewer is going to ask you is about your Games and he/she will be asking
+ you about the things related to your game . So please don’t even try to  mention the game
+ that you didn’t develop.
+ 
+ General Questions :
+1. Do you play games ? If yes , then name your favorite ones.
+2. He/She will ask you something related to your favorite games.
+3. How would you design this mechanism in Unity and much more.
+4. How many games have you developed so far ?
+
+Technical Questions : 
+Basic questions on OOPS concepts .
+
+Unity Questions :
+1. Let’s say I gave you a game  which is lagging(poor performance), how will you find the bottleneck ?
+2. How to find inactive gameobjects from script ?
+3. What is the use of AssetBundle ?
+4.What is batching ?
+5. Can i change the script execution order ?
+6.  What are Coroutines ? Does it run on different Thread ?
+
+ For the Full Article check this  http://www.unityrealm.com/unity-interview-questions-part-1/ - not worked???!!!
+
+This is not it , I will cover question on Vectors , Physics and more advanced Unity questions in next post. 
+
+Prepare for an Unity 3D (Game Developer / AR, VR Developer) Interview (quest - answers)
+http://www.arreverie.com/blogs/unity3d-developer-interview/
+Unity Engine Specific Question;
+Unity Editor Related Question;
+C# Related Question;
+
+Unity 3D Interview Questions & Answers
+https://www.wisdomjobs.com/e-university/unity-3d-interview-questions.html
