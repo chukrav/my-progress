@@ -191,3 +191,6 @@ C# Related Question;
 
 Unity 3D Interview Questions & Answers
 https://www.wisdomjobs.com/e-university/unity-3d-interview-questions.html
+
+
+button OnClick input is a gameObject, not a script!!!
