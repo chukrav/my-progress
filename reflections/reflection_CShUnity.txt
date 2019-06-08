@@ -111,7 +111,7 @@ declare:
 	
 	private void Awake() {
         if(instance == null) {
-            instance = this;  // Singletone realisation !!!
+            instance = this;  // Singleton realization !!!
         }
     }
 
@@ -125,5 +125,22 @@ InvokeRepeating("SpawnFruit", 1, 6f); every 6 second N words ... ?
 
 3D Runner Game
 Animations of 3D assets, connect diff animations
+
+Version Controlling:
+Bitbucket - allows private repositories.
+GitHub create .gitignore inside if I pick right template, Unity - for-ex.
+SourceTree - GUI Mercurial client ...
+
+Input.touchCount - counts how many touches occur on mobile screen.
+Input.GetTouch(int index) returns Touch structure with whole information about touches.
+Input.GetTouch(0).position - returns a position of first touch.
+Input.GetTouch(0).phase: TouchPhase.Began, .Moved, .Ended 
+Use Debug.Log("my string") - to console out!
+
+Edit->Project Settings -> Input bring to Axes -> All inputs!!!
+
+
+ 
+
 
 	
