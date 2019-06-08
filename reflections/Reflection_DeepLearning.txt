@@ -1,0 +1,15 @@
+03/06/2019  9:47:13.60
+
+conda create --name deep-learning python=3.6 <--- if not created
+activate deep-learning
+. . . .
+
+h:\Backup\Udacity\UDLearn\deep-learning-v2-pytorch>activate deep-learning --> start command
+pronpt becomes:
+(deep-learning) h:\Backup\Udacity\UDLearn\deep-learning-v2-pytorch>jupyter notebook
+
+to start notebook existed:
+cd deep-learning-v2-pytorch
+activate deep-learning
+jupyter notebook
+
