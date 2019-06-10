@@ -13,3 +13,43 @@ cd deep-learning-v2-pytorch
 activate deep-learning
 jupyter notebook
 
+The sigmoid function is defined as sigmoid(x) = 1/(1+exp(-x))
+4x1 + 5x2 - 9 = score; score == x to sigmoid calcs !!!!!
+
+maximum likelihood probability P(all)
+P(blue) = sigm(Wx+b)
+P(red) = sigm(Wx+b)
+...
+P(all) = P1(blue)*P2(red)* ...*PN(...) max of maximum likelihood probability - the best separation.
+cross entropy -ln(...)
+connection between probabilities and error functions, and it's called Cross-Entropy. 
+cross_entropy.py
+import numpy as np
+
+Probability and Cross-Entropy -------
+def cross_entropy(Y, P):
+    Y = np.float_(Y)
+    P = np.float_(P)
+    return -np.sum(Y * np.log(P) + (1 - Y) * np.log(1 - P))
+	
+CE[(1,1,0)(0.8,0.7,0.9)] -> CE[Y,P] Y - 1-have present, 0 - does not have; P - probability.	
+
+Error Function:
+if y = 1 -blue point --------
+P(blue) = y_hat
+Error = -ln(y_hat)
+
+if y = 0 -red point --------
+P(red) = 1-P(blue) = 1 - y_hat
+Error =  -ln(1 - y_hat)
+
+Error = -(1-y)*ln(1 - y_hat) -y*ln(y_hat) 
+
+ErrorFunc = 1/m SUM(1,m) [-(1-yi)*ln(1 - yi_hat) -yi*ln(yi_hat) ]
+
+Gradient Descent Step:
+wi′​←wi​+α(y−y^​)xi​
+b′←b+α(y−y^​)
+
+
+	
