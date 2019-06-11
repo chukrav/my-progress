@@ -51,5 +51,27 @@ Gradient Descent Step:
 wi′​←wi​+α(y−y^​)xi​
 b′←b+α(y−y^​)
 
+l = 1/2𝑛∑𝑖𝑛(y𝑖−y^𝑖)^2 - loss function (also called the cost)
+where n is the number of training examples, y𝑖 are the true labels, and y^𝑖 are the predicted labels.
+
+Training multilayer networks is done through backpropagation which is really just an application
+ of the chain rule from calculus. 
+Now that you have a trained network, you can use it for making predictions. 
+This is typically called inference ---------
+neural networks have a tendency to perform too well on the training data and aren't
+ able to generalize to data that hasn't been seen before. This is called overfitting
+ and it impairs inference performance. To test for overfitting while training, we measure
+ the performance on data not in the training set called the validation set.
+ 
+As usual, let's start by loading the dataset through torchvision.(rain=False ..!)
+testset = datasets.FashionMNIST('~/.pytorch/F_MNIST_data/', download=True, train=False, transform=transform) 
+
+The most common method to reduce overfitting (outside of early-stopping) is dropout,
+# Dropout module with 0.2 drop probability
+        self.dropout = nn.Dropout(p=0.2)
+
+
+
+
 
 	
