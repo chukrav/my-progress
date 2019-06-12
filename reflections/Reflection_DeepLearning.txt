@@ -73,9 +73,20 @@ The most common method to reduce overfitting (outside of early-stopping) is drop
 # Dropout module with 0.2 drop probability
         self.dropout = nn.Dropout(p=0.2)
 
+During training we want to use dropout to prevent overfitting, but during inference
+ we want to use the entire network. So, we need to turn off dropout during validation,
+ testing, and whenever we're using the network to make predictions. To do this, you use
+		model.eval()
 
+Edit,... LaTex in Jupiter: https://gtribello.github.io/mathNET/assets/notebook-writing.html
 
+input[channel] = (input[channel] - mean[channel]) / std[channel]
+Subtracting mean centers the data around zero and dividing by std squishes the values
+ to be between -1 and 1. Normalizing helps keep the network work weights near zero which
+ in turn makes backpropagation more stable. Without normalization, networks will tend to fail to learn.
 
+A list of all the available transforms:  
+https://pytorch.org/docs/0.3.0/torchvision/transforms.html 
 
 	
 
