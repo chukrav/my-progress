@@ -15,3 +15,67 @@ jupyter notebook
 
 loss function (also called the cost): ℓ=1/2𝑛*∑𝑖𝑛(𝑦𝑖−y_hat𝑖)^2
 where 𝑛 is the number of training examples, 𝑦𝑖 are the true labels, and y_hat𝑖 are the predicted labels.
+=======
+The sigmoid function is defined as sigmoid(x) = 1/(1+exp(-x))
+4x1 + 5x2 - 9 = score; score == x to sigmoid calcs !!!!!
+
+maximum likelihood probability P(all)
+P(blue) = sigm(Wx+b)
+P(red) = sigm(Wx+b)
+...
+P(all) = P1(blue)*P2(red)* ...*PN(...) max of maximum likelihood probability - the best separation.
+cross entropy -ln(...)
+connection between probabilities and error functions, and it's called Cross-Entropy. 
+cross_entropy.py
+import numpy as np
+
+Probability and Cross-Entropy -------
+def cross_entropy(Y, P):
+    Y = np.float_(Y)
+    P = np.float_(P)
+    return -np.sum(Y * np.log(P) + (1 - Y) * np.log(1 - P))
+	
+CE[(1,1,0)(0.8,0.7,0.9)] -> CE[Y,P] Y - 1-have present, 0 - does not have; P - probability.	
+
+Error Function:
+if y = 1 -blue point --------
+P(blue) = y_hat
+Error = -ln(y_hat)
+
+if y = 0 -red point --------
+P(red) = 1-P(blue) = 1 - y_hat
+Error =  -ln(1 - y_hat)
+
+Error = -(1-y)*ln(1 - y_hat) -y*ln(y_hat) 
+
+ErrorFunc = 1/m SUM(1,m) [-(1-yi)*ln(1 - yi_hat) -yi*ln(yi_hat) ]
+
+Gradient Descent Step:
+wi′​←wi​+α(y−y^​)xi​
+b′←b+α(y−y^​)
+
+l = 1/2𝑛∑𝑖𝑛(y𝑖−y^𝑖)^2 - loss function (also called the cost)
+where n is the number of training examples, y𝑖 are the true labels, and y^𝑖 are the predicted labels.
+
+Training multilayer networks is done through backpropagation which is really just an application
+ of the chain rule from calculus. 
+Now that you have a trained network, you can use it for making predictions. 
+This is typically called inference ---------
+neural networks have a tendency to perform too well on the training data and aren't
+ able to generalize to data that hasn't been seen before. This is called overfitting
+ and it impairs inference performance. To test for overfitting while training, we measure
+ the performance on data not in the training set called the validation set.
+ 
+As usual, let's start by loading the dataset through torchvision.(rain=False ..!)
+testset = datasets.FashionMNIST('~/.pytorch/F_MNIST_data/', download=True, train=False, transform=transform) 
+
+The most common method to reduce overfitting (outside of early-stopping) is dropout,
+# Dropout module with 0.2 drop probability
+        self.dropout = nn.Dropout(p=0.2)
+
+
+
+
+
+	
+

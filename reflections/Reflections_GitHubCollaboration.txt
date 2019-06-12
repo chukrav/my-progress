@@ -223,6 +223,8 @@ Downloading necessary files
 	$ git config --global core.editor "'d:/Utils/Editors/npp.6.8.7/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 	alias npp="d:/Utils/Editors/npp.6.8.7/notepad++.exe"	
 	$ git config --global credential.helper cache  - store user password
+	$ git config --global credential.helper wincred - With Git for Windows, running the following in
+														the command line will store your credentials:
 	
 		git reset --hard HEAD  <-- discard last changes.
 	
