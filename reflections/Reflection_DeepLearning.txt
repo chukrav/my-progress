@@ -13,3 +13,5 @@ cd deep-learning-v2-pytorch
 activate deep-learning
 jupyter notebook
 
+loss function (also called the cost): ℓ=1/2𝑛*∑𝑖𝑛(𝑦𝑖−y_hat𝑖)^2
+where 𝑛 is the number of training examples, 𝑦𝑖 are the true labels, and y_hat𝑖 are the predicted labels.
