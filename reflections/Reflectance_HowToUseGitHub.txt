@@ -106,6 +106,26 @@ Downloading necessary files
 	used: 
 	git branch --set-upstream-to=origin/student student
 	>Branch 'student' set up to track remote branch 'student' from 'origin'.
+	
+Git force pull to overwrite local files:
+	git fetch --all
+	git reset --hard origin/master
+	git pull origin master
+	
+Really the ideal way to do this is to not use pull at all, but instead fetch and reset:
+https://stackoverflow.com/questions/9589814/how-do-i-force-git-pull-to-overwrite-everything-on-every-pull/9589927
+
+	git fetch origin master
+	git reset --hard FETCH_HEAD
+	git clean -df
+
+(Altering master to whatever branch you want to be following.)	
+-----------
+https://itsyndicate.org/blog/how-to-use-git-force-pull-properly/
+git fetch origin master
+git reset --hard origin/master
+
+(If you are working with branches, use the branch name instead of master branch).
 
 
 	
