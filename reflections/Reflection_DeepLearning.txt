@@ -112,7 +112,31 @@ Outline
     Delete a virtual environment
 		conda remove -n yourenvname -all
 		
-		
+Building identical conda environments:
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#cloning-an-environment
+	conda list --explicit <-to produce a spec list
+	conda list --explicit > spec-file.txt	<-To create this spec list as a file in the current working directory
+To use the spec file to create an identical environment on the same machine or another machine:
+	conda create --name myenv --file spec-file.txt
+To use the spec file to install its listed packages into an existing environment:
+	conda install --name myenv --file spec-file.txt
+	
+Sharing an environment
+You may want to share your environment with someone else---for example,
+ so they can re-create a test that you have done. To allow them to quickly 
+ reproduce your environment, with all of its packages and versions, give them
+ a copy of your environment.yml file.	
+ Email or copy the exported environment.yml file to the other person.
+Create the environment from the environment.yml file:
+	conda env create -f environment.yml
+
+Verify that the new environment was installed correctly:
+	conda list
+
+
+
+ 
+	
 
 	
 
