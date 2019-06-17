@@ -88,5 +88,31 @@ Subtracting mean centers the data around zero and dividing by std squishes the v
 A list of all the available transforms:  
 https://pytorch.org/docs/0.3.0/torchvision/transforms.html 
 
+https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
+CONDA Commands:
+Outline
+
+    Check conda is installed and available
+		$ conda -V
+		conda 3.7.0
+    Update conda if necessary
+		conda update conda
+    Create a virtual environment
+		To see a list of available python versions first, type conda search "^python$"
+		conda create -n yourenvname python=x.x anaconda
+		conda create --name snowflakes biopython
+    Activate a virtual environment
+		source activate yourenvname
+		conda activate snowflakes <- Windows v4.6 >
+		activate snowflakes v4.6 =>
+    Install additional python packages
+		conda install -n yourenvname [package]
+    Deactivate a virtual environment
+		source deactivate
+    Delete a virtual environment
+		conda remove -n yourenvname -all
+		
+		
+
 	
 
