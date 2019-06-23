@@ -133,7 +133,8 @@ Create the environment from the environment.yml file:
 Verify that the new environment was installed correctly:
 	conda list
 
-
+Slow internet problem:
+conda config set remote_read_timeout_secs 120
 
  
 	
