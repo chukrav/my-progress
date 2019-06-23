@@ -135,6 +135,29 @@ Verify that the new environment was installed correctly:
 
 Slow internet problem:
 conda config set remote_read_timeout_secs 120
+=======
+Can you try uninstalling all of:
+
+    ipykernel
+    ipython
+    jupyter_client
+    jupyter_core
+    traitlets
+    ipython_genutils
+
+And then install again. If you're doing this inside a conda env, it might be
+ easiest to create a new environment and start from scratch. Also, if you're
+ going to install with conda, run conda clean -tipsy to clean up conda caches before you start.
+	
+	
+  conda remove  ipykernel  ipython  jupyter_client  jupyter_core  traitlets  ipython_genutils
+  conda install  ipykernel  ipython  jupyter_client  jupyter_core  traitlets  ipython_genutils
+
+C:\\Python\\Anaconda3\\envs\\pysyft\\python.exe - <- place, where the kernel is. (was Miniconda3)
+C:\Users\Arkady\AppData\Roaming\jupyter\kernels\python3\kernel.json - where it writen!
+
+deskew - искажать; извращать 
+augmented_db = (true_dist_mean + noise_dist_mean)/2
 
  
 	
