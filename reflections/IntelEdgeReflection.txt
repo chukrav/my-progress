@@ -57,6 +57,18 @@ https://github.com/opencv/dldt.git
 Intel® Neural Compute Stick 2 and Open Source OpenVINO™ Toolkit
 https://software.intel.com/en-us/articles/intel-neural-compute-stick-2-and-open-source-openvino-toolkit
 
+Work version of OpenVINO™ toolkit: -------------------
+ You have signed up for the Intel® Distribution of OpenVINO™ toolkit for Windows*. 
+ You will receive an email with the serial number listed below and the download location
+ for future reference.
+
+Serial number : C9PJ-F8476P38
+    Save this serial number. You may need it to activate your product in the installer.
+	For your reference, you will receive an email that includes your serial number and download
+	instructions.
+--------------------------------------------------------
+
+
 
 
 
