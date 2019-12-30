@@ -67,6 +67,95 @@ Serial number : C9PJ-F8476P38
 	For your reference, you will receive an email that includes your serial number and download
 	instructions.
 --------------------------------------------------------
+Course Structure L1.6:
+
+    1. focus on AI at the Edge using the Intel® Distribution of OpenVINO™ Toolkit.
+    2. start off with pre-trained models in the OpenVINO™ Open Model Zoo.
+	   Even without training, you can deploy models created for many applications.
+    3. learn about the Model Optimizer, which can take a model you trained in TensorFlow,
+       PyTorch, Caffe and more, create an Intermediate Representation (IR) optimized for
+	   inference with OpenVINO™ and Intel® hardware.
+    4. learn about the Inference Engine, where the actual inference is performed on the IR model.
+    5. Lastly, we'll hit some more topics on deploying at the edge, including things like handling
+	input streams, processing model outputs, and the lightweight MQTT architecture used to publish
+	data from your edge models to the web.
+	
+Lesson 1:	Recap Summary
+
+we covered:
+
+    The basics of the edge
+    The importance of the edge and its history
+    Edge applications
+    The structure of the course
+        Pre-Trained Models
+        The Model Optimizer
+        The Inference Engine
+        More edge topics (MQTT, servers, etc.)
+    An overview of the project
+
+
+Lesson 2:
+The OpenVINO™ Toolkit’s name comes from “Open Visual Inferencing and Neural Network .
+We covered three types of computer vision models in the video: Classification, Detection,
+and Segmentation. 
+
+Further Research
+
+Getting used to reading research papers is a key skill to build when working with AI and Computer Vision.
+ Below, you can find the original research papers on some of the networks we discussed in this section.
+
+    SSD: https://arxiv.org/abs/1512.02325
+    YOLO: https://arxiv.org/abs/1506.02640
+    Faster RCNN: https://arxiv.org/abs/1506.01497
+    MobileNet: https://arxiv.org/abs/1704.04861
+    ResNet: https://arxiv.org/abs/1512.03385
+    Inception: https://arxiv.org/pdf/1409.4842.pdf
+
+
+
+
+
+Intermediate Representations (IR)
+Further Research
+You can find the main developer documentation on converting models in the OpenVINO™ Toolkit here.
+https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_convert_model_Converting_Model.html
+ We’ll cover how to do so with TensorFlow, Caffe and ONNX (useful for PyTorch) over the next several pages.
+You can find the documentation on different layer names when converted to an IR here.
+https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_Supported_Frameworks_Layers.html
+Finally, you can find more in-depth data on each of the Intermediate Representation layers themselves here.
+https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_convert_model_IRLayersCatalogSpec.html
+
+----------------------------------------------------------
+We used to put a long pathes in our commands , and
+ being suggested considering setting a path environment variable for the Model Optimizer
+ if we are working locally on a Linux-based machine. You could do something like this:
+
+`export MOD_OPT=/opt/intel/openvino/deployment_tools/model_optimizer`
+
+And then when you need to use it, you can utilize it with $MOD_OPT/mo.py instead of entering
+ the full long path each time. In this case, that would also help shorten
+ the path to the ssd_v2_support.json file used.
+ --------------------------------------------------------
+ alexei.json
+ Leshakr1459$
+ You have signed up for the Intel® Distribution of OpenVINO™ toolkit for Windows*. 
+ You will receive an email with the serial number listed below and the download location
+ for future reference.
+
+Serial number : C9PJ-55TJCBKT
+
+    Save this serial number. You may need it to activate your product in the installer.
+	For your reference, you will receive an email that includes your serial number and download
+	instructions.
+	Your Serial Number
+
+    Your serial number for this product is C9PJ-55TJCBKT. Save this number, since you will need 
+	it to install the software.
+
+
+
+
 
 
 
