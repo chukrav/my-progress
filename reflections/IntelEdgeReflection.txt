@@ -152,6 +152,19 @@ Serial number : C9PJ-55TJCBKT
 
     Your serial number for this product is C9PJ-55TJCBKT. Save this number, since you will need 
 	it to install the software.
+	
+	
+Lesson 4:
+	Integrating into Your App ...
+	Further Research
+	There’s a ton of great potential edge applications out there for you to build. Here are some
+	examples to hopefully get you thinking:
+
+    Intel®’s IoT Apps Across Industries: https://www.intel.com/content/www/us/en/internet-of-things/industry-solutions.html
+    Starting Your First IoT Project: https://hackernoon.com/the-ultimate-guide-to-starting-your-first-iot-project-8b0644fbbe6d
+    OpenVINO™ on a Raspberry Pi and Intel® Neural Compute Stick: https://www.pyimagesearch.com/2019/04/08/openvino-opencv-and-movidius-ncs-on-the-raspberry-pi/
+
+
 
 
 
