@@ -314,6 +314,8 @@ Lesson 4:
     Starting Your First IoT Project: https://hackernoon.com/the-ultimate-guide-to-starting-your-first-iot-project-8b0644fbbe6d
     OpenVINO™ on a Raspberry Pi and Intel® Neural Compute Stick: https://www.pyimagesearch.com/2019/04/08/openvino-opencv-and-movidius-ncs-on-the-raspberry-pi/
 
+Inference Engine Python API documentation reference can be found here: !!!!!!!!!!!!!!!!
+	https://docs.openvinotoolkit.org/latest/_inference_engine_ie_bridges_python_docs_api_overview.html#iecore-constructor
 
 
 
