@@ -132,7 +132,8 @@ We used to put a long pathes in our commands , and
  if we are working locally on a Linux-based machine. You could do something like this:
 
 `export MOD_OPT=/opt/intel/openvino/deployment_tools/model_optimizer`
-                /opt/intel/openvino/deployment_tools/model_optimizer/mo.py
+                /opt/intel/openvino/deployment_tools/model_optimizer/
+				/opt/intel/openvino/deployment_tools/model_optimizer/
 
 And then when you need to use it, you can utilize it with $MOD_OPT/mo.py instead of entering
  the full long path each time. In this case, that would also help shorten
@@ -323,6 +324,40 @@ but here’s a great blog post: https://towardsdatascience.com/what-is-the-best-
 to give you some further background on the topic.
 You can check out the Optimization Guide: https://docs.openvinotoolkit.org/latest/_docs_optimization_guide_dldt_optimization_guide.html
  for more on the differences in optimization between devices.
+=======
+L04.9:
+
+MQTT -----------
+MQTT stands for MQ Telemetry Transport, where the MQ came from an old IBM product line called IBM MQ
+for Message Queues.
+
+Publish/Subscribe
+In the publish/subscribe architecture, there is a broker, or hub, that receives messages published 
+to it by different clients. The broker then routes the messages to any clients subscribing to those 
+particular messages. 
+MQTT is one example of this type of architecture, and is very lightweight. While you could publish 
+information such as the count of bounding boxes over MQTT, you cannot publish a video frame using it. 
+Publish/subscribe is also used with self-driving cars, such as with the Robot Operating System, or 
+ROS for short.
+ 
+Further Research
+
+    Visit the main site for MQTT: http://mqtt.org/
+    A helpful post on more of the basics of MQTT: https://internetofthingsagenda.techtarget.com/definition/MQTT-MQ-Telemetry-Transport
+
+Further Research
+
+    documentation on PyPi related to the paho-mqtt Python library: https://pypi.org/project/paho-mqtt/
+    Intel® pretty neat IoT tutorial on working with MQTT with Python: https://software.intel.com/en-us/SetupGateway-MQTT
+
+L04.11: Streaming Images to a Server
+Further Research:
+We covered FFMPEG [https://www.ffmpeg.org/] and ffserver, but as you may guess, there are also other ways to stream video 
+to a browser. Here are a couple other options you can investigate for your own use:
+
+    Set up Your Own Server on Linux: https://opensource.com/article/19/1/basic-live-video-streaming-server
+    Use Flask and Python: https://www.pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/
+	
 
 In this lesson we covered:
 
