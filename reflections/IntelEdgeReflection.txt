@@ -318,6 +318,13 @@ Lesson 4:
 Inference Engine Python API documentation reference can be found here: !!!!!!!!!!!!!!!!
 	https://docs.openvinotoolkit.org/latest/_inference_engine_ie_bridges_python_docs_api_overview.html#iecore-constructor
 
+Further Research:
+The best programming language for machine learning and deep learning is still being debated,
+but here’s a great blog post: https://towardsdatascience.com/what-is-the-best-programming-language-for-machine-learning-a745c156d6b7
+to give you some further background on the topic.
+You can check out the Optimization Guide: https://docs.openvinotoolkit.org/latest/_docs_optimization_guide_dldt_optimization_guide.html
+ for more on the differences in optimization between devices.
+=======
 L04.9:
 
 MQTT -----------
@@ -352,11 +359,110 @@ to a browser. Here are a couple other options you can investigate for your own u
     Use Flask and Python: https://www.pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/
 	
 
+In this lesson we covered:
 
+    Basics of the Inference Engine
+    Supported Devices
+    Feeding an Intermediate Representation to the Inference Engine
+    Making Inference Requests
+    Handling Results from the Inference Engine
+    Integrating the Inference Model into an App
 
+Inference Engine
+Provides a library of computer vision functions, supports calls to other computer vision libraries
+ such as OpenCV, and performs optimized inference on Intermediate Representation models. Works with
+ various plugins specific to different hardware to support even further optimizations.
 
-    
+Synchronous
+Such requests wait for a given request to be fulfilled prior to continuing on to the next request.
 
+Asynchronous
+Such requests can happen simultaneously, so that the start of the next request does not need to
+ wait on the completion of the previous.
+ 
+IECore
+The main Python wrapper for working with the Inference Engine. Also used to load an IENetwork,
+ check the supported layers of a given network, as well as add any necessary CPU extensions.
+ 
+IENetwork
+A class to hold a model loaded from an Intermediate Representation (IR). This can then be loaded
+ into an IECore and returned as an Executable Network.
+
+ExecutableNetwork
+An instance of a network loaded into an IECore and ready for inference. It is capable of both
+ synchronous and asynchronous requests, and holds a tuple of InferRequest objects.
+
+InferRequest
+Individual inference requests, such as image by image, to the Inference Engine. Each of these contain
+ their inputs as well as the outputs of the inference request once complete.
+
+Lesson 5: --------------------------------
+
+In this lesson we'll cover:
+
+    Basics of OpenCV
+    Handling Input Streams in OpenCV
+    Processing Model Outputs for Additional Useful Information
+    The Basics of MQTT and their use with IoT devices
+    Sending statistics and video streams to a server
+    Performance basics
+    And finish up by thinking about additional model use cases, as well as end user needs
+
+OpenCV has some pretty extensive tutorials available to dive deeper in:
+https://docs.opencv.org/master/d9/df8/tutorial_root.html 
+
+In this lesson we covered:
+
+    Basics of OpenCV
+    Handling Input Streams in OpenCV
+    Processing Model Outputs for Additional Useful Information
+    The Basics of MQTT and their use with IoT devices
+    Sending statistics and video streams to a server
+    Performance basics
+    Thinking about additional model use cases, as well as end user needs
+
+OpenCV
+A computer vision (CV) library filled with many different computer vision functions and other useful
+ image and video processing and handling capabilities.
+
+MQTT
+A publisher-subscriber protocol often used for IoT devices due to its lightweight nature. The paho-mqtt
+ library is a common way of working with MQTT in Python.
+
+Publish-Subscribe Architecture
+A messaging architecture whereby it is made up of publishers, that send messages to some central broker,
+ without knowing of the subscribers themselves. These messages can be posted on some given “topic”,
+ which the subscribers can then listen to without having to know the publisher itself, just the “topic”.
+
+Publisher
+In a publish-subscribe architecture, the entity that is sending data to a broker on a certain “topic”.
+Subscriber
+
+In a publish-subscribe architecture, the entity that is listening to data on a certain “topic” 
+from a broker.
+
+Topic
+In a publish-subscribe architecture, data is published to a given topic, and subscribers to that topic 
+can then receive that data.
+
+FFmpeg
+Software that can help convert or stream audio and video. In the course, the related ffserver software
+ is used to stream to a web server, which can then be queried by a Node server for viewing in a web
+ browser.
+
+Flask
+A Python framework: https://www.fullstackpython.com/flask.html
+ useful for web development and another potential option for video streaming to a web
+ browser.
+
+Node Server
+A web server built with Node.js that can handle HTTP requests and/or serve up a webpage for viewing 
+in a browser.
+  
+Intel® DevMesh
+Check out the Intel® DevMesh website: https://devmesh.intel.com/
+ for some more awesome projects others have built, join in on existing projects, or even post some 
+ of your own!
     
 
 
