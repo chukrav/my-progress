@@ -36,3 +36,6 @@ JavaDoc on AsyncTask :https://developer.android.com/reference/android/os/AsyncTa
 L02.16
 GitHub query example:
 //https://github.com/search?q=ud851
+
+How to completely uninstall Android Studio from windows(v10)?
+https://stackoverflow.com/questions/39953495/how-to-completely-uninstall-android-studio-from-windowsv10
