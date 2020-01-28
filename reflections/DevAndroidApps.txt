@@ -1,5 +1,5 @@
 Code in f:\Backup\Udacity\CodeNEW\ - Long full names more then 100 simbols are not alowed!
-Lesson 2:
+Lesson 2: on 8 item.
 
 L02.05
 Different Resource Directories
