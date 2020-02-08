@@ -1,0 +1,13 @@
+Friends:
+https://github.com/mGalarnyk/datasciencecoursera/blob/master/Stanford_Machine_Learning/Week2/week2quiz1LinearRegressionMultipleVariables.md
+
+Start Octave no GUI:
+octave --no-gui
+Change prompt: PS1('$') to $
+
+How to submit:
+Copy the token below and run the submission script included in the assignment download. When prompted,
+use your email address alexei.jobs@gmail.com.
+AyKZ7ict1ssi9qVK  ====================
+Your submission token is unique to you and should not be shared with anyone. You may 
+submit as many times as you like.
