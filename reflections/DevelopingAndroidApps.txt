@@ -1,3 +1,7 @@
+Lesson 1:
+Use ConstraintLayout to design your Android views:
+https://codelabs.developers.google.com/codelabs/constraint-layout/#0
+
 Code in f:\Backup\Udacity\CodeNEW\ - Long full names more then 100 simbols are not alowed!
 Lesson 2:
 

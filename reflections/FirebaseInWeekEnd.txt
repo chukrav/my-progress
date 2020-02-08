@@ -1,3 +1,84 @@
 L01.03:
 Firebase features here:
 https://firebase.google.com/features/
+
+Add Firebase to your Android project:
+https://firebase.google.com/docs/android/setup
+
+Firebase Project Setup:-------------------
+STEP-3=======
+ Project-level build.gradle (<project>/build.gradle): ---------------------
+buildscript {
+  repositories {
+    // Check that you have the following line (if not, add it):
+    google()  // Google's Maven repository
+  }
+  dependencies {
+    ...
+    // Add this line
+    classpath 'com.google.gms:google-services:4.3.2'
+  }
+}
+
+allprojects {
+  ...
+  repositories {
+    // Check that you have the following line (if not, add it):
+    google()  // Google's Maven repository
+    ...
+  }
+}
+
+ App-level build.gradle (<project>/<app-module>/build.gradle): ---------------
+apply plugin: 'com.android.application'
+// Add this line
+apply plugin: 'com.google.gms.google-services'
+
+dependencies {
+  // add the Firebase SDK for Google Analytics
+  implementation 'com.google.firebase:firebase-analytics:17.2.0'
+  // add SDKs for any other desired Firebase products
+  // https://firebase.google.com/docs/android/setup#available-libraries
+}
+
+keytool -exportcert -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
+pswd: android
+SHA1:
+0C:60:A9:E6:96:67:76:6A:0C:F2:4C:60:A9:98:08:86:F6:F5:DF:67
+
+Step3 Add SDK ------------- Project-level build.gradle (<project>/build.gradle): 
+buildscript {
+  repositories {
+    // Check that you have the following line (if not, add it):
+    google()  // Google's Maven repository
+  }
+  dependencies {
+    ...
+    // Add this line
+    classpath 'com.google.gms:google-services:4.3.2'
+  }
+}
+
+allprojects {
+  ...
+  repositories {
+    // Check that you have the following line (if not, add it):
+    google()  // Google's Maven repository
+    ...
+  }
+}
+
+// -----  App-level build.gradle (<project>/<app-module>/build.gradle):
+apply plugin: 'com.android.application'
+// Add this line
+apply plugin: 'com.google.gms.google-services'
+
+dependencies {
+  // add the Firebase SDK for Google Analytics
+  implementation 'com.google.firebase:firebase-analytics:17.2.0'
+  // add SDKs for any other desired Firebase products
+  // https://firebase.google.com/docs/android/setup#available-libraries
+}
+
+
+
