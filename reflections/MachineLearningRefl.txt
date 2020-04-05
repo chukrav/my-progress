@@ -1,6 +1,7 @@
 Friends:
 https://github.com/mGalarnyk/datasciencecoursera/blob/master/Stanford_Machine_Learning/Week2/week2quiz1LinearRegressionMultipleVariables.md
 https://github.com/atinesh-s/Coursera-Machine-Learning-Stanford
+https://github.com/tuanavu/coursera-stanford
 
 Start Octave no GUI:
 octave --no-gui
