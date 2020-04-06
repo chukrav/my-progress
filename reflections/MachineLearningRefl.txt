@@ -1,5 +1,8 @@
 Friends:
 https://github.com/mGalarnyk/datasciencecoursera/blob/master/Stanford_Machine_Learning/Week2/week2quiz1LinearRegressionMultipleVariables.md
+above forked: datasciencecoursera-1 ... !!!
+https://github.com/tuanavu/coursera-stanford
+https://github.com/atinesh-s/Coursera-Machine-Learning-Stanford - not bad !!!
 
 Start Octave no GUI:
 octave --no-gui
@@ -11,3 +14,60 @@ use your email address alexei.jobs@gmail.com.
 AyKZ7ict1ssi9qVK  ====================
 Your submission token is unique to you and should not be shared with anyone. You may 
 submit as many times as you like.
+
+a = [ones(5,1); 2*ones(5,1);3*ones(5,1);4*ones(5,1)]
+$eye(4)(a,:)     % <-- !!!
+ans =
+   1   0   0   0
+   1   0   0   0
+   1   0   0   0
+   1   0   0   0
+   1   0   0   0
+   0   1   0   0
+   0   1   0   0
+   0   1   0   0
+   0   1   0   0
+   0   1   0   0
+   0   0   1   0
+   0   0   1   0
+   0   0   1   0
+   0   0   1   0
+   0   0   1   0
+   0   0   0   1
+   0   0   0   1
+   0   0   0   1
+   0   0   0   1
+   0   0   0   1
+   
+The Porter Stemming Algorithm
+https://tartarus.org/martin/PorterStemmer/
+
+14:04 Thursday, March 26, 2020
+Coursera-Ng-Convolutional-Neural-Networks
+
+Friends: 
+to find on Github: Deep Learning coursera ng
+https://github.com/DeepakSridhar/Deep-Learning-Coursera
+https://github.com/Kulbear/deep-learning-coursera
+https://github.com/andersy005/deep-learning-specialization-coursera
+
+Course I
+https://github.com/SSQ/Coursera-Ng-Convolutional-Neural-Networks
+https://ssq.github.io/2017/08/28/Coursera%20Ng%20Deep%20Learning%20Specialization%20Notebook/#Convolutional-Neural-Networks
+
+Course II
+https://github.com/SSQ/Coursera-Ng-Improving-Deep-Neural-Networks-Hyperparameter-tuning-Regularization-and-Optimization
+
+Course III
+https://github.com/SSQ/Coursera-Ng-Structuring-Machine-Learning-Projects
+
+Course IV .......
+Calculus:
+Differential Calculus: https://www.khanacademy.org/math/differential-calculus
+Linear algebra: https://www.khanacademy.org/math/linear-algebra
+
+Differential Equations in Action: https://www.udacity.com/course/differential-equations-in-action--cs222
+Data Analysis with R:
+https://www.udacity.com/course/data-analysis-with-r--ud651
+
+

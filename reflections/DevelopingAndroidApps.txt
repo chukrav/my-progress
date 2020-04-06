@@ -306,5 +306,17 @@ SQLiteAssetHelper.java
 Utils.java
 VersionComparator.java
 
-
+13:11 Sunday, April 05, 2020
+Second Start *********************************
+Android Developer. Layouts
+https://developer.android.com/guide/topics/ui/layout/recyclerview
+A gardening app illustrating Android development best practices with Android Jetpack.
+https://github.com/android/sunflower
+Android-Open-Shopping-List:
+https://github.com/david-szabo97/Android-Open-Shopping-List
+Firestore-ShoppingListApp 
+https://github.com/alexmamo/Firestore-ShoppingListApp
+ udacity /ShoppingListPlusPlus 
+ https://github.com/udacity/ShoppingListPlusPlus
+ 
 
