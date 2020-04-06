@@ -39,3 +39,7 @@ GitHub query example:
 
 How to completely uninstall Android Studio from windows(v10)?
 https://stackoverflow.com/questions/39953495/how-to-completely-uninstall-android-studio-from-windowsv10
+
+How to Install HAXM: Installing Intel HAXM is a must if you want to run Android Emulator in Windows PC.
+Without which the Android Emulator will run very slowly. 
+https://www.tektutorialshub.com/android-studio/haxm-installation-failed-install-intel-haxm-in-windows/

@@ -4,6 +4,9 @@ above forked: datasciencecoursera-1 ... !!!
 https://github.com/tuanavu/coursera-stanford
 https://github.com/atinesh-s/Coursera-Machine-Learning-Stanford - not bad !!!
 
+https://github.com/atinesh-s/Coursera-Machine-Learning-Stanford
+https://github.com/tuanavu/coursera-stanford
+
 Start Octave no GUI:
 octave --no-gui
 Change prompt: PS1('$') to $
