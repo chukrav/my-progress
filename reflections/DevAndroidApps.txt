@@ -43,3 +43,11 @@ https://stackoverflow.com/questions/39953495/how-to-completely-uninstall-android
 How to Install HAXM: Installing Intel HAXM is a must if you want to run Android Emulator in Windows PC.
 Without which the Android Emulator will run very slowly. 
 https://www.tektutorialshub.com/android-studio/haxm-installation-failed-install-intel-haxm-in-windows/
+
+Architecture Components: Declaring dependencies
+Search: android architecture components dependency -> Lifecycle   !!!
+//    Pre-AndroidX Versions ------------ !!!!!!!!!!!
+    def lifecycle_version = "1.1.1"
+
+    implementation "android.arch.lifecycle:extensions:$lifecycle_version"
+    annotationProcessor "android.arch.lifecycle:compiler:$lifecycle_version"
