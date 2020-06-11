@@ -43,3 +43,8 @@ https://stackoverflow.com/questions/39953495/how-to-completely-uninstall-android
 How to Install HAXM: Installing Intel HAXM is a must if you want to run Android Emulator in Windows PC.
 Without which the Android Emulator will run very slowly. 
 https://www.tektutorialshub.com/android-studio/haxm-installation-failed-install-intel-haxm-in-windows/
+
+Pre populate my database!!! DB callbacs!
+https://stackoverflow.com/questions/55740919/how-to-pre-populate-room-database-at-first-run
+https://android.jlelse.eu/pre-populate-room-database-6920f9acc870
+https://medium.com/@srinuraop/database-create-and-open-callbacks-in-room-7ca98c3286ab
