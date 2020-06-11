@@ -80,5 +80,12 @@ dependencies {
   // https://firebase.google.com/docs/android/setup#available-libraries
 }
 
+Firebase Quickstarts for Node.js ---------------------
+https://github.com/firebase/quickstart-nodejs
 
-
+Synchronized Shopping List app preps ---------!!!!!!!!!!!!! 
+https://groups.google.com/forum/#!msg/mitappinventortest/jdKiWk4Nmp0/f0mAKRAzBwAJ
+https://www.hackster.io/PracticalProjects/synchronized-shopping-list-app-dcd715
+https://github.com/TeamPracticalProjects/Synchronized_Shopping_List
+tutorials: realy good one! :)
+https://www.raywenderlich.com/3-firebase-tutorial-getting-started

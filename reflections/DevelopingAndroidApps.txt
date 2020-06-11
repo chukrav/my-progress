@@ -10,19 +10,19 @@ Different Resource Directories
 
 This information can also be found here.
 Some Common Resource Types
-Name 	What's Stored Here
-values 	XML files that contain simple values, such as string or integers
-drawable 	A bunch of visual files, including Bitmap file types and shapes. More information is here
-layouts 	XML layouts for your app
+Name    What's Stored Here
+values  XML files that contain simple values, such as string or integers
+drawable    A bunch of visual files, including Bitmap file types and shapes. More information is here
+layouts     XML layouts for your app
 Other Resource Types
-Name 	What's stored here
-animator 	XML files for property animations
-anim 	XML files for tween animations
-color 	XML files that define state list colors
-mipmap 	Drawable files for launcher icons
-menu 	XML files that define application menus
-raw 	Resource file for arbitrary files saved in their raw form. For example, you could put audio files here. (You might also be interested in the assets folder, depending on how you use that audio)
-xml 	Arbitrary XML; if you have XML configuration files, this is a good place to put them
+Name    What's stored here
+animator    XML files for property animations
+anim    XML files for tween animations
+color   XML files that define state list colors
+mipmap  Drawable files for launcher icons
+menu    XML files that define application menus
+raw     Resource file for arbitrary files saved in their raw form. For example, you could put audio files here. (You might also be interested in the assets folder, depending on how you use that audio)
+xml     Arbitrary XML; if you have XML configuration files, this is a good place to put them
 
 L02.09 Fetching an HTTP Request
 See this post on StackOverflow:http://stackoverflow.com/questions/309424/read-convert-an-inputstream-to-a-string
@@ -63,121 +63,121 @@ SH S03.02-Exercise-RecyclerViewClickHandling
 ----------------
 MainActivity extends AppCompatActivity
         implements ForecastAdapter.ForecastAdapterOnClickHandler{
-		
-		LinearLayoutManager layoutManager;
-		mRecyclerView.setLayoutManager(layoutManager);
-		mForecastAdapter = new ForecastAdapter(this);
-		mRecyclerView.setAdapter(mForecastAdapter);
-		
-		void loadWeatherData(){
-			location
-			new FetchWeatherTask().execute(location);
-		}
-		
-		@Override
+        
+        LinearLayoutManager layoutManager;
+        mRecyclerView.setLayoutManager(layoutManager);
+        mForecastAdapter = new ForecastAdapter(this);
+        mRecyclerView.setAdapter(mForecastAdapter);
+        
+        void loadWeatherData(){
+            location
+            new FetchWeatherTask().execute(location);
+        }
+        
+        @Override
     public void onListItemClick(String weatherForDay) {}
-	
-	public class FetchWeatherTask extends AsyncTask<String, Void, String[]>{}
-	
-	onCreateOptionsMenu(Menu menu) {
-		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.forecast, menu);
-	}
-	
-	onOptionsItemSelected(MenuItem item) {
-		int id = item.getItemId();
-		if (id == R.id.action_refresh) {}
-	}
-		
+    
+    public class FetchWeatherTask extends AsyncTask<String, Void, String[]>{}
+    
+    onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.forecast, menu);
+    }
+    
+    onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.action_refresh) {}
+    }
+        
 }
 ======
 public class ForecastAdapter 
-			extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapterViewHolder> {
-	
-	final private ForecastAdapterOnClickHandler mClickHandler;	
-	public interface ForecastAdapterOnClickHandler {
+            extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapterViewHolder> {
+    
+    final private ForecastAdapterOnClickHandler mClickHandler;  
+    public interface ForecastAdapterOnClickHandler {
         void onListItemClick(String weatherForDay);
     }
-	
-	// TODO (4) Add a ForecastAdapterOnClickHandler as a parameter to the constructor
-	//and store it in mClickHandler
+    
+    // TODO (4) Add a ForecastAdapterOnClickHandler as a parameter to the constructor
+    //and store it in mClickHandler
     public ForecastAdapter(ForecastAdapterOnClickHandler handler) {
         mClickHandler = handler;
     }
-	
-	public class ForecastAdapterViewHolder extends RecyclerView.ViewHolder
-			implements View.OnClickListener {
+    
+    public class ForecastAdapterViewHolder extends RecyclerView.ViewHolder
+            implements View.OnClickListener {
         public final TextView mWeatherTextView;
-		public ForecastAdapterViewHolder(View view) {
+        public ForecastAdapterViewHolder(View view) {
             ...
-			view.setOnClickListener(this);
+            view.setOnClickListener(this);
         }
-		
-		@Override
+        
+        @Override
         public void onClick(View view) {
             int clickedPosition = getAdapterPosition();
-			... 
-		}
-	@Override
+            ... 
+        }
+    @Override
     public ForecastAdapterViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
-				....
-	}
-	@Override
+                ....
+    }
+    @Override
     public void onBindViewHolder(ForecastAdapterViewHolder forecastAdapterViewHolder, int position){}
-	
-	public void setWeatherData(String[] weatherData) {
+    
+    public void setWeatherData(String[] weatherData) {
         mWeatherData = weatherData;
         notifyDataSetChanged();
     }
-	
-		
-	}
+    
+        
+    }
 }
 
 L05.16 Leveraging Loaders:
 3 steps for creating Loader:
-	1. Create Loader ID;
-	2. Fill in Loader callbacks;
-	3. Init Loader with LoaderManager.
-	
+    1. Create Loader ID;
+    2. Fill in Loader callbacks;
+    3. Init Loader with LoaderManager.
+    
 
 L06.29: Edit Text Preference Constraints
-	OnSharedPreferenceChangeListener - after saving of shared preferences.
-	OnPreferenceChangeListener -  - before saving of shared preferences. ...!!!
-	
+    OnSharedPreferenceChangeListener - after saving of shared preferences.
+    OnPreferenceChangeListener -  - before saving of shared preferences. ...!!!
+    
 
 To put selected code in a separate function:
-	You can access it via Refactor/Extract/Method menu or using a keyboard shortcut:
-	CTRL+ALT+M (Linux, Windows)
-	
+    You can access it via Refactor/Extract/Method menu or using a keyboard shortcut:
+    CTRL+ALT+M (Linux, Windows)
+    
 
-	extends PreferenceFragmentCompat make be able to work with Shared preferences,
-	opens:
-		SharedPreferences sharedPreferences = getPreferenceScreen().getSharedPreferences();
+    extends PreferenceFragmentCompat make be able to work with Shared preferences,
+    opens:
+        SharedPreferences sharedPreferences = getPreferenceScreen().getSharedPreferences();
         PreferenceScreen prefScreen = getPreferenceScreen();
-		
-	Implementation of OnSharedPreferenceChangeListener on MainActivity gives: -ore without it works!? 
-	remains to be checked!
-	SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        
+    Implementation of OnSharedPreferenceChangeListener on MainActivity gives: -ore without it works!? 
+    remains to be checked!
+    SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
     sharedPreferences.registerOnSharedPreferenceChangeListener(this);
 
-	Lesson 7:
-	
-	L07.05
-	from the SQLiteDatabase lesson:
-		Contract Class
-		Projection, selection, selection args, sort order
-		Cursor Class
+    Lesson 7:
+    
+    L07.05
+    from the SQLiteDatabase lesson:
+        Contract Class
+        Projection, selection, selection args, sort order
+        Cursor Class
 
-	General Steps for Using a ContentProvider
-	You will take the following steps:
+    General Steps for Using a ContentProvider
+    You will take the following steps:
 
     Get permission to use the ContentProvider.
     Get the ContentResolver
     Pick one of four basic actions on the data: query, insert, update, delete
     Identify the data you are reading or manipulating to create a URI
     In the case of reading from the ContentProvider, display the information in the UI
-	
+    
 Lesson 09b:
 
 Adding Components to your Project --- VERY IMPORTANT!!!!
@@ -188,7 +188,7 @@ At the moment, we have our database logic in our Activities and our ViewModels.
 We could improve our architecture by extracting all that logic to a common place,
 or Repository. This way, all database-related operations can be handled from a single location,
 while being accessible from anywhere in our app. This is an example of using
-the Single Responsibility Principle.	
+the Single Responsibility Principle.    
 
 googlecodelabs/android-build-an-app-architecture-components:
 https://github.com/googlecodelabs/android-build-an-app-architecture-components
@@ -206,47 +206,47 @@ FirebaseJobDispatcher to schedule a job that repeats roughly
 every REMINDER_INTERVAL_SECONDS when the phone is charging.
 
 4 major components:
-	Activity;
-	Service;
-	Content Provider;
-	Broadcast Receiver.
-	
-	Lesson 11
-	MATERIAL-DESIGN-ICONS
-	https://github.com/google/material-design-icons
-	Palette:
-	https://www.materialpalette.com/purple/purple
-	Material Design:
-	https://material.io/design/color/#
-	
-	The type system , Type Scale , fonts
-	https://material.io/design/typography/#type-scale
-	
-	General Steps for Using a ContentProvider you will take the following steps:
+    Activity;
+    Service;
+    Content Provider;
+    Broadcast Receiver.
+    
+    Lesson 11
+    MATERIAL-DESIGN-ICONS
+    https://github.com/google/material-design-icons
+    Palette:
+    https://www.materialpalette.com/purple/purple
+    Material Design:
+    https://material.io/design/color/#
+    
+    The type system , Type Scale , fonts
+    https://material.io/design/typography/#type-scale
+    
+    General Steps for Using a ContentProvider you will take the following steps:
 
-		1. Get permission to use the ContentProvider.
-		2. Get the ContentResolver
-		3. Pick one of four basic actions on the data: query, insert, update, delete
-		4. Identify the data you are reading or manipulating to create a URI
-		5. In the case of reading from the ContentProvider, display the information in the UI
-		
+        1. Get permission to use the ContentProvider.
+        2. Get the ContentResolver
+        3. Pick one of four basic actions on the data: query, insert, update, delete
+        4. Identify the data you are reading or manipulating to create a URI
+        5. In the case of reading from the ContentProvider, display the information in the UI
+        
 Room:
 
-	Annotation and main components:
-	@Entity - define database tables;
-	@DAO - to provide an API for reading and writing data;
-	@Database - which represents database holder.
-	
-	@Entity is a POJO with anotation @entity
-	@DAO - interface :select,update, delete insert methods;
-	To create make abstract class AppDatabase extends RoomDatabase singleton has getInstance method.
-	Add @Database anotation @Database(entities={POJO.class}, version = 1, exportScheme = false){
-		getInstance(Context context){}
-		
-		public abstract TascDao tascDao();
-	
-	}
-	
+    Annotation and main components:
+    @Entity - define database tables;
+    @DAO - to provide an API for reading and writing data;
+    @Database - which represents database holder.
+    
+    @Entity is a POJO with anotation @entity
+    @DAO - interface :select,update, delete insert methods;
+    To create make abstract class AppDatabase extends RoomDatabase singleton has getInstance method.
+    Add @Database anotation @Database(entities={POJO.class}, version = 1, exportScheme = false){
+        getInstance(Context context){}
+        
+        public abstract TascDao tascDao();
+    
+    }
+    
 L09b.26:
 At the moment, we have our database logic in our Activities and our ViewModels.
  We could improve our architecture by extracting all that logic to a common place,
@@ -293,7 +293,7 @@ in abstract class AppDatabase ...
         Log.d(LOG_TAG, "Getting the database instance");
         return sInstance;
     }
-	
+    
 Put s-directory in last s-directory of src/
 sqlAsset/
 AssetSQLiteOpenHelper.java
@@ -305,6 +305,44 @@ FrameworkSQLiteStatement.java
 SQLiteAssetHelper.java
 Utils.java
 VersionComparator.java
+
+13:11 Sunday, April 05, 2020
+Second Start *********************************
+Android Developer. Layouts
+https://developer.android.com/guide/topics/ui/layout/recyclerview
+A gardening app illustrating Android development best practices with Android Jetpack.
+https://github.com/android/sunflower
+Android-Open-Shopping-List:
+https://github.com/david-szabo97/Android-Open-Shopping-List
+Firestore-ShoppingListApp 
+https://github.com/alexmamo/Firestore-ShoppingListApp
+ udacity /ShoppingListPlusPlus 
+ https://github.com/udacity/ShoppingListPlusPlus
+ ---------------------------------------------------------
+ A Grocery List app made using Xamarin (C#) with Google Firebase Database 
+ https://github.com/renatosc/GroceryList
+ Firestore ShoppingListApp ......!!!!!!!!!!!!!---------------
+ https://github.com/chukrav/Firestore-ShoppingListApp
+
+JSON.simple maps entities from the left side to the right side while decoding or parsing,
+ and maps entities from the right to the left while encoding.
+         JSON       |   Java
+         ===============================
+         string     |   java.lang.String
+         number     |   java.lang.Number
+         true|false |   java.lang.Boolean
+         null       |   null
+         array      |   java.util.List
+         object     |   java.util.Map
+
+
+
+It seems like GSON supports this, although I don't know if you want to switch from the library
+ you are using. From the user guide:
+
+Pretty-Print JSON in Java:
+Gson gson = new GsonBuilder().setPrettyPrinting().create();
+String jsonOutput = gson.toJson(someObject);
 
 
 

@@ -48,3 +48,12 @@ Pre populate my database!!! DB callbacs!
 https://stackoverflow.com/questions/55740919/how-to-pre-populate-room-database-at-first-run
 https://android.jlelse.eu/pre-populate-room-database-6920f9acc870
 https://medium.com/@srinuraop/database-create-and-open-callbacks-in-room-7ca98c3286ab
+
+Architecture Components: Declaring dependencies
+Search: android architecture components dependency -> Lifecycle   !!!
+//    Pre-AndroidX Versions ------------ !!!!!!!!!!!
+    def lifecycle_version = "1.1.1"
+
+    implementation "android.arch.lifecycle:extensions:$lifecycle_version"
+    annotationProcessor "android.arch.lifecycle:compiler:$lifecycle_version"
+

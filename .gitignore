@@ -1,8 +1,9 @@
 # my-progress #
 ###################
 .~*
-.bak
-.ods
-.xls
-.xlsx
-.uxf
+*.bak
+*.ods
+*.xls
+*.xlsx
+*.uxf
+*.zip

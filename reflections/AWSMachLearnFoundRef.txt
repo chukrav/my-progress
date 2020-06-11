@@ -1,0 +1,221 @@
+Scenario #3
+
+Let's walk through the git commands that go along with each step in the scenario you just observed in the video above.
+Step 1: Andrew commits his changes to the documentation branch, switches to the development branch, and pulls down the latest changes from the cloud on this development branch, including the change I merged previously for the friends group feature.
+
+    Commit changes on documentation branch:
+    git commit -m "standardized all docstrings in process.py"
+
+    Switch to develop branch:
+    git checkout develop
+
+    Pull latest changes on develop down:
+    git pull
+
+Step 2: Then, Andrew merges his documentation branch on the develop branch on his local repository,
+ and then pushes his changes up to update the develop branch on the remote repository.
+
+    Merge documentation branch to develop:
+    git merge --no-ff documentation
+
+    Push changes up to remote repository:
+    git push origin develop
+
+Step 3: After the team reviewed both of your work, they merge the updates from the development
+ branch to the master branch. Now they push the changes to the master branch on the remote
+ repository. These changes are now in production.
+
+    Merge develop to master:
+    git merge --no-ff develop
+
+    Push changes up to remote repository:
+    git push origin master
+	
+	You can learn more about merge conflicts and methods to handle them her:
+	https://help.github.com/articles/about-merge-conflicts/
+	
+	Model Versioning:
+	
+    How to Version Control Your Production Machine Learning Models:
+	https://blog.algorithmia.com/how-to-version-control-your-production-machine-learning-models/
+    Versioning Data Science:
+	https://shuaiw.github.io/2017/07/30/versioning-data-science.html
+	
+Integration Testing:
+https://www.fullstackpython.com/integration-testing.html
+
+L03.05:
+Unit Testing Tools
+
+To install pytest, run
+	>>> pip install -U pytest 
+ in your terminal. You can see more information on getting started here.
+ https://docs.pytest.org/en/latest/getting-started.html
+
+    Create a test file starting with test_
+    Define unit test functions that start with test_ inside the test file
+    Enter 
+	>>> pytest 
+	into your terminal in the directory of your test file and it will detect 
+	these tests for you!
+	
+Inside test_compute_launch.py
+from compute_launch import days_until_launch
+
+def test_days_until_launch_4():
+    assert(days_until_launch(22, 26) == 4)
+
+def test_days_until_launch_0():
+    assert(days_until_launch(253, 253) == 0)
+	. . . . . . . . . . .  . . . 
+
+
+test_ is the default - if you wish to change this, you can learn how to in this pytest configuration:
+https://docs.pytest.org/en/latest/customize.html
+In the test output, periods represent successful unit tests and F's represent failed unit tests.
+ Since all you see is what test functions failed, it's wise to have only one assert statement per test.
+ Otherwise, you wouldn't know exactly how many tests failed, and which tests failed.
+
+Your tests won't be stopped by failed assert statements, but it will stop if you have syntax errors.
+
+Test Driven Development and Data Science
+
+    TEST DRIVEN DEVELOPMENT: writing tests before you write the code that’s being tested. Your test would 
+	fail at first, and you’ll know you’ve finished implementing a task when this test passes.
+    Tests can check for all the different scenarios and edge cases you can think of, before even starting
+	to write your function. This way, when you do start implementing your function, you can run this test
+	to get immediate feedback on whether it works or not in all the ways you can think of, as you tweak
+	your function.
+    When refactoring or adding to your code, tests help you rest assured that the rest of your code 
+	didn't break while you were making those changes. Tests also helps ensure that your function behavior 
+	is repeatable, regardless of external parameters, such as hardware and time.
+	
+	Test driven development for data science is relatively new and has a lot of experimentation 
+	and breakthroughs appearing, which you can learn more about in the resources below.
+
+    Data Science TDD:
+	https://www.linkedin.com/pulse/data-science-test-driven-development-sam-savage/
+    TDD for Data Science:
+	http://engineering.pivotal.io/post/test-driven-development-for-data-science/
+    TDD is Essential for Good Data Science Here's Why:
+	https://medium.com/@karijdempsey/test-driven-development-is-essential-for-good-data-science-heres-why-db7975a03a44
+    Testing Your Code (general python TDD):
+	http://docs.python-guide.org/en/latest/writing/tests/
+	
+	
+	Code Reviews
+
+Code reviews benefit everyone in a team to promote best programming practices and prepare
+ code for production. Let's go over what to look for in a code review and some tips
+ on how to conduct one.
+
+    Code Review:
+	https://github.com/lyst/MakingLyst/tree/master/code-reviews
+    Code Review Best Practices:
+	https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html
+	
+Questions to Ask Yourself When Conducting a Code Review
+
+First, let's look over some of the questions we may ask ourselves while reviewing code. 
+These are simply from the concepts we've covered in these last two lessons!
+
+    Is the code clean and modular?
+
+        Can I understand the code easily?
+        Does it use meaningful names and whitespace?
+        Is there duplicated code?
+        Can you provide another layer of abstraction?
+        Is each function and module necessary?
+        Is each function or module too long?
+
+    Is the code efficient?
+
+        Are there loops or other steps we can vectorize?
+        Can we use better data structures to optimize any steps?
+        Can we shorten the number of calculations needed for any steps?
+        Can we use generators or multiprocessing to optimize any steps?
+
+    Is documentation effective?
+
+        Are in-line comments concise and meaningful?
+        Is there complex code that's missing documentation?
+        Do function use effective docstrings?
+        Is the necessary project documentation provided?
+
+    Is the code well tested?
+
+        Does the code high test coverage?
+        Do tests check for interesting cases?
+        Are the tests readable?
+        Can the tests be made more efficient?
+
+    Is the logging effective?
+
+        Are log messages clear, concise, and professional?
+        Do they include all relevant and useful information?
+        Do they use the appropriate logging level?
+
+Tips for Conducting a Code Review
+
+Tip: Use a code linter:  pylint:
+https://www.pylint.org/
+
+Python code linter like pylint can automatically check for coding standards and PEP 8 
+guidelines for you! It's also a good idea to agree on a style guide as a team to handle 
+disagreements on code style, whether that's an existing style guide or one you create together 
+incrementally as a team. 
+
+Tip: Explain issues and make suggestions
+
+Tip: Keep your comments objective
+
+Tip: Provide code examples
+
+L04.26:
+Contributing to a GitHub project
+
+Here are a few links about how to contribute to a github project:
+
+    Beginner's Guide to Contributing to a Github Project:
+	https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/
+    Contributing to a Github Project:
+	https://github.com/MarcDiethelm/contributing/blob/master/README.md
+	
+	Advanced Python OOP Topics
+
+Here are a few links to more advanced OOP topics that appear in the Scikit-learn package:
+
+    Decorators:
+	https://realpython.com/primer-on-python-decorators/   !!!
+	https://www.datacamp.com/community/tutorials/decorators-python?utm_source=adwords_ppc&utm_campaignid=9942305733&utm_adgroupid=100189364546&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=229765585186&utm_targetid=aud-517318242147:dsa-929501846124&utm_loc_interest_ms=&utm_loc_physical_ms=1008020&gclid=CjwKCAjw2uf2BRBpEiwA31VZj04s1UXIMFGUY4lrZblT-Wr-lxi4ird2dCf5B29QmrtUz9ENZv4X0xoC2FgQAvD_BwE
+    Mixins:
+	https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556
+	
+	L04.27:
+	Putting Code on PyPi
+	
+	Note that pypi.org and test.pypy.org are two different websites. 
+	
+	Other Links:
+If you'd like to learn more about PyPi, here are a couple of resources:
+
+    Overview of PyPi:
+	https://docs.python.org/3/distutils/packageindex.html
+    MIT License:
+	https://opensource.org/licenses/MIT
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
