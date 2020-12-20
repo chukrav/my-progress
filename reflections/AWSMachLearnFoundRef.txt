@@ -44,6 +44,26 @@ Step 3: After the team reviewed both of your work, they merge the updates from t
 Integration Testing:
 https://www.fullstackpython.com/integration-testing.html
 
+Testing and Data Science
+    Problems that could occur in data science aren’t always easily detectable; you might have values 
+	being encoded incorrectly, features being used inappropriately, unexpected data breaking assumptions
+    To catch these errors, you have to check for the quality and accuracy of your analysis in addition 
+	to the quality of your code. Proper testing is necessary to avoid unexpected surprises and have 
+	confidence in your results.
+    TEST DRIVEN DEVELOPMENT: a development process where you write tests for tasks before you even write 
+	the code to implement those tasks.
+    UNIT TEST: a type of test that covers a “unit” of code, usually a single function, independently 
+	from the rest of the program.
+Resources:
+    Four Ways Data Science Goes Wrong and How Test Driven Data Analysis Can Help: Blog Post
+    Ned Batchelder: Getting Started Testing: Slide Deck: https://speakerdeck.com/pycon2014/getting-started-testing-by-ned-batchelder
+	and Presentation Video:https://www.youtube.com/watch?v=FxSsnHeWQBY
+	
+	Full Stack Python: https://www.fullstackpython.com/integration-testing.html
+	How is integration testing different from unit testing?
+	While unit testing is used to find bugs in individual functions, 
+	integration testing tests the system as a whole. 
+
 L03.05:
 Unit Testing Tools
 
@@ -203,6 +223,126 @@ If you'd like to learn more about PyPi, here are a couple of resources:
 	https://docs.python.org/3/distutils/packageindex.html
     MIT License:
 	https://opensource.org/licenses/MIT
+	
+Object-Oriented Programming and Python Packages
+A Python package does not need to use object-oriented programming. You could simply have a Python 
+module with a set of functions. However, most if not all of the popular Python packages take advantage 
+of object-oriented programming for a few reasons:
+    1. Object-oriented programs are relatively easy to expand especially because of inheritance
+    2. Object-oriented programs obscure functionality from the user. Consider scipy packages. 
+	You don't need to know how the actual code works in order to use its classes and methods.
+
+Scikit-learn Source Code Python packges ...
+Contributing to a GitHub project
+
+Here are a few links about how to contribute to a github project:
+    Beginner's Guide to Contributing to a Github Project: https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/
+    Contributing to a Github Project: https://github.com/MarcDiethelm/contributing/blob/master/README.md
+
+Advanced Python OOP Topics
+Here are a few links to more advanced OOP topics that appear in the Scikit-learn package:
+
+    Decorators: https://realpython.com/primer-on-python-decorators/
+    Mixins: https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556
+	
+PyPi vs. Test PyPi -------------
+Note that pypi.org and test.pypy.org are two different websites. You'll need to register 
+separately at each website. If you only register at pypi.org, you will not be able to upload to the 
+test.pypy.org repository.
+
+Upload to PyPi:  -----------
+cd 5_exercise_upload_to_pypi
+python setup.py sdist
+pip install twine
+
+# commands to upload to the pypi test repository
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+pip install --index-url https://test.pypi.org/simple/ distributions
+-------------
+Why Amazon ??????????
+More Relevant Enterprise Search With Amazon Kendra
+
+    Natural language search with contextual search results
+    ML-optimized index to find more precise answers
+    20+ Native Connectors to simplify and accelerate integration
+    Simple API to integrate search and easily develop search applications
+    Incremental learning through feedback to deliver up-to-date relevant answers
+
+Online Fraud Detection with Amazon Fraud Detector
+
+    Pre-built fraud detection model templates
+    Automatic creation of custom fraud detection models
+    One interface to review past evaluations and detection logic
+    Models learn from past attempts to defraud Amazon
+    Amazon SageMaker integration
+
+Amazon Code Guru
+Effective, Readable code.
+
+Better Insights And Customer Service With Contact Lens
+
+    Identify common call types
+    Identify recurring themes based on customer call feedback
+    Alert supervisors when customers are having a poor experience
+    Assist agents with a knowledge base to answer questions as they are being asked
+
+How to Get Started?
+
+    AWS DeepLens: deep learning and computer vision
+    AWS DeepRacer and the AWS DeepRacer League: reinforcement learning
+    AWS DeepComposer: Generative AI.
+    AWS ML Training and Certification: Curriculum used to train Amazon developers
+    Partnerships with Online Learning Providers: Including this course and the Udacity AWS DeepRacer course!
+
+Machine Learning Techniques
+
+    1.Supervised Learning: Models are presented wit input data and the desired results. 
+	 The model will then attempt to learn rules that map the input data to the desired results.
+    2.Unsupervised Learning: Models are presented with datasets that have no labels or predefined 
+	 patterns, and the model will attempt to infer the underlying structures from the dataset. 
+	 Generative AI is a type of unsupervised learning.
+    3.Reinforcement learning: The model or agent will interact with a dynamic world to achieve a certain 
+	 goal. The dynamic world will reward or punish the agent based on its actions. Overtime, the agent 
+	 will learn to navigate the dynamic world and accomplish its goal(s) based on the rewards and 
+	 punishments that it has received.
+
+AWS DeepComposer Under The Hood
+How It Works
+
+    Input melody captured on the AWS DeepComposer console
+    Console makes a backend call to AWS DeepComposer APIs that triggers an execution Lambda.
+    Book-keeping is recorded in Dynamo DB.
+    The execution Lambda performs an inference query to SageMaker which hosts the model and the training inference container.
+    The query is run on the Generative AI model.
+    The model generates a composition.
+    The generated composition is returned.
+    The user can hear the composition in the console.
+    The user can share the composition to SoundCloud.
+
+How the Model Works
+
+The model consists of two networks, a generator and a critic. These two networks work in a tight loop:
+
+    The generator takes in a batch of single-track piano rolls (melody) as the input and generates a 
+	batch of multi-track piano rolls as the output by adding accompaniments to each of the input music 
+	tracks.
+    The discriminator evaluates the generated music tracks and predicts how far they deviate from the 
+	real data in the training dataset.
+    The feedback from the discriminator is used by the generator to help it produce more realistic music 
+	the next time.
+    As the generator gets better at creating better music and fooling the discriminator, the discriminator
+	needs to be retrained by using music tracks just generated by the generator as fake inputs and an 
+	equivalent number of songs from the original dataset as the real input.
+    We alternate between training these two networks until the model converges and produces realistic 
+	music.
+
+The discriminator is a binary classifier which means that it classifies inputs into two groups, e.g. 
+“real” or “fake” data.
+
+ 
+
+
+
 
 	
 

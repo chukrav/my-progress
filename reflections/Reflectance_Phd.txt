@@ -26,6 +26,7 @@ https://scholarship-positions.com/phd-position-characterizing-honey-composition-
 
 AUT Data Science Research Group ------ !!!
 https://dsrg.aut.ac.nz/home/study-with-us
+https://dsrg.aut.ac.nz/about-us/study-with-us  <<- corrected one!!!
 Study with us:
 
 Our research spectrum is in data and knowledge engineering. We invite you to study your PhD with us. We currently cover the below areas of study:
@@ -43,6 +44,37 @@ Our research spectrum is in data and knowledge engineering. We invite you to stu
 	
 	Publications:
 	https://dsrg.aut.ac.nz/home/publications
+	
+	Information we need to assess your application
+
+We require the following information:
+
+    Faculty and/or field you wish to conduct your study in
+    Academic transcripts
+    Grading scale for postgraduate qualification
+    Degree certificates (undergraduate and postgraduate)
+    Title of the thesis/dissertation/research project
+    1-2 page document (maximum) outlining your proposed research project
+    Curriculum vitae (CV)
+    If English is not your first language you need to provide evidence of English 
+	language proficiency – IELTS (Academic) test results or recognised equivalent. 
+	If your postgraduate study was completed in English within three years, this may be waived
+
+    Once the required information is received, we will forward your enquiry to the relevant
+	faculty who will communicate to you about the outcome of your application, possible 
+	research areas and supervisors.
+	
+	.......
+	 Факультет и / или область, в которой вы хотите учиться
+     Выписка из зачетной ведомости
+     Шкала оценок послевузовской квалификации
+     Сертификаты об образовании (бакалавриат и аспирантура)
+     Название диссертации / диссертации / исследовательского проекта
+     1-2 страницы документа (максимум) с изложением вашего предлагаемого исследовательского проекта
+     Биографические данные (CV)
+	 ......
+	
+	
 	
 jobs: glassdoor.co.nz
 https://www.glassdoor.co.nz/Job/new-zealand-data-scientist-intern-jobs-SRCH_IL.0,11_IN186_KO12,33.htm	

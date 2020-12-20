@@ -1,0 +1,6 @@
+HacherRank Statistics.
+14:58 Saturday, June 13, 2020
+D03: Conditional Probability and Combinations and Permutations.
+
+ If A and B are simple events, then A U B denotes the occurrence of either A or B. 
+ A ^ B  Similarly, denotes the occurrence of A and B together.  

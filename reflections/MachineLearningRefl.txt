@@ -73,4 +73,71 @@ Differential Equations in Action: https://www.udacity.com/course/differential-eq
 Data Analysis with R:
 https://www.udacity.com/course/data-analysis-with-r--ud651
 
+Azure: ----------------------------------------------------
+Docs:
+https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/evaluate-model#bkmk_classification
 
+
+AWS:
+Everyone is welcome!
+All learners are welcome to take the foundations course, but completion of a beginning level programming 
+course is recommended to fully engage in all of the coursework. If you want to brush up on your Python 
+skills, we encourage you to review our free Introduction to Python course.
+Learn More About Machine Learning
+
+We encourage you to dive deeper in to machine learning with our Intro to Machine Learning and 
+Intro to Deep Learning with PyTorch courses.
+Both courses are FREE and will help you be even better prepared to take the end-of-course assessment.
+You may also find our Version Control with Git course helpful. It is also offered for FREE.
+
+Fairlearn --------------------AZURE Udacity-------------
+https://github.com/fairlearn/fairlearn
+Fairlearn is a Python package that empowers developers of artificial intelligence (AI) systems to assess 
+their system's fairness and mitigate any observed unfairness issues. Fairlearn contains mitigation 
+algorithms as well as a Jupyter widget for model assessment. Besides the source code, this repository 
+also contains Jupyter notebooks with examples of Fairlearn usage.
+Website: https://fairlearn.github.io/
+
+Conclusion:
+
+    Machine Learning is already having a significant impact on almost every aspect of our daily lives
+    Machine Learning promises to help advance critically important fields like medicine, transportation, 
+		space travel, agriculture, cybersecurity, and many more
+    The trends in computing power availability, moving closer to silicon, public cloud HW resource 
+		concentration will continue to accelerate in the next decade
+    Other medium or long-term scientific breakthroughs (think quantum computing) have the potential of 
+		creating even larger ML advancements
+    Better understanding of current algorithms, inventing new ones, focusing on transparency and 
+		explainability will be also major trends
+		
+Course recap
+
+This course was meant to be an introduction to the fantastic world of Machine Learning. 
+Here is a short recap of our journey:
+In Lesson 1, you've learned the fundamentals of Machine Learning, made your first contact with data, 
+models, and algorithms, and trained your first model in Azure Machine Learning Studio.
+
+In Lesson 2, you performed a few basic data preparation tasks like import, transformation, and feature 
+engineering. You've also trained a classifier and a regressor, and learned to apply the "strength in 
+numbers" principle using ensembles and automated Machine Learning.
+
+In Lesson 3, you've learned about supervised and unsupervised learning, two of Machine Learning's 
+fundamental approaches. You've also trained and evaluated the performance of classifiers, regressors, 
+and clustering models.
+
+In Lesson 4, you got your first taste of Deep Learning and dived into some of the most important 
+specialized cases like similarity learning, text classification, feature learning, anomaly detection, 
+and forecasting.
+
+In Lesson 5, you've learned to manage compute resources, model training and evaluation processed, and 
+operational environment. You've also experienced the use of the Azure Machine Learning SDK for Python to 
+program the Azure Machine Learning managed services.
+
+Finally, in Lesson 6, you've learned the core principles of responsible AI. You've also learned to train 
+transparent and explainable models, and raised your awareness on some of the serious challenges of 
+modern AI and Machine Learning.
+
+
+
+	
+	
