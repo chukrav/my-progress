@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>228</x>
+      <y>84</y>
+      <w>504</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>*Concurrency in Java. S-15*
+valign=center
+fontsize=24
+lw=3.5
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>72</x>
+      <y>252</y>
+      <w>324</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>_Thread (267)_
+--
+join() read docs. Joins another thread
+and execute ... ? 
+interrupt() - sends interruption ?!
+bg=gray
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
