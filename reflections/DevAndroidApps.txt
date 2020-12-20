@@ -57,3 +57,4 @@ Search: android architecture components dependency -> Lifecycle   !!!
     implementation "android.arch.lifecycle:extensions:$lifecycle_version"
     annotationProcessor "android.arch.lifecycle:compiler:$lifecycle_version"
 
+$A \cup B$

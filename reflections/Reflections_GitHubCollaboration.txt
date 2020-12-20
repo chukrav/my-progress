@@ -245,5 +245,35 @@ git pull
 
 This will fetch all of the remote branches and merge the current branch. 
 
+How do I force "git pull" to overwrite local files? ------------
+$ git fetch --all
 
-	
+Then, you have two options:
+$ git reset --hard origin/master
+$ git reset --hard origin/<branch_name>
+
+git fetch downloads the latest from remote without trying to merge or rebase anything.
+Then the git reset resets the master branch to what you just fetched. 
+The --hard option changes all the files in your working tree to match the files in origin/master
+Maintain current local commits:
+It's worth noting that it is possible to maintain current local commits by creating a 
+branch from master before resetting:
+
+$ git checkout master
+$ git branch new-branch-to-save-current-commits
+$ git fetch --all
+$ git reset --hard origin/master
+
+After this, all of the old commits will be kept in new-branch-to-save-current-commits. 
+Uncommitted changes:
+Uncommitted changes, however (even staged), will be lost. Make sure to stash and commit anything you need. For that you can run the following:
+$ git stash
+And then to reapply these uncommitted changes:
+$ git stash pop
+
+
+
+
+
+
+
