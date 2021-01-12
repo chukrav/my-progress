@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>310</y>
+      <w>300</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_1.Full Stack Foundations_
+--
+Intermediate - 3w
+to start: 
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>400</y>
+      <w>300</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>_2.Intro to Relational Databases_
+--
+Intermediate - 4w
+PostgreSQL,Python,SQL
+to start: 
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>510</y>
+      <w>300</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>_3.Intro to HTML and CSS_
+--
+Beginner  - 3w
+to start: 
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>630</y>
+      <w>300</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>_4.Intro to Backend_
+--
+Intermediate  - 3w
+to start: 
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>310</y>
+      <w>300</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>_5.Intro to jQuery_
+--
+Intermediate  - 2d
+to start: 
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>740</y>
+      <w>300</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_5.Front-End Interview Prep_
+_Full-Stack Interview Prep_
+--
+Intermediate  - 1w
+Intermediate  - 1w
+to start: 
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>420</y>
+      <w>300</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_6.Dynamic Web Applications with Sinatra_
+--
+Intermediate  - 2w
+to start: 
+bg=yellow
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>660</y>
+      <w>300</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_8.ES6 - JavaScript Improved_
+--
+Advanced  - 4w
+to start: 
+bg=yellow
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>540</y>
+      <w>300</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_7.Object-Oriented JavaScript_
+--
+Intermediate  - 3w
+to start: 
+bg=yellow
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>690</x>
+      <y>290</y>
+      <w>450</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>_*7.Full-Stack Web Development with React*_
+_Specialization_
+--
+Intermediate  - 23w (5m)
+1. Front-End Web UI Frameworks and Tools: Bootstrap 4
+2. Front-End Web Development with React
+3. Multiplatform Mobile App Development with React Native
+4. Server-side Development with NodeJS, Express and MongoDB
+to start: 
+bg=yellow
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>790</x>
+      <y>540</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_10. freeCodeCamp_
+--
+more than 2000 h
+to start: 
+bg=yellow
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>200</x>
+      <y>190</y>
+      <w>120</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>5 months
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>240</y>
+      <w>160</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>240</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>720</x>
+      <y>110</y>
+      <w>120</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>5 months
+start: Sep-20
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>160</y>
+      <w>240</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>220.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>870</y>
+      <w>300</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_*11.Data Wrangling with MongoDB*_
+--
+Intermediate  - 9w (2m)
+to start: 
+bg=orange
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>0</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_*Deep Learning*_
+--
+Finish Basics in 7 months (Dec-20)
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>0</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_*Android*_
+--
+Finish rest in 3-4 months (Sep-20)
+Projects mostly ...
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>670</x>
+      <y>260</y>
+      <w>490</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Priority: 001
+halign=left
+bg=light_gray
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
