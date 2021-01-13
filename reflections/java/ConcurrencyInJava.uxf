@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.2">
+<diagram program="umlet" version="14.3.0">
   <zoom_level>12</zoom_level>
   <element>
     <id>UMLClass</id>
@@ -218,5 +218,104 @@ bg=yellow</panel_attributes>
     <panel_attributes>lt=&lt;&lt;.
 fg=red</panel_attributes>
     <additional_attributes>180.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>696</y>
+      <w>504</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>*Regular Expressions. S-17*
+valign=center
+fontsize=24
+lw=3.5
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>636</x>
+      <y>852</y>
+      <w>612</w>
+      <h>492</h>
+    </coordinates>
+    <panel_attributes>_*Reg Exp*_
+--
+String alphaNum = "abcDeeeF12GHiiiijkl99z";
+str.alphaNum.replaceAll(".","Y"); // YYYYYY...
+.replaceAll("^abcDee","YYY") // at the begining
+alphaNum .matches("^abcDee"); // false matches whole!!!
+alphaNum.replaceAll("[aei]","X")  // XbcDXXXF12GHXXXXjkl99z
+alphaNum.replaceAll("[aei][Fj]","X") // replace if aei folowed 
+ //      by F or j abcDeeX12GHiiiXkl99z
+ "Harry".replaceAll("[Hh]arry","Harry");
+ alphaNum.replaceAll("[^ej]","X");  //not e and j XXXXeeeXXXXXXXXXjXXXXX;
+ alphaNum.replaceAll("[a-f3-8]","X"); // XXXDXXXF12GHiiiijkl99z
+    "[abcdef345678]" == "[a-f3-8]" 
+alphaNum.replaceAll("(?i)[a-f3-8]","X"); // Ignoring case! (?i)    
+..."[0-9]","X"); // all digital
+"[0-9]" == "\\d", "[0-9]" == "\\D" - all not a digital ...
+"\\s" = all whitespaces ... tabs and-of-lines removes ...
+"\\S" = only tabs and-of-lines remains ...
+"\\w" = only white spaces remains ...
+("^abcDe{3}","YYY")); //YYYF12GHiiiijkl99z
+("^abcDe+", "YYY"));   //YYYF12GHiiiijkl99z
+("^abcDe*", "YYY"));   //YYYF12GHiiiijkl99z e not necessary have to be ...
+
+
+
+
+     
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1272</x>
+      <y>852</y>
+      <w>588</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>_Pattern-Matcher_
+--
+String h2Pattern = ".*&lt;h2&gt;.*";
+Pattern pattern = Pattern.compile(h2Pattern);
+Matcher matcher = pattern.matcher(htmlText);
+System.out.println(matcher.matches());
+Pattern.compile(h2Pattern,
+                      Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CASE);
+fontsize=20</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1428</x>
+      <y>732</y>
+      <w>324</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>** is important! It mean part of ...*
+fg=red
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1488</x>
+      <y>768</y>
+      <w>132</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+fg=red</panel_attributes>
+    <additional_attributes>10.0;110.0;90.0;10.0</additional_attributes>
   </element>
 </diagram>
