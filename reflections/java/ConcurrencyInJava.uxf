@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.3.0">
-  <zoom_level>12</zoom_level>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>108</x>
+      <x>352</x>
       <y>0</y>
-      <w>504</w>
-      <h>120</h>
+      <w>336</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>*Concurrency in Java. S-15*
 valign=center
@@ -19,10 +19,10 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>144</y>
-      <w>324</w>
-      <h>108</h>
+      <x>280</x>
+      <y>96</y>
+      <w>216</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>_Thread (267)_
 --
@@ -36,10 +36,10 @@ fg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>12</x>
-      <y>348</y>
-      <w>324</w>
-      <h>336</h>
+      <x>288</x>
+      <y>232</y>
+      <w>216</w>
+      <h>224</h>
     </coordinates>
     <panel_attributes>_Sinchronized (271)_
 --
@@ -63,10 +63,10 @@ if (bufferLock.tryLock()) - better!!!</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>204</x>
-      <y>276</y>
-      <w>240</w>
-      <h>60</h>
+      <x>416</x>
+      <y>184</y>
+      <w>160</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=.
 Synchronize only
@@ -79,10 +79,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>300</y>
-      <w>120</w>
-      <h>72</h>
+      <x>352</x>
+      <y>200</y>
+      <w>80</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;40.0;80.0;18.0</additional_attributes>
@@ -90,10 +90,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>372</x>
-      <y>348</y>
-      <w>396</w>
-      <h>96</h>
+      <x>528</x>
+      <y>232</y>
+      <w>264</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>_Thread Pool_
 --
@@ -105,10 +105,10 @@ executorService.execute(r);</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>372</x>
-      <y>456</y>
-      <w>396</w>
-      <h>132</h>
+      <x>528</x>
+      <y>304</y>
+      <w>264</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>_Thread_
 --
@@ -123,10 +123,10 @@ bg=cyan</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>372</x>
-      <y>600</y>
-      <w>432</w>
-      <h>132</h>
+      <x>528</x>
+      <y>400</y>
+      <w>288</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>_Thread_
 --
@@ -140,10 +140,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1200</x>
-      <y>60</y>
-      <w>504</w>
-      <h>120</h>
+      <x>1080</x>
+      <y>40</y>
+      <w>336</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>*Lambda Expressions. S-16*
 valign=center
@@ -155,10 +155,10 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>960</x>
-      <y>204</y>
-      <w>516</w>
-      <h>192</h>
+      <x>920</x>
+      <y>136</y>
+      <w>344</w>
+      <h>128</h>
     </coordinates>
     <panel_attributes>*Interface - Functional method, returns,chained*
 Consumer - accept(1 or 2) No    Y
@@ -174,10 +174,10 @@ fontsize=18
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1512</x>
-      <y>204</y>
-      <w>504</w>
-      <h>216</h>
+      <x>1288</x>
+      <y>136</y>
+      <w>336</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>_*Streams*_
 --
@@ -197,10 +197,10 @@ fontsize=18
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1224</x>
-      <y>432</y>
-      <w>324</w>
-      <h>48</h>
+      <x>1096</x>
+      <y>288</y>
+      <w>216</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>*Can be chained only streams*
 fg=red
@@ -210,10 +210,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1380</x>
-      <y>312</y>
-      <w>240</w>
-      <h>144</h>
+      <x>1200</x>
+      <y>208</y>
+      <w>160</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 fg=red</panel_attributes>
@@ -222,10 +222,10 @@ fg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>900</x>
-      <y>696</y>
-      <w>504</w>
-      <h>120</h>
+      <x>880</x>
+      <y>464</y>
+      <w>336</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>*Regular Expressions. S-17*
 valign=center
@@ -237,10 +237,10 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>636</x>
-      <y>852</y>
-      <w>612</w>
-      <h>492</h>
+      <x>704</x>
+      <y>568</y>
+      <w>408</w>
+      <h>328</h>
     </coordinates>
     <panel_attributes>_*Reg Exp*_
 --
@@ -277,10 +277,10 @@ alphaNum.replaceAll("(?i)[a-f3-8]","X"); // Ignoring case! (?i)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1272</x>
-      <y>852</y>
-      <w>588</w>
-      <h>264</h>
+      <x>1128</x>
+      <y>568</y>
+      <w>528</w>
+      <h>176</h>
     </coordinates>
     <panel_attributes>_Pattern-Matcher_
 --
@@ -290,18 +290,20 @@ Matcher matcher = pattern.matcher(htmlText);
 System.out.println(matcher.matches());
 Pattern.compile(h2Pattern,
                       Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CASE);
+.* - one or more ...  
+String ch12RegEx = "^\\d{5}$"; 5 digits exactly! (^...$)                    
 fontsize=20</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1428</x>
-      <y>732</y>
-      <w>324</w>
-      <h>48</h>
+      <x>1232</x>
+      <y>488</y>
+      <w>216</w>
+      <h>32</h>
     </coordinates>
-    <panel_attributes>** is important! It mean part of ...*
+    <panel_attributes>** is important! It means part of ...*
 fg=red
 bg=yellow</panel_attributes>
     <additional_attributes/>
@@ -309,13 +311,43 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1488</x>
-      <y>768</y>
-      <w>132</w>
-      <h>156</h>
+      <x>1272</x>
+      <y>512</y>
+      <w>88</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 fg=red</panel_attributes>
     <additional_attributes>10.0;110.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>480</y>
+      <w>336</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*Databases. S-19*
+valign=center
+fontsize=24
+lw=3.5
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>8</x>
+      <y>568</y>
+      <w>528</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>_Sqlite_
+--
+.quit .backup .restore - just do it from last backup!
+.tables .schema                 
+fontsize=20</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
