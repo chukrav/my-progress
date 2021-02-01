@@ -4,5 +4,10 @@ vb nm: 89 cpm, 4.9%; 89, 4.9%; 77, 6.2%; 92, 6.2%;
 tg yh: 90, 4.3%;     90, 4.3%; 85, 3.4%; 96, 2.4%;
 er ui: 79, 4.8%;     82, 5.4%; 77, 20.3%;88, 4.3%;
 
-
+WORDS
+_id	word   translation  transcription   book dict remember
+  1 deviance поведение  [ 'diːvɪən(t)s]  8    1    1 - 0
+BOOKS     VIEW - ????
+_id	book
+  1 HP1
 
