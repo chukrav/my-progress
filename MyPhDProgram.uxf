@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1496</x>
+      <y>165</y>
+      <w>132</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>PhD
+fontsize=24
+lw=3.5
+fg=blue
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>968</x>
+      <y>286</y>
+      <w>429</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>_**Research areas and methods**_
+
+--
+* Real-time big data management (RBDM)
+--
+* Stream mining and analytics (SMA)
+--
+* Text processing and machine learning (TPML)
+--
+* Simulation and modelling (SM)
+--
+* Information visualisation (IV)
+
+fontsize=18
+bg=blue
+transparency=85
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>22</x>
+      <y>0</y>
+      <w>737</w>
+      <h>407</h>
+    </coordinates>
+    <panel_attributes>_*Real-time big data management (RBDM)*_
+--
+
+BigData is a topic of great contemporary interest given the proliferation of BigData
+repositories that are now available online. BigData repositories are typically created 
+from diverse and inter-linked online data and contain potentially valuable information 
+that needs to be mined before it can be presented in usable form to an end-user.
+
+The primary challenge in Data Analytics that has emerged in recent times is the management
+of BigData in order for real time analysis to be performed. Currently available mining methods
+cannot scale to petabyte and exabyte scale datasets which are currently available. Research in 
+this area is required that will mine such large data repositories in real time while returning 
+knowledge in the form of actionable patterns in real time that can be used by an end-user to support 
+real time decision making. Some of the projects from the research group in this area are:
+
+    * Performance optimisation of semi-stream joins
+    * Processing of similarity joins in stream data
+    * Implementation of one-to-one, one-to-many, and many-to-many joins in stream data
+    * Optimisation of SQL queries
+    * Implementation and optimisation of semi-stream and full stream joins in clouds
+    * Parallelisation of semi-stream and full stream joins
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>748</x>
+      <y>55</y>
+      <w>242</w>
+      <h>319</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>200.0;270.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>33</x>
+      <y>429</y>
+      <w>737</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>_*Stream mining and analytics (SMA)*_
+--
+Data streams are open ended collections of data that do not have a finite length. 
+Classical data mining methods developed for static and fixed size datasets do not 
+apply to data streams. Research in this area has flourished over the last 15 years 
+or so but some open research issues remain. Some of these open issues include the 
+methods that will detect concept drift. In most data streams changes in the underlying 
+stochastic data distribution occur periodically and such changes need to be detected so 
+that models can be kept up to date with the data in real time. The other major challenge 
+comes from data streamlining in from BigData repositories. New scalable methods that can 
+mine ultra-high data arrival rates are needed while ensuring that model accuracy is not 
+compromised by the higher throughput rates that are achieved. Some of the sample projects 
+from the research group are:
+
+   * Change detection of unsupervised data streams where class labels are either not relevant or not available
+   * Understanding the evolution of a stream in both time and space
+   * Capturing of recurrent patterns or motifs in stream data
+   * New frameworks for data stream mining to scale up to data arrival rates of terabytes per second
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>968</x>
+      <y>528</y>
+      <w>561</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>_*Study with us*_
+--
+Our research spectrum is in data and knowledge engineering.
+We invite you to study your PhD with us. We currently cover 
+the below areas of study:
+--
+    * Stream Mining and Analytics (SMA)
+    * Natural Language Processing and Machine Learning (TPML)
+    * Simulation and Modelling  (SM)
+    * Information Visualisation
+    * Real-time Big Data Management (RDBM)
+    * Stochastic modeling
+    * Computational statistics
+    * Computational Intelligence in Sports Science
+    * Data Stream Mining
+    * Health Informatics
+--
+Register your interest in studying with us: dsrg@aut.ac.nz
+
+fontsize=16
+bg=blue
+transparency=85
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>759</x>
+      <y>374</y>
+      <w>231</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+</diagram>
