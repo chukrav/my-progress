@@ -58,3 +58,6 @@ Search: android architecture components dependency -> Lifecycle   !!!
     annotationProcessor "android.arch.lifecycle:compiler:$lifecycle_version"
 
 $A \cup B$
+
+Set up a Firebase Cloud Messaging client app on Android
+https://firebase.google.com/docs/cloud-messaging/android/client
