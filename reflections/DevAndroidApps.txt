@@ -61,3 +61,43 @@ $A \cup B$
 
 Set up a Firebase Cloud Messaging client app on Android
 https://firebase.google.com/docs/cloud-messaging/android/client
+
+========================================================
+10 Java Frameworks 2020 [https://stackify.com/10-of-the-most-popular-java-frameworks-of-2020/]
+1. Spring
+Spring is a very lightweight implementation of the Java framework, usable for pretty much any type of Java project. It’s a modular framework that you could use for any level or layer of a project. 
+
+2. Hibernate
+Hibernate is an object-relational mapping (ORM) framework that makes common data handling mismatch cases a thing of the past. If you’re always working with relational databases, the Hibernate ORM framework could easily become your staple.
+
+3. JSF (JavaServer Faces)
+The Oracle-built, stable framework comes with a component-based MVC environment to create beautiful “faces” for Java applications. It’s packed to the brim with libraries that allow developers to experiment with the front end—without introducing other frameworks for that part.
+
+4. GWT (Google Web Toolkit)
+    It bridges the gap between back-end and front-end development.
+    The cross-browser compatibility comes in handy when deploying applications online.
+    Google APIs are easier to implement using GWT—and boy, are there plenty of them.
+	
+5. Struts (The Later Version)
+That means you get to apply new technologies such as Ruby and new JavaScript frameworks to extend your Java applications’ functionality.
+
+6. Blade
+7. Play
+The Play framework was created with the ease of web application development in mind. To use Play, one only needs a web browser, any text editor, and some inkling of how the command interface works on any OS. 
+
+8. Vaadin
+Here are some Vaadin Java framework advantages:
+    Responsive and good-looking CSS interfaces come as defaults for all instances.
+    You have built-in JavaBeans validation by annotation.
+    If data visualization is a major deliverable for a project, Vaadin will put your results on steroids.
+	
+9. Grails
+Here’s why you should use Grails:
+    You won’t have to try out a new IDE; whatever you’re using now will do.
+    The gentle learning curve for Grails is good for time-sensitive projects.
+    The documentation is clear, and courses are often running to get you up and deploying in no time.
+	
+10. DropWizard
+
+
+

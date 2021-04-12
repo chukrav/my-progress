@@ -137,7 +137,22 @@ Finally, in Lesson 6, you've learned the core principles of responsible AI. You'
 transparent and explainable models, and raised your awareness on some of the serious challenges of 
 modern AI and Machine Learning.
 
-
-
+5 Online Courses I Took as a Self-Taught Data Scientist ======================
+https://betterprogramming.pub/5-online-courses-i-took-as-a-self-taught-data-scientist-36e0dc36f386
+1. Machine Learning A-Z: Hands-On Python & R In Data Science (taken!!!)
+https://click.linksynergy.com/deeplink?id=GxLZRw4yaE8&mid=39197&murl=http%3A%2F%2Fwww.udemy.com%2Fcourse%2Fmachinelearning%2F
+2. The Complete SQL Bootcamp 2021: Go From Zero to Hero:
+https://click.linksynergy.com/deeplink?id=GxLZRw4yaE8&mid=39197&murl=http%3A%2F%2Fwww.udemy.com%2Fcourse%2Fthe-complete-sql-bootcamp%2F
+3. Python A-Z: Python For Data Science With Real Exercises:
+https://click.linksynergy.com/deeplink?id=GxLZRw4yaE8&mid=39197&murl=http%3A%2F%2Fwww.udemy.com%2Fcourse%2Fpython-coding%2F
+4. Data Analysis With Pandas and Python:
+https://click.linksynergy.com/deeplink?id=GxLZRw4yaE8&mid=39197&murl=http%3A%2F%2Fwww.udemy.com%2Fcourse%2Fdata-analysis-with-pandas%2F
+5. Tableau 2020 A-Z: Hands-On Tableau Training for Data Science:
+https://click.linksynergy.com/deeplink?id=GxLZRw4yaE8&mid=39197&murl=http%3A%2F%2Fwww.udemy.com%2Fcourse%2Ftableau10%2F
+	
+	
+	
+	
+	
 	
 	
