@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.2">
-  <zoom_level>8</zoom_level>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>496</x>
-      <y>128</y>
-      <w>192</w>
-      <h>72</h>
+      <x>620</x>
+      <y>100</y>
+      <w>240</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>_data Science_
 --
@@ -18,10 +18,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>416</x>
-      <y>336</y>
-      <w>192</w>
-      <h>72</h>
+      <x>520</x>
+      <y>360</y>
+      <w>240</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>_Computer Vision_
 --
@@ -32,25 +32,26 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>656</y>
-      <w>264</w>
-      <h>72</h>
+      <x>700</x>
+      <y>760</y>
+      <w>330</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>_Applied Data Science with Python Specialization_
 --
 *C: 5 month*
 *5 Courses*
+Intermediate
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>984</x>
-      <y>448</y>
-      <w>192</w>
-      <h>48</h>
+      <x>1230</x>
+      <y>500</y>
+      <w>240</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>_Statistics_
 --
@@ -61,10 +62,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>720</y>
-      <w>192</w>
-      <h>48</h>
+      <x>350</x>
+      <y>840</y>
+      <w>240</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>_Lin Algebra_
 --
@@ -75,10 +76,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>424</x>
-      <y>248</y>
-      <w>192</w>
-      <h>48</h>
+      <x>800</x>
+      <y>240</y>
+      <w>240</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>_PyTorch_
 --
@@ -89,10 +90,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>656</y>
-      <w>192</w>
-      <h>48</h>
+      <x>350</x>
+      <y>760</y>
+      <w>240</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>_TensorFloor_
 --
@@ -103,10 +104,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>1048</y>
-      <w>200</w>
-      <h>48</h>
+      <x>350</x>
+      <y>1250</y>
+      <w>250</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>_Intro to Theoretical Computer Science_
 --
@@ -117,10 +118,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>416</x>
-      <y>440</y>
-      <w>264</w>
-      <h>72</h>
+      <x>520</x>
+      <y>490</y>
+      <w>330</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>_Deep Learning Specialization_
 --
@@ -133,9 +134,9 @@ bg=green</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>624</y>
-      <w>240</w>
-      <h>120</h>
+      <y>720</y>
+      <w>300</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>_Free Courses Udacity:_
 --
@@ -152,10 +153,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>944</x>
-      <y>120</y>
-      <w>192</w>
-      <h>72</h>
+      <x>1180</x>
+      <y>90</y>
+      <w>240</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>_Web Development_
 --
@@ -166,10 +167,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>760</x>
-      <y>440</y>
-      <w>192</w>
-      <h>56</h>
+      <x>950</x>
+      <y>490</y>
+      <w>240</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>_Algorithms I-II_
 --
@@ -180,10 +181,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>904</x>
-      <y>664</y>
-      <w>296</w>
-      <h>88</h>
+      <x>1130</x>
+      <y>770</y>
+      <w>370</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>_Full Stack Web_
 _and_
@@ -198,10 +199,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1024</x>
-      <y>328</y>
-      <w>296</w>
-      <h>80</h>
+      <x>1280</x>
+      <y>350</y>
+      <w>370</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>_Full-Stack Web Development with React Specialization_
 --
@@ -213,10 +214,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1104</x>
-      <y>536</y>
-      <w>96</w>
-      <h>32</h>
+      <x>1370</x>
+      <y>610</y>
+      <w>120</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>*or*</panel_attributes>
     <additional_attributes/>
@@ -224,32 +225,32 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>992</x>
-      <y>560</y>
-      <w>176</w>
-      <h>120</h>
+      <x>1240</x>
+      <y>640</y>
+      <w>210</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;130.0;200.0;10.0</additional_attributes>
+    <additional_attributes>10.0;130.0;190.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1072</x>
-      <y>400</y>
-      <w>80</w>
-      <h>152</h>
+      <x>1340</x>
+      <y>440</y>
+      <w>90</w>
+      <h>190</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;80.0;170.0</additional_attributes>
+    <additional_attributes>10.0;10.0;70.0;170.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>832</y>
-      <w>192</w>
-      <h>72</h>
+      <x>700</x>
+      <y>980</y>
+      <w>240</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>_Computer Science:_
 _Algorithms, Theory, and Machines_
@@ -262,10 +263,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>904</x>
-      <y>912</y>
-      <w>192</w>
-      <h>48</h>
+      <x>1130</x>
+      <y>1080</y>
+      <w>240</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>_See Courcera for more_
 --
@@ -276,10 +277,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1328</x>
-      <y>128</y>
-      <w>192</w>
-      <h>56</h>
+      <x>1660</x>
+      <y>100</y>
+      <w>240</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>_Shoos_
 --
@@ -290,10 +291,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1216</x>
+      <x>1160</x>
       <y>240</y>
-      <w>192</w>
-      <h>48</h>
+      <w>240</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>_Udemy_
 --
@@ -305,10 +306,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1352</x>
-      <y>728</y>
-      <w>192</w>
-      <h>48</h>
+      <x>1690</x>
+      <y>850</y>
+      <w>240</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>_Udemy_
 --
@@ -320,10 +321,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1352</x>
-      <y>440</y>
-      <w>192</w>
-      <h>160</h>
+      <x>1690</x>
+      <y>490</y>
+      <w>240</w>
+      <h>200</h>
     </coordinates>
     <panel_attributes>_On WEB_
 --
@@ -342,10 +343,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1352</x>
-      <y>664</y>
-      <w>192</w>
-      <h>56</h>
+      <x>1690</x>
+      <y>770</y>
+      <w>240</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>_Everywhere_
 --
@@ -357,10 +358,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>848</y>
-      <w>192</w>
-      <h>48</h>
+      <x>350</x>
+      <y>1000</y>
+      <w>240</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>_Introduction to TensorFlow Lite_
 --
@@ -372,10 +373,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>784</y>
-      <w>192</w>
-      <h>48</h>
+      <x>350</x>
+      <y>920</y>
+      <w>240</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>_Intro to Algorithms_
 --
@@ -386,10 +387,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>744</y>
-      <w>264</w>
-      <h>72</h>
+      <x>700</x>
+      <y>870</y>
+      <w>330</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>_Data Structures and Algorithms Specialization_
 --
@@ -401,10 +402,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1560</x>
-      <y>720</y>
-      <w>296</w>
-      <h>80</h>
+      <x>1950</x>
+      <y>840</y>
+      <w>370</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>_Python for Everybody Specialization_
 --
@@ -416,10 +417,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1560</x>
-      <y>808</y>
-      <w>296</w>
-      <h>80</h>
+      <x>1950</x>
+      <y>950</y>
+      <w>370</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>_Object Oriented Java Programming:_
 _Data Structures and Beyond Specialization_
@@ -432,10 +433,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1448</x>
+      <x>1510</x>
       <y>240</y>
-      <w>208</w>
-      <h>56</h>
+      <w>260</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>_*Android*_
 --
@@ -447,10 +448,10 @@ bg=light_gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>728</x>
-      <y>48</y>
-      <w>208</w>
-      <h>56</h>
+      <x>910</x>
+      <y>0</y>
+      <w>260</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>_*Deep Learning*_
 --
@@ -461,10 +462,10 @@ bg=light_gray</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1344</x>
-      <y>632</y>
-      <w>520</w>
-      <h>264</h>
+      <x>1680</x>
+      <y>730</y>
+      <w>650</w>
+      <h>330</h>
     </coordinates>
     <panel_attributes>Priority: 002
 halign=left
@@ -475,10 +476,10 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>888</x>
-      <y>624</y>
-      <w>344</w>
-      <h>352</h>
+      <x>1110</x>
+      <y>720</y>
+      <w>430</w>
+      <h>440</h>
     </coordinates>
     <panel_attributes>Priority: 002
 halign=left
@@ -489,10 +490,10 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>264</x>
-      <y>624</y>
-      <w>600</w>
-      <h>352</h>
+      <x>330</x>
+      <y>720</y>
+      <w>750</w>
+      <h>440</h>
     </coordinates>
     <panel_attributes>Up Jan. 31 22
 halign=left
@@ -503,10 +504,10 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>720</x>
-      <y>344</y>
-      <w>192</w>
-      <h>56</h>
+      <x>900</x>
+      <y>370</y>
+      <w>240</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>_Gudrich ADT_
 --
@@ -517,24 +518,26 @@ bg=green</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>400</x>
-      <y>224</y>
-      <w>1288</w>
-      <h>88</h>
+      <x>500</x>
+      <y>220</y>
+      <w>1610</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>Up 30 Sep. 20
+Up 30 Jan 21
 halign=left
 bg=light_gray
+fg=red
 layer=-1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>400</x>
-      <y>312</y>
-      <w>1288</w>
-      <h>104</h>
+      <x>500</x>
+      <y>330</y>
+      <w>1610</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Up 30 Nov. 20
 halign=left
@@ -545,15 +548,61 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>400</x>
-      <y>416</y>
-      <w>1288</w>
-      <h>104</h>
+      <x>500</x>
+      <y>460</y>
+      <w>1610</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Up 30 Jan. 21
 halign=left
 bg=light_gray
 layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1830</x>
+      <y>250</y>
+      <w>240</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_?????_
+--
+*Javascript*
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>1210</y>
+      <w>330</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>_Genomic Data Science Specialization_
+--
+*???*
+*C: 8 month*
+*8 Courses*
+bg=#e6f98c</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>1100</y>
+      <w>330</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>_Data Science: Foundations using R Specialization_
+--
+*C: 5 month*
+*5 Courses*
+beginer
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
