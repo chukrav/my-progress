@@ -137,7 +137,17 @@ Finally, in Lesson 6, you've learned the core principles of responsible AI. You'
 transparent and explainable models, and raised your awareness on some of the serious challenges of 
 modern AI and Machine Learning.
 
+Computer Vision & Image Processing Algorithms Engineer
+Requirements:
 
+    Masters or PhD in Bio Medical/Electrical Engineering/Computer science/ Physics or equivalent
+    Experience in image processing and/or algorithms development – Must
+    Hands-on experience with one or more of Big Data Technologies,
+	Data Solutions, Python, Machine Learning concepts/infrastructure, 
+	Angular/React, Java and C++.
+    Team player and strong independent work and self-learning abilities
+    Methodological and “can do” approach
+    Knowledge of agile (scrum) development methodology is a plus.
 
 	
 	

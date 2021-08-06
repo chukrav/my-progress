@@ -73,10 +73,55 @@ We require the following information:
      1-2 страницы документа (максимум) с изложением вашего предлагаемого исследовательского проекта
      Биографические данные (CV)
 	 ......
-	
-	
-	
 jobs: glassdoor.co.nz
 https://www.glassdoor.co.nz/Job/new-zealand-data-scientist-intern-jobs-SRCH_IL.0,11_IN186_KO12,33.htm	
 	
+SOP PhD ----------------------
+
+Data mining is the technique of examining a large data structure to find patterns, 
+trends, hidden insights which would otherwise would not be possible using simpler 
+query based techniques.
+It uses sophisticated mathematical algorithms to classify, divide, segment the entire data,
+pre-process it as necessary and evaluate the possibility of future events.
+    Data Mining is also known as Knowledge Discovery in Data or KDD
+
+What are the key characteristics?
+
+    Prediction of likely outcomes or events
+    Information about actions that can be taken
+    Automated discovery of patterns
+    Focus on large datasets and databases
 	
+How is it different from Machine learning?
+ Data mining is considerably different from Machine Learning (ML) but they go hand in hand.
+ First we should understand that Data mining is different from Data Extraction. Once we 
+ have extracted the data via Scraping or any other source, the technique of finding 
+ patters is called data mining.
+ 
+Machine Learning is the science of creating algorithms, neural networks and programs 
+which learn on their own or are trained initially by known data. Once developed they 
+do not need human interference to improve.(???)
+Some applications of Machine learning are:
+ Web Search, Image recognition, NLP, Spam filters, recommender systems, ad placement, 
+ credit scoring, fraud detection, stock trading, computer vision and drug design.
+ 
+Data mining is the very first step in data science.
+ To find patters of hidden insights in data, data mining uses anomaly detection, cluster 
+ analysis, association rule mining, et all
+
+Some other key differentiators between data mining and ML are as follows:
+ Data mining works on unstructured data; ML uses algorithms and neural networks.
+ Data mining sources data from a data warehouse whereas ML reads from external machines, 
+ could be data sets as well or live user input.
+ Data mining has focus on applications and algorithms whereas ML focuses on theoretical 
+ part.
+
+=========== Citation ============
+Large amount of data is generated each day and we need new techniques of data mining to 
+find hidden insights in data!
+
+Introduction to Data Mining and Machine Learning Techniques
+https://medium.com/@patelharshali136/introduction-to-data-mining-and-machine-learning-techniques-1d209b6c69b2
+
+
+
