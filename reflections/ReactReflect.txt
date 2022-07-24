@@ -1,0 +1,26 @@
+React Coursera ------------
+
+Setup project:
+yarn add bootstrap@4.0.0
+yarn add reactstrap@5.0.0
+yarn add react-popper@0.9.2
+
+Next, open index.js file in the src folder and add the following line into the imports:
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+yarn start - to start in browser.
+
+Create react app:
+https://reactjs.org/docs/create-a-new-react-app.html
+https://github.com/facebook/create-react-app
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+Note:
+    npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.
+
+
+---------------------------------------
+
