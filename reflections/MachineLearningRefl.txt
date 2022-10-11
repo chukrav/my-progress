@@ -137,6 +137,21 @@ Finally, in Lesson 6, you've learned the core principles of responsible AI. You'
 transparent and explainable models, and raised your awareness on some of the serious challenges of 
 modern AI and Machine Learning.
 
+Computer Vision & Image Processing Algorithms Engineer
+Requirements:
+
+    Masters or PhD in Bio Medical/Electrical Engineering/Computer science/ Physics or equivalent
+    Experience in image processing and/or algorithms development – Must
+    Hands-on experience with one or more of Big Data Technologies,
+	Data Solutions, Python, Machine Learning concepts/infrastructure, 
+	Angular/React, Java and C++.
+    Team player and strong independent work and self-learning abilities
+    Methodological and “can do” approach
+    Knowledge of agile (scrum) development methodology is a plus.
+
+
+
+=======
 5 Online Courses I Took as a Self-Taught Data Scientist ======================
 https://betterprogramming.pub/5-online-courses-i-took-as-a-self-taught-data-scientist-36e0dc36f386
 1. Machine Learning A-Z: Hands-On Python & R In Data Science (taken!!!)
@@ -154,5 +169,6 @@ https://click.linksynergy.com/deeplink?id=GxLZRw4yaE8&mid=39197&murl=http%3A%2F%
 	
 	
 	
+>>>>>>> eef472c54cd7f063895d9b886d14d74af4ff24a3
 	
 	

@@ -449,7 +449,7 @@ fontsize=18</panel_attributes>
       <h>209</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;170.0;100.0;10.0</additional_attributes>
+    <additional_attributes>10.0;160.0;110.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -612,7 +612,7 @@ fontsize=18</panel_attributes>
       <h>55</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;420.0;23.0</additional_attributes>
+    <additional_attributes>10.0;10.0;410.0;25.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -669,7 +669,7 @@ transparency=85</panel_attributes>
       <h>55</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;30.0;420.0;13.0</additional_attributes>
+    <additional_attributes>10.0;30.0;410.0;15.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -755,7 +755,7 @@ transparency=85</panel_attributes>
       <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;70.0;420.0;13.0</additional_attributes>
+    <additional_attributes>10.0;70.0;410.0;15.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -882,7 +882,7 @@ transparency=85</panel_attributes>
       <h>231</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;190.0;420.0;10.0</additional_attributes>
+    <additional_attributes>10.0;190.0;410.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
@@ -958,7 +958,7 @@ fontsize=18</panel_attributes>
       <h>330</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;230.0;280.0</additional_attributes>
+    <additional_attributes>10.0;10.0;220.0;270.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -1032,7 +1032,7 @@ transparency=85</panel_attributes>
       <h>308</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;260.0;420.0;10.0</additional_attributes>
+    <additional_attributes>10.0;260.0;410.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
