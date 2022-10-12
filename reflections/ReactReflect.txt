@@ -23,6 +23,13 @@ Note:
 
 
 ---------------------------------------
+React Udemy
+For work with css. Prevents global use of styles ???!!! Only to it's own component!
+https://styled-components.com/
+
+
+
+=======
 14:22 Tuesday, October 11, 2022
 	<ul>
        {props.users.map((user) => (
@@ -33,4 +40,5 @@ Note:
        ))}
     </ul>
 Attension!!!  {props.users.map((user) => ( ... ))} <-round brackets in anonime function.
+
 
