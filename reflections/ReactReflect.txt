@@ -41,4 +41,9 @@ https://styled-components.com/
     </ul>
 Attension!!!  {props.users.map((user) => ( ... ))} <-round brackets in anonime function.
 
+HOOKS: -----------------------
+useEffect(()->{ ... }, [dependecies] ); Executes when dependecies changed! Not when rerendering!!!
+dependecies = [] runs once. w/o dependecies runs every rerendering!
+const [state, dispatchFn] = useReducer(reductFn,initialState,initFn);
+
 
