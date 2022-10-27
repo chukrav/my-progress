@@ -45,5 +45,6 @@ HOOKS: -----------------------
 useEffect(()->{ ... }, [dependecies] ); Executes when dependecies changed! Not when rerendering!!!
 dependecies = [] runs once. w/o dependecies runs every rerendering!
 const [state, dispatchFn] = useReducer(reductFn,initialState,initFn);
-
+const {isValid: emailIsValid } = emailState;  // Only alias!!!
+	to use emailIsValid afterwards ...
 
