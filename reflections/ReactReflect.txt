@@ -48,3 +48,12 @@ const [state, dispatchFn] = useReducer(reductFn,initialState,initFn);
 const {isValid: emailIsValid } = emailState;  // Only alias!!!
 	to use emailIsValid afterwards ...
 
+SASS -----------
+To install the node module to support the compilation of the Scss file to a CSS file:
+	npm install --save-dev node-sass@4.7.2
+	
+Next open your package.json file and add:
+	"scss": "node-sass -o css/ css/"
+	
+In order to transform the Scss file to a CSS file, type:
+	npm run scss
