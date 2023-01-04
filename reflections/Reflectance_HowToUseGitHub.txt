@@ -152,5 +152,19 @@ git commit -m ".gitignore fix"
 
 Your repository is clean :)
 --------------------------------------------------------
+To squash comments:
+	$ git rebase -i 3b59976             <-[Num of last line]
+	or
+	$ git rebase --interactive HEAD~N   <-[N - of lines]
+	$ git rebase --interactive HEAD~[7]
 	
+	pick d94e78 Prepare the workbench for feature Z     --- older commit
+	s 4e9baa Cool implementation 
+	. . . . . .  .
+	You can leave it as it is and the commit message will result in a list of all the intermediate commits, as follows:
+	Usually I don't care to keep such information, so I wipe out the default message and use something more self-explanatory
+	like Implemented feature Z.
+		
+	$ git push --force-with-lease origin tabdb
+
 	
