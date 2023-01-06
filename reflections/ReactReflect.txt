@@ -41,4 +41,7 @@ https://styled-components.com/
     </ul>
 Attension!!!  {props.users.map((user) => ( ... ))} <-round brackets in anonime function.
 
+10. Effects, reducers and context.
+
+
 
