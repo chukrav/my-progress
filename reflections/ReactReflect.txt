@@ -41,6 +41,9 @@ https://styled-components.com/
     </ul>
 Attension!!!  {props.users.map((user) => ( ... ))} <-round brackets in anonime function.
 
+10. Effects, reducers and context.
+
+=======
 HOOKS: -----------------------
 useEffect(()->{ ... }, [dependecies] ); Executes when dependecies changed! Not when rerendering!!!
 dependecies = [] runs once. w/o dependecies runs every rerendering!
@@ -57,3 +60,11 @@ Next open your package.json file and add:
 	
 In order to transform the Scss file to a CSS file, type:
 	npm run scss
+
+
+
+
+
+
+
+
