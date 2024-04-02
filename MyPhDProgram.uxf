@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.3.0">
-  <zoom_level>11</zoom_level>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>13</zoom_level>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>2387</x>
-      <y>319</y>
-      <w>132</w>
-      <h>66</h>
+      <x>2821</x>
+      <y>377</y>
+      <w>156</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>PhD
 fontsize=24
@@ -20,10 +20,10 @@ transparency=85</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1859</x>
-      <y>418</y>
-      <w>429</w>
-      <h>220</h>
+      <x>2197</x>
+      <y>494</y>
+      <w>507</w>
+      <h>260</h>
     </coordinates>
     <panel_attributes>_**Research areas and methods**_
 
@@ -47,10 +47,10 @@ transparency=85
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>913</x>
-      <y>154</y>
-      <w>737</w>
-      <h>407</h>
+      <x>1079</x>
+      <y>182</y>
+      <w>871</w>
+      <h>481</h>
     </coordinates>
     <panel_attributes>_*Real-time big data management (RBDM)*_
 --
@@ -80,10 +80,10 @@ real time decision making. Some of the projects from the research group in this 
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1639</x>
-      <y>209</y>
-      <w>242</w>
-      <h>297</h>
+      <x>1937</x>
+      <y>247</y>
+      <w>286</w>
+      <h>351</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>200.0;250.0;10.0;10.0</additional_attributes>
@@ -91,10 +91,10 @@ real time decision making. Some of the projects from the research group in this 
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>891</x>
-      <y>583</y>
-      <w>759</w>
-      <h>330</h>
+      <x>1053</x>
+      <y>689</y>
+      <w>897</w>
+      <h>390</h>
     </coordinates>
     <panel_attributes>_*Stream mining and analytics (SMA)*_
 --
@@ -123,10 +123,10 @@ from the research group are:
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1859</x>
-      <y>682</y>
-      <w>561</w>
-      <h>330</h>
+      <x>2197</x>
+      <y>806</y>
+      <w>663</w>
+      <h>390</h>
     </coordinates>
     <panel_attributes>_*Study with us*_
 --
@@ -156,10 +156,10 @@ transparency=85
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1639</x>
-      <y>506</y>
-      <w>242</w>
-      <h>165</h>
+      <x>1937</x>
+      <y>598</y>
+      <w>286</w>
+      <h>195</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>200.0;10.0;10.0;130.0</additional_attributes>
@@ -167,10 +167,10 @@ transparency=85
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>858</x>
-      <y>968</y>
-      <w>803</w>
-      <h>495</h>
+      <x>1014</x>
+      <y>1144</y>
+      <w>949</w>
+      <h>585</h>
     </coordinates>
     <panel_attributes>_*Text processing and machine learning (TPML)*_
 --
@@ -211,10 +211,10 @@ transparency=85
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1617</x>
-      <y>528</y>
-      <w>264</w>
-      <h>462</h>
+      <x>1911</x>
+      <y>624</y>
+      <w>312</w>
+      <h>546</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>220.0;10.0;10.0;400.0</additional_attributes>
@@ -223,9 +223,9 @@ transparency=85
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>363</y>
-      <w>880</w>
-      <h>550</h>
+      <y>429</y>
+      <w>1040</w>
+      <h>650</h>
     </coordinates>
     <panel_attributes>_*Simulation and modelling (SM)*_
 --
@@ -269,10 +269,10 @@ transparency=85
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>869</x>
-      <y>561</y>
-      <w>1012</w>
-      <h>33</h>
+      <x>1027</x>
+      <y>663</y>
+      <w>1196</w>
+      <h>39</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>900.0;10.0;10.0;10.0</additional_attributes>
@@ -280,10 +280,10 @@ transparency=85
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>242</x>
-      <y>924</y>
-      <w>605</w>
-      <h>264</h>
+      <x>286</x>
+      <y>1092</y>
+      <w>715</w>
+      <h>312</h>
     </coordinates>
     <panel_attributes>_*Information visualisation (IV)*_
 --
@@ -312,10 +312,10 @@ transparency=85
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>836</x>
-      <y>594</y>
-      <w>1045</w>
-      <h>374</h>
+      <x>988</x>
+      <y>702</y>
+      <w>1235</w>
+      <h>442</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>930.0;10.0;10.0;320.0</additional_attributes>
@@ -323,10 +323,10 @@ transparency=85
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2574</x>
-      <y>385</y>
-      <w>429</w>
-      <h>495</h>
+      <x>3042</x>
+      <y>455</y>
+      <w>507</w>
+      <h>585</h>
     </coordinates>
     <panel_attributes>_**Research projects**_
 
@@ -375,10 +375,10 @@ transparency=85
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>3498</x>
-      <y>605</y>
-      <w>176</w>
-      <h>66</h>
+      <x>4134</x>
+      <y>715</y>
+      <w>208</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>Parma Nand
 Member 
@@ -390,10 +390,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>616</y>
-      <w>528</w>
-      <h>44</h>
+      <x>3536</x>
+      <y>728</y>
+      <w>624</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;460.0;20.0</additional_attributes>
@@ -401,10 +401,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>3256</x>
-      <y>374</y>
-      <w>297</w>
-      <h>77</h>
+      <x>3848</x>
+      <y>442</y>
+      <w>351</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>Muhammad Asif Naeem
 Founder
@@ -417,10 +417,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>3102</x>
-      <y>242</y>
-      <w>176</w>
-      <h>77</h>
+      <x>3666</x>
+      <y>286</y>
+      <w>208</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>Gerald Weber
 Member 
@@ -432,10 +432,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>396</y>
-      <w>286</w>
-      <h>66</h>
+      <x>3536</x>
+      <y>468</y>
+      <w>338</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;240.0;10.0</additional_attributes>
@@ -443,10 +443,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>253</y>
-      <w>132</w>
-      <h>209</h>
+      <x>3536</x>
+      <y>299</y>
+      <w>169</w>
+      <h>234</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;160.0;110.0;10.0</additional_attributes>
@@ -454,10 +454,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3520</x>
-      <y>110</y>
-      <w>231</w>
-      <h>88</h>
+      <x>4160</x>
+      <y>130</y>
+      <w>273</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>_Smart Shopping_
 --
@@ -471,10 +471,10 @@ transparency=85</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3707</x>
-      <y>671</y>
-      <w>374</w>
-      <h>165</h>
+      <x>4381</x>
+      <y>793</y>
+      <w>442</w>
+      <h>195</h>
     </coordinates>
     <panel_attributes>_Staged Online Learner (SOL) _
 --
@@ -492,10 +492,10 @@ transparency=85</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>3476</x>
-      <y>792</y>
-      <w>176</w>
-      <h>66</h>
+      <x>4108</x>
+      <y>936</y>
+      <w>208</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>Russel Pears
 Co-director
@@ -507,10 +507,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>407</y>
-      <w>286</w>
-      <h>440</h>
+      <x>3536</x>
+      <y>481</y>
+      <w>338</w>
+      <h>520</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;380.0;240.0;10.0</additional_attributes>
@@ -518,10 +518,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>814</y>
-      <w>506</w>
-      <h>44</h>
+      <x>3536</x>
+      <y>962</y>
+      <w>598</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;440.0;20.0</additional_attributes>
@@ -529,10 +529,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3586</x>
-      <y>220</y>
-      <w>286</w>
-      <h>132</h>
+      <x>4238</x>
+      <y>260</y>
+      <w>338</w>
+      <h>156</h>
     </coordinates>
     <panel_attributes>_Real-time Data Warehousing_
 --
@@ -548,10 +548,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>396</y>
-      <w>286</w>
-      <h>99</h>
+      <x>3536</x>
+      <y>468</y>
+      <w>338</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;70.0;240.0;10.0</additional_attributes>
@@ -559,10 +559,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3355</x>
-      <y>297</y>
-      <w>253</w>
-      <h>99</h>
+      <x>3965</x>
+      <y>351</y>
+      <w>299</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>210.0;10.0;10.0;70.0</additional_attributes>
@@ -570,10 +570,10 @@ transparency=85</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3762</x>
-      <y>462</y>
-      <w>352</w>
-      <h>154</h>
+      <x>4446</x>
+      <y>546</y>
+      <w>416</w>
+      <h>182</h>
     </coordinates>
     <panel_attributes>_IoT for Precision Health_
 --
@@ -591,10 +591,10 @@ transparency=85</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>3454</x>
-      <y>495</y>
-      <w>220</w>
-      <h>66</h>
+      <x>4082</x>
+      <y>585</y>
+      <w>260</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>Farhaan Mirza
 Director
@@ -606,10 +606,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>484</y>
-      <w>484</w>
-      <h>55</h>
+      <x>3536</x>
+      <y>572</y>
+      <w>559</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;410.0;25.0</additional_attributes>
@@ -617,10 +617,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>396</y>
-      <w>286</w>
-      <h>121</h>
+      <x>3536</x>
+      <y>468</y>
+      <w>338</w>
+      <h>143</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;90.0;240.0;10.0</additional_attributes>
@@ -628,10 +628,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>3476</x>
-      <y>715</y>
-      <w>187</w>
-      <h>55</h>
+      <x>4108</x>
+      <y>845</y>
+      <w>221</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>Boris Bačić
 Member 
@@ -643,10 +643,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3157</x>
-      <y>55</y>
-      <w>308</w>
-      <h>143</h>
+      <x>3731</x>
+      <y>65</y>
+      <w>364</w>
+      <h>169</h>
     </coordinates>
     <panel_attributes>_Medical Adherence_
 --
@@ -663,10 +663,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>495</y>
-      <w>484</w>
-      <h>55</h>
+      <x>3536</x>
+      <y>585</y>
+      <w>559</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;410.0;15.0</additional_attributes>
@@ -674,10 +674,10 @@ transparency=85</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3927</x>
-      <y>99</y>
-      <w>528</w>
-      <h>341</h>
+      <x>4641</x>
+      <y>117</y>
+      <w>624</w>
+      <h>403</h>
     </coordinates>
     <panel_attributes>_Augmented Rehabilitation &amp; Coaching Systems_
 --
@@ -707,10 +707,10 @@ transparency=55
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>539</y>
-      <w>561</w>
-      <h>198</h>
+      <x>3536</x>
+      <y>637</y>
+      <w>663</w>
+      <h>234</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;482.0;160.0</additional_attributes>
@@ -718,10 +718,10 @@ transparency=55
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>539</y>
-      <w>550</w>
-      <h>275</h>
+      <x>3536</x>
+      <y>637</y>
+      <w>650</w>
+      <h>325</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;480.0;230.0</additional_attributes>
@@ -729,10 +729,10 @@ transparency=55
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3663</x>
-      <y>869</y>
-      <w>396</w>
-      <h>154</h>
+      <x>4329</x>
+      <y>1027</y>
+      <w>468</w>
+      <h>182</h>
     </coordinates>
     <panel_attributes>_New Framework for High Speed DM_
 --
@@ -749,10 +749,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>495</y>
-      <w>484</w>
-      <h>99</h>
+      <x>3536</x>
+      <y>585</y>
+      <w>559</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;70.0;410.0;15.0</additional_attributes>
@@ -760,10 +760,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>583</y>
-      <w>550</w>
-      <h>231</h>
+      <x>3536</x>
+      <y>689</y>
+      <w>650</w>
+      <h>273</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;480.0;190.0</additional_attributes>
@@ -771,10 +771,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>627</y>
-      <w>528</w>
-      <h>44</h>
+      <x>3536</x>
+      <y>741</y>
+      <w>624</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;20.0;460.0;10.0</additional_attributes>
@@ -782,10 +782,10 @@ transparency=85</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>4114</x>
-      <y>726</y>
-      <w>396</w>
-      <h>154</h>
+      <x>4862</x>
+      <y>858</y>
+      <w>468</w>
+      <h>182</h>
     </coordinates>
     <panel_attributes>_Forecasting Fluctuation in Power Supply_
 --
@@ -801,10 +801,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>660</y>
-      <w>506</w>
-      <h>198</h>
+      <x>3536</x>
+      <y>780</y>
+      <w>598</w>
+      <h>234</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;440.0;160.0</additional_attributes>
@@ -812,10 +812,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>396</y>
-      <w>286</w>
-      <h>297</h>
+      <x>3536</x>
+      <y>468</y>
+      <w>338</w>
+      <h>351</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;250.0;240.0;10.0</additional_attributes>
@@ -823,10 +823,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>660</y>
-      <w>561</w>
-      <h>77</h>
+      <x>3536</x>
+      <y>780</y>
+      <w>663</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;482.0;50.0</additional_attributes>
@@ -834,10 +834,10 @@ transparency=85</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3443</x>
-      <y>1045</y>
-      <w>396</w>
-      <h>154</h>
+      <x>4069</x>
+      <y>1235</y>
+      <w>468</w>
+      <h>182</h>
     </coordinates>
     <panel_attributes>_Spatial Temporal Analysis of Seismic Data_
 --
@@ -854,10 +854,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>682</y>
-      <w>506</w>
-      <h>176</h>
+      <x>3536</x>
+      <y>806</y>
+      <w>598</w>
+      <h>208</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;440.0;140.0</additional_attributes>
@@ -865,10 +865,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>407</y>
-      <w>286</w>
-      <h>330</h>
+      <x>3536</x>
+      <y>481</y>
+      <w>338</w>
+      <h>390</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;280.0;240.0;10.0</additional_attributes>
@@ -876,10 +876,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>517</y>
-      <w>484</w>
-      <h>231</h>
+      <x>3536</x>
+      <y>611</y>
+      <w>559</w>
+      <h>273</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;190.0;410.0;10.0</additional_attributes>
@@ -887,10 +887,10 @@ transparency=85</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>3454</x>
-      <y>880</y>
-      <w>176</w>
-      <h>55</h>
+      <x>4082</x>
+      <y>1040</y>
+      <w>208</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>Andrew Lowe
 bg=green
@@ -901,10 +901,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>3322</x>
-      <y>946</y>
-      <w>176</w>
-      <h>77</h>
+      <x>3926</x>
+      <y>1118</y>
+      <w>208</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>Sarah Marshall
 Member 
@@ -916,10 +916,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>3179</x>
-      <y>1045</y>
-      <w>176</w>
-      <h>55</h>
+      <x>3757</x>
+      <y>1235</y>
+      <w>208</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>Ajit Narayanan
 bg=green
@@ -930,10 +930,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>737</y>
-      <w>484</w>
-      <h>187</h>
+      <x>3536</x>
+      <y>871</y>
+      <w>572</w>
+      <h>221</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;420.0;150.0</additional_attributes>
@@ -941,10 +941,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>737</y>
-      <w>385</w>
-      <h>242</h>
+      <x>3536</x>
+      <y>871</y>
+      <w>455</w>
+      <h>286</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;330.0;195.0</additional_attributes>
@@ -952,10 +952,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>737</y>
-      <w>275</w>
-      <h>330</h>
+      <x>3536</x>
+      <y>871</y>
+      <w>312</w>
+      <h>377</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;220.0;270.0</additional_attributes>
@@ -963,10 +963,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3399</x>
-      <y>1210</y>
-      <w>396</w>
-      <h>154</h>
+      <x>4017</x>
+      <y>1430</y>
+      <w>468</w>
+      <h>182</h>
     </coordinates>
     <panel_attributes>_Analysis of Physiologic Data_
 --
@@ -983,10 +983,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>407</y>
-      <w>286</w>
-      <h>385</h>
+      <x>3536</x>
+      <y>481</y>
+      <w>338</w>
+      <h>455</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;330.0;240.0;10.0</additional_attributes>
@@ -994,10 +994,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>759</y>
-      <w>506</w>
-      <h>88</h>
+      <x>3536</x>
+      <y>897</y>
+      <w>598</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;440.0;60.0</additional_attributes>
@@ -1005,10 +1005,10 @@ transparency=85</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2937</x>
-      <y>1210</y>
-      <w>396</w>
-      <h>165</h>
+      <x>3471</x>
+      <y>1430</y>
+      <w>468</w>
+      <h>195</h>
     </coordinates>
     <panel_attributes>_Post Discharge Application_
 --
@@ -1026,10 +1026,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>517</y>
-      <w>484</w>
-      <h>308</h>
+      <x>3536</x>
+      <y>611</y>
+      <w>559</w>
+      <h>364</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;260.0;410.0;10.0</additional_attributes>
@@ -1037,10 +1037,10 @@ transparency=85</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2992</x>
-      <y>418</y>
-      <w>308</w>
-      <h>407</h>
+      <x>3536</x>
+      <y>494</y>
+      <w>364</w>
+      <h>481</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;350.0;260.0;10.0</additional_attributes>
@@ -1048,10 +1048,10 @@ transparency=85</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>2508</x>
-      <y>935</y>
-      <w>176</w>
-      <h>55</h>
+      <x>2964</x>
+      <y>1105</y>
+      <w>208</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>Dave Parry 
 Member
@@ -1063,10 +1063,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>2695</x>
-      <y>924</y>
-      <w>176</w>
-      <h>77</h>
+      <x>3185</x>
+      <y>1092</y>
+      <w>208</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>Sam Madanian
 Member
@@ -1078,10 +1078,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>2893</x>
-      <y>924</y>
-      <w>198</w>
-      <h>77</h>
+      <x>3419</x>
+      <y>1092</y>
+      <w>234</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>Imran Sarwar Bajwa
 Member
@@ -1093,10 +1093,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>2552</x>
-      <y>1012</y>
-      <w>198</w>
-      <h>77</h>
+      <x>3016</x>
+      <y>1196</y>
+      <w>234</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>Mahsa Mohaghegh 
 Member
@@ -1108,10 +1108,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>2772</x>
-      <y>1012</y>
-      <w>220</w>
-      <h>77</h>
+      <x>3276</x>
+      <y>1196</y>
+      <w>260</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>Nuttanan Wichitaksorn 
 Member
@@ -1123,10 +1123,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2838</x>
-      <y>1100</y>
-      <w>99</w>
-      <h>33</h>
+      <x>3354</x>
+      <y>1300</y>
+      <w>117</w>
+      <h>39</h>
     </coordinates>
     <panel_attributes>PhD SV
 bg=red
@@ -1136,10 +1136,10 @@ bg=red
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1771</x>
+      <x>2093</x>
       <y>0</y>
-      <w>550</w>
-      <h>209</h>
+      <w>650</w>
+      <h>247</h>
     </coordinates>
     <panel_attributes>*_Useful Links_*
 --
