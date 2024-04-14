@@ -60,7 +60,42 @@ Next open your package.json file and add:
 	
 In order to transform the Scss file to a CSS file, type:
 	npm run scss
+	
+================ NODE.JS Complete Guide Udemy Course =======================
+nodemon installation
+install nodemon as a development dependency:
+  npm install --save-dev nodemon # or using yarn: yarn add nodemon -D
+  npm install nodemon --save-dev # Recomended in the course.
+And nodemon will be installed globally to your system path.  
+  npm install -g nodemon # or using yarn: yarn global add nodemon
+  
+In packages.json
+...
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+...
+npm start    # With nodemon !!!
+Install express:
+   npm install --save express
 
+app.js: ------
+
+const express = require('express');
+const app = express();
+
+app.use((req,res,next) => {
+	console.log("In middleware");
+	next();
+});
+
+app.use((req,res,next) => {
+	console.log("In second middleware");
+	res.send('<h1>Hello from express!</h1>');
+});
+
+app.listen(3000);
 
 
 
